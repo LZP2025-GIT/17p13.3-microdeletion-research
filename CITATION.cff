@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this research record, please cite it using the metadata below."
+title: "Genomic and Molecular Analysis of a 17p13.3 Microdeletion and Its Candidate Visual-Neurological Mechanisms"
+type: dataset
+authors:
+  - family-names: "Laing"
+    given-names: "Zachariah P."
+    orcid: "https://orcid.org/0009-0004-8765-4601"
+version: "1.0"
+date-released: "2026-09-30"
+license: "CC-BY-NC-SA-4.0"
+abstract: >-
+  Complete first-pass in silico research record evaluating the genomic structure,
+  molecular mechanisms, spatiotemporal expression, dosage and perturbation evidence,
+  candidate visual-neurological mechanisms, deterministic evidence integration, and
+  causal evidence boundaries of a heterozygous 17p13.3 microdeletion at GRCh37/hg19
+  chr17:1,411,408-1,841,103.
+keywords:
+  - 17p13.3
+  - microdeletion
+  - copy-number variation
+  - phosphoinositides
+  - retina
+  - neurodevelopment
+  - bioinformatics
+  - photosensitivity
+repository-code: "https://github.com/LZP2025-GIT/17p13.3-microdeletion-research"
