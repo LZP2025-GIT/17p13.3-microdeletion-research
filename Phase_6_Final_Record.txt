@@ -1,0 +1,712 @@
+                                                                                                     250
+
+                                                Phase 6
+
+        Project Conclusion, Critical Appraisal, Forward Research Paths, and Frozen Record
+
+Fixed structural reference: GRCh37/hg19 chr17:1,411,408-1,841,103 | heterozygous deletion | nominal span
+
+429,696 bp | 17 affected annotated loci | INPP5K and RTN4RL1 boundary-intersected
+
+
+1. Purpose and Phase 6 Status
+
+         Phase 6 concludes the first-pass in silico research program. It does not reopen or silently
+
+revise the frozen findings of Phases 1-5. Its role is to consolidate what the project established,
+
+identify what remains unsupported or unresolved, critically assess the methodology and
+
+inferential limits, define two legitimate continuation paths, and establish a version-controlled
+
+stopping point from which future work can proceed.
+
+         The project began with a broad visual-neurological question, including possible
+
+photosensitivity and visually triggered seizure mechanisms. The accumulated evidence narrowed
+
+that question. The strongest defensible interpretation is now a distributed visual-neural
+
+functional-reserve model involving retinal/RPE support, membrane and phosphoinositide
+
+biology, endosomal/lysosomal trafficking, genome-stress response, neural development, and
+
+network organization. The exact heterozygous CNV has not been shown to cause abnormal
+
+visual-cortical flicker processing, a photoparoxysmal response, or visually triggered seizures.
+
+2. Project Facts Preserved at Freeze
+
+         Structural reference remains GRCh37/hg19 chr17:1,411,408-1,841,103, nominally
+
+429,696 bp, heterozygous.
+
+         The interval affects at least 17 annotated loci: 13 protein-coding loci and 4 noncoding
+
+loci.
+                                                                                                 251
+
+       Eleven protein-coding genes are fully encompassed: PITPNA, SLC43A2, SCARF1,
+
+RILP, PRPF8, TLCD2, WDR81, SERPINF2, SERPINF1, SMYD4, and RPA1.
+
+       INPP5K and RTN4RL1 are boundary-intersected. Under the reported-coordinate model,
+
+approximately 49.6% of INPP5K MANE amino-acid-coding sequence and approximately 99%
+
+of RTN4RL1 CCDS sequence on the affected allele lie within the deletion.
+
+       The noncoding loci PITPNA-AS1, MIR22HG, MIR22, and RN7SL105P are included in
+
+the frozen interval.
+
+       The reported array coordinates are operational CNV boundaries, not demonstrated
+
+nucleotide-exact chromosome junctions.
+
+3. Integrated Findings of the First-Pass Research
+
+3.1 Structural genomics
+
+       Phase 1 converted a generic 17p13.3 label into a reproducible locus-specific substrate.
+
+The main structural result was that apparent genomic-span overlap can substantially understate
+
+coding disruption at the two boundary genes. The project therefore correctly anchored all later
+
+interpretation to the exact reported interval rather than importing phenotypes from broader
+
+17p13.3 deletion syndromes.
+
+3.2 Molecular and biochemical architecture
+
+       Phase 2 showed that the interval is not biologically featureless. Multiple affected genes
+
+occupy mechanistically relevant systems: phosphoinositide metabolism, phospholipid transfer
+
+and membrane composition, late-endosome and lysosome biology, intracellular transport, retinal
+
+trophic support, RNA splicing, DNA replication and repair, neuronal structural signaling, amino-
+
+acid transport, immune clearance, and fibrinolysis. The strongest mechanistic convergence
+
+involved INPP5K, PITPNA, TLCD2, WDR81, RILP, and SERPINF1, with RTN4RL1 adding
+                                                                                                 252
+
+neuronal surface and structural signaling. This was evidence of functional adjacency and
+
+convergence, not proof of multigene synergy or epistasis.
+
+3.3 Spatial and developmental opportunity
+
+       Phase 3 established where affected mechanisms could plausibly operate. The clearest
+
+direct cell-localized convergence was RPE-centered, particularly INPP5K, PITPNA, and
+
+SERPINF1. PRPF8 showed broad retinal relevance, and other loci provided distributed retinal,
+
+neuronal, cortical, and developmental opportunity. The negative results were equally
+
+informative: the affected interval did not emerge as a preferential magnocellular program in
+
+human dLGN data, and adult/developmental cortical analyses did not support a simple V1-
+
+specific expression model. Expression was explicitly treated as opportunity rather than
+
+dysfunction.
+
+3.4 Dosage, perturbation, and phenotype-level evidence
+
+       Phase 4 moved beyond expression to perturbational evidence and genotype-state
+
+discipline. RPA1 provided the clearest direct human haploinsufficiency precedent; SERPINF1
+
+showed direct heterozygous molecular dosage reduction of PEDF; INPP5K provided one-copy
+
+physiological evidence outside the retina together with strong phosphoinositide/lysosomal
+
+mechanism. Other loci supplied strong but less genotype-equivalent evidence from biallelic loss,
+
+knockout, hypomorphs, or variant-specific disease mechanisms. The project repeatedly preserved
+
+the distinction between severe loss and heterozygous deletion.
+
+       At the systems level, the retinal evidence favored impaired maintenance, reduced
+
+resilience, delayed recovery, or stress vulnerability more strongly than increased sensory gain.
+
+The best partial-dose retinal physiology identified in the project was reduced, not amplified,
+
+electrophysiological response. Likewise, RTN4RL1 complete-loss neural models altered network
+                                                                                                   253
+
+construction but did not support a generic hyperexcitability narrative. MIR22 remained relevant
+
+to epileptogenesis, but its strongest evidence came from complete loss after an epileptogenic
+
+insult, not from heterozygous loss under photic stimulation.
+
+3.5 Phase 5 deterministic integration and simulation
+
+        Phase 5 formalized the earlier record into a layered evidence model and treated missing
+
+downstream physiology as missing rather than as zero or as implied support. Its modeling and
+
+simulation work did not create biological evidence; it examined methodological behavior. The
+
+standardized simulation suite used 20,000 replicates per scenario/cell where applicable,
+
+approximately 1.88 million primary stochastic draws/resamples. It showed that modest
+
+heterozygous effects can be difficult to detect with too few independent biological replicates, that
+
+pseudoreplication cannot substitute for independent clones or donors, that broad frequency scans
+
+can generate false-positive signals without correction, and that limited data can make a
+
+distributed mechanism appear spuriously single-gene.
+
+        The integrated Phase 5 conclusion remained conservative: the deletion is best treated as a
+
+candidate distributed visual-neural reserve lesion, not a proven single-gene photosensitivity
+
+mutation. Broader retinal/RPE dysfunction, developmental/network modification, and stress-
+
+dependent vulnerability are better supported than photic seizure causation.
+
+4. Final Evidence Adjudication
+
+Claim                              Phase 6 status                  Evidence boundary
+
+
+The CNV is structurally real and   Supported                       Genomic lesion established; multiple
+
+biologically non-neutral                                           constituent loci have
+
+                                                                   dosage/perturbational consequences.
+
+
+Retinal/RPE mechanisms are         Strongly supported              Mechanism, expression opportunity,
+                                                                                                              254
+
+
+relevant                                                                and constituent-gene perturbation
+
+                                                                        converge; exact-CNV retinal
+
+                                                                        phenotype remains unmeasured.
+
+
+Membrane/endosomal and stress-      Supported as a mechanistic model    Multiple loci converge, but
+
+response reserve may be reduced                                         combined heterozygous function has
+
+                                                                        not been directly measured.
+
+
+Neurodevelopment/network            Plausible and partially supported   Strong-model evidence exists;
+
+organization may be altered                                             heterozygous full-CNV circuit
+
+                                                                        phenotype is not established.
+
+
+Multigene synergy or epistasis is   Not demonstrated                    Convergence is not equivalent to
+
+present                                                                 interaction, synergy, or epistasis.
+
+
+The retina has increased photon-    Unsupported by current record       Available physiology more often
+
+response gain                                                           points toward reduced output, slower
+
+                                                                        recovery, or vulnerability.
+
+
+The CNV causes abnormal V1          Unresolved / not demonstrated       Direct genotype-specific visual-
+
+flicker entrainment or cortical                                         cortical physiology is absent.
+
+propagation
+
+
+The CNV causes a photoparoxysmal Insufficient evidence                  The causal chain stops before the
+
+response or visually triggered                                          disease-specific physiological
+
+seizures                                                                endpoint.
+
+
+5. Critical Assessment of the Work
+
+5.1 What the project did well
+
+           It froze a precise genomic reference and resisted syndrome-level overgeneralization from
+
+larger 17p13.3 deletions containing different genes.
+                                                                                                  255
+
+       It enforced an evidence hierarchy: deletion -> dosage -> molecular perturbation -> spatial
+
+opportunity -> cellular/developmental effect -> visual physiology -> phenotype -> causality.
+
+       It distinguished genotype states rather than treating knockout, biallelic loss, pathogenic
+
+variants, and heterozygous deletion as interchangeable.
+
+       It preserved counterevidence and null findings, including compensation, normal
+
+heterozygous states, reduced rather than increased response, and failure to identify magnocellular
+
+or V1-specific signatures.
+
+       It progressively narrowed the working hypothesis instead of escalating claim strength as
+
+more literature accumulated.
+
+       Phase 5 explicitly addressed reproducibility hazards such as low independent replicate
+
+count, pseudoreplication, multiple-frequency testing, and model simplification.
+
+5.2 Where the methodology remains vulnerable
+
+       Literature dependence. Much of the mechanistic evidence is assembled across different
+
+species, tissues, ages, perturbations, and assay types. Biological coherence can be real while still
+
+failing to transfer quantitatively to this exact CNV.
+
+       Sparse exact-genotype evidence. Most loci lack direct measurements in cells carrying the
+
+complete heterozygous deletion. This is the largest limitation in converting mechanism into
+
+CNV-specific biology.
+
+       Potential ascertainment and confirmation bias. The project began from a visual-
+
+neurological question, which creates a risk that visual or seizure-relevant literature was more
+
+deeply sampled than unrelated phenotypic domains. The counterevidence framework reduces but
+
+cannot fully remove that risk.
+                                                                                                256
+
+       Pathway and network inflation. Gene-dense CNVs can appear convergent because
+
+broadly expressed genes participate in common cellular systems. Computational convergence
+
+cannot substitute for direct combinatorial perturbation.
+
+       Transcript and breakpoint uncertainty. The array-defined boundaries do not determine the
+
+exact chromosome junction, transcript fate, nonsense-mediated decay, promoter/enhancer
+
+effects, or allele-specific compensation for INPP5K and RTN4RL1.
+
+       Expression-resource limitations. Single-cell and single-nucleus atlases have dropout,
+
+donor, sampling, batch, regional-dissection, developmental-stage, and annotation constraints;
+
+expression cannot establish dysfunction.
+
+       Model dependence. Even disciplined ordinal or deterministic evidence models depend on
+
+chosen weights, equivalence penalties, and missingness rules. Robustness analyses help identify
+
+sensitivity but cannot convert sparse biology into calibrated causal probability.
+
+5.3 Adversarial interpretation
+
+       A skeptical reading can explain much of the current record without invoking
+
+photosensitivity: the CNV may be biologically consequential because it affects several broadly
+
+important cellular systems, while the apparent visual-neural convergence may reflect a mixture
+
+of genuine retinal relevance, broad neuronal expression, and literature availability. That
+
+null/weak-specificity alternative has not been eliminated. Conversely, the persistence of
+
+retinal/RPE, trafficking, stress-response, and network-development signals across independent
+
+evidence types argues against treating the interval as biologically irrelevant. The balanced
+
+conclusion is therefore neither “causal” nor “nothing”: the deletion remains a credible candidate
+
+reserve lesion whose disease-specific physiological consequences are unmeasured.
+                                                                                                     257
+
+6. Evidence Boundary and Falsifiability
+
+         The highest supported causal level is: structurally defined heterozygous CNV with
+
+selected demonstrated dosage consequences, mechanistically relevant retinal/neural pathways,
+
+spatiotemporal opportunity, constituent-gene molecular/cellular phenotypes, and distributed
+
+functional convergence. The project does not cross the required bridge into exact-CNV retinal
+
+physiology, thalamic transfer, V1 flicker physiology, cortical inhibitory containment,
+
+pathological frequency entrainment, long-range propagation, PPR, or visually triggered seizure
+
+causation.
+
+         Evidence that would materially weaken the functional-reserve model includes: normal
+
+molecular and physiological behavior of an isogenic full-CNV heterozygous system across the
+
+relevant retinal/neural assays under adequate power; complete compensation of predicted
+
+dosage-sensitive nodes; absence of stress-dependent differences after calibrated challenge; or
+
+demonstration that matched genomic control intervals show equal or stronger domain-specific
+
+convergence under the same analytical pipeline. Evidence that would strengthen the model
+
+requires exact-genotype perturbation and, ideally, rescue.
+
+7. Path A - Continue In Silico Research with Mentorship and Peer Exposure
+
+         This path treats the first-pass record as a reproducible research portfolio to be stress-
+
+tested by domain experts rather than as a finished causal claim. The near-term objective is
+
+methodological exposure: place the frozen pipeline, evidence tables, assumptions, and negative
+
+findings in front of mentors or peers in human genetics, retinal biology, neurophysiology,
+
+bioinformatics, or epilepsy research and invite attempts to reproduce, criticize, or break the
+
+model.
+                                                                                                 258
+
+       Convert the Phase 1-5 evidence base into a clean public or mentor-reviewable repository
+
+with frozen inputs, source manifest, scripts, environment specification, and explicit expected
+
+outputs.
+
+       Ask a mentor or peer to independently audit a bounded component first - for example the
+
+CNV structural map, RPE convergence, genotype-equivalence coding, dLGN/V1 interpretation,
+
+or Phase 5 statistical assumptions.
+
+       Reanalyze one or two public datasets from raw or minimally processed data under
+
+preregistered questions, rather than adding more narrative literature synthesis.
+
+       Seek external review of the null model and the phenotype-ascertainment problem:
+
+whether an unrelated gene-dense CNV would appear similarly “convergent” under the same
+
+workflow.
+
+       Present negative and contradictory findings alongside positive results. The project should
+
+gain credibility by surviving criticism, not by maximizing the number of supportive mechanisms.
+
+       Use mentor feedback to define a Version 2 research protocol. Do not alter this frozen
+
+Version 1 record; any changes should be explicit amendments or a new project pass.
+
+       A useful endpoint for Path A would be a mentor-reviewed methods note, reproducible
+
+notebook/repository, poster, undergraduate research presentation, or small methods manuscript
+
+that focuses on evidence integration and rare-CNV hypothesis discipline rather than claiming a
+
+new clinical syndrome.
+
+8. Path B - Transition Toward Wet-Lab Research
+
+8.1 Brief research proposal
+
+       Provisional title: Functional Validation of a Heterozygous 17p13.3 Microdeletion as a
+
+Distributed Retinal-Neural Reserve Lesion.
+                                                                                              259
+
+       Central question: Does the exact heterozygous chr17:1,411,408-1,841,103 deletion
+
+produce measurable, rescue-sensitive deficits in retinal/RPE maintenance, membrane/endosomal
+
+biology, stress response, neural development, or visually driven network dynamics?
+
+       Primary hypothesis: The CNV produces modest, distributed deficits in retinal/RPE and
+
+neural functional reserve that may be compensated at baseline but become measurable under
+
+controlled physiological or stress challenge. Photosensitivity is a downstream exploratory
+
+phenotype, not the primary assumed outcome.
+
+       Alternative/null hypotheses: (1) the heterozygous CNV is substantially compensated and
+
+produces no reproducible phenotype under the tested conditions; (2) one locus dominates the
+
+phenotype; (3) phenotypes are developmental/network-specific without retinal involvement; or
+
+(4) retinal abnormalities occur without abnormal cortical flicker propagation.
+
+8.2 Specific aims
+
+       Create or obtain isogenic wild-type, heterozygous full-CNV, corrected/rescued, and
+
+selected single-gene heterozygous human cellular lines. Confirm CNV structure and
+
+transcript/protein dosage before phenotyping.
+
+       Test retinal/RPE reserve using retinal organoids and/or RPE models. Priority endpoints:
+
+phosphoinositide pools, lipid composition, outer-segment handling, lysosomal/endosomal
+
+function, oxidative/DNA-damage response, dark-adaptation or electrophysiologic analogues, and
+
+recovery after calibrated challenge.
+
+       Test neural/network reserve in relevant human neuronal systems. Priority endpoints:
+
+progenitor behavior, neurite morphology, synapse density, E/I-associated measures, calcium
+
+dynamics, multielectrode-array firing/bursting, frequency entrainment, phase locking, and long-
+
+range propagation.
+                                                                                                  260
+
+       Use genotype correction or targeted rescue to distinguish CNV-specific effects from
+
+background variation and to identify whether observed phenotypes are distributed or locus-
+
+dominant.
+
+8.3 Minimal experimental design principles
+
+       Use independent biological clones/donors; do not treat many cells from one clone as
+
+independent replication.
+
+       Predefine primary endpoints and flicker-frequency analyses; control family-wise or false-
+
+discovery error across frequency scans and multiple phenotypes.
+
+       Blind image/trace quantification where practicable and preserve raw data.
+
+       Report null results and directionally contradictory effects.
+
+       Power studies for modest heterozygous effects rather than knockout-scale effects.
+
+       Treat rescue as a major causal discriminator.
+
+8.4 Funding and fellowship strategy
+
+       The most realistic transition is mentor- and institution-based. A trainee should first join or
+
+collaborate with a laboratory that already has the required cell culture, retinal organoid/RPE,
+
+electrophysiology, imaging, or network-analysis infrastructure. The project can then be adapted
+
+to the host laboratory rather than attempting to acquire an entire platform de novo.
+
+       NIH/NEI training mechanisms such as F31 or F32 are appropriate once the investigator is
+
+in the corresponding predoctoral or postdoctoral training stage and working with an eligible
+
+mentor/institution.
+
+       NIH R15/AREA mechanisms can support small-scale biomedical projects at eligible
+
+undergraduate-focused institutions, but the principal investigator must satisfy institutional and
+                                                                                                261
+
+appointment requirements; this is better viewed as a mentor/institutional route than an immediate
+
+independent application.
+
+       Vision-focused foundations can be relevant when the proposal is framed around retinal
+
+cell biology or inherited retinal mechanisms; epilepsy foundations become more appropriate only
+
+if the project directly tests seizure/network physiology rather than relying on indirect mechanistic
+
+relevance.
+
+       The grant pitch should emphasize the unusual strength of the preliminary in silico work
+
+as a hypothesis-narrowing and assay-prioritization package, while explicitly stating that the
+
+central physiological claims remain unvalidated. The strongest proposal is one that funds the
+
+missing measurements, not one that presents the missing measurements as already solved.
+
+9. Recommended Decision Point
+
+       The two paths are complementary rather than mutually exclusive. The immediate low-
+
+cost continuation is Path A: external methodological scrutiny, replication, and mentorship. Path
+
+B becomes appropriate when a host laboratory, mentor, and assay platform can support exact-
+
+genotype experiments. The first wet-lab study should be deliberately narrower than the full
+
+project and should target one or two mechanistic bottlenecks with high discriminating value.
+
+       A particularly efficient first experiment would compare isogenic wild-type, full-CNV
+
+heterozygous, and corrected cells in a retinal/RPE model under baseline and calibrated stress. If
+
+no reproducible molecular or physiological deficit is detected with adequate power, the
+
+distributed reserve hypothesis should be weakened. If a deficit is detected and rescued, the
+
+project gains a direct CNV-specific causal foothold before moving toward more complex
+
+thalamic/cortical photic models.
+                                                                                                262
+
+10. Final Project Conclusion
+
+       The first-pass in silico program establishes a structurally precise, biologically meaningful
+
+17p13.3 heterozygous deletion containing multiple loci with credible dosage, retinal, membrane,
+
+trafficking, stress-response, and neurodevelopmental relevance. Across the project, the evidence
+
+repeatedly converged on reduced or altered functional reserve rather than on a single-gene or
+
+simple hyperexcitable-retina mechanism. The strongest phenotype-level support concerns
+
+retinal/RPE maintenance, photoreceptor integrity, intracellular material handling, stress
+
+resilience, and neural-development/network organization. General epileptogenic modification
+
+remains plausible but incompletely genotype-matched. Epileptic photosensitivity remains
+
+downstream of an unmeasured physiological gap.
+
+       Accordingly, the project does not conclude that the CNV causes photosensitivity, a
+
+photoparoxysmal response, or visually triggered seizures. It concludes that the CNV is a credible
+
+candidate distributed visual-neural reserve lesion whose most important unresolved questions
+
+now require either independent methodological scrutiny or direct experimental perturbation. This
+
+narrowing is the principal scientific accomplishment of the first pass.
+
+11. Phase 6 Freeze Declaration
+
+       PHASE 6 - COMPLETE
+
+       The first-pass in silico Genome Research project is hereby frozen as Version 1.0 as of 30
+
+September 2026. The controlling structural reference remains GRCh37/hg19 chr17:1,411,408-
+
+1,841,103, nominally 429,696 bp, heterozygous. The frozen interpretive record is that the
+
+deletion is biologically consequential and mechanistically consistent with a distributed visual-
+
+neural functional-reserve model, while direct causation of epileptic photosensitivity by the exact
+
+CNV remains unresolved.
+                                                                                                   263
+
+       Future research must not silently modify this record. New evidence should be handled by
+
+one of three mechanisms: (1) an erratum correcting a demonstrable factual or computational
+
+error; (2) a formally reopened analysis that states which frozen conclusion is being reconsidered
+
+and why; or (3) a Version 2 research program that preserves Version 1 and documents all
+
+changes in data, assumptions, methods, and interpretation.
+
+       Null findings, contradictory evidence, failed hypotheses, and unresolved measurements
+
+are part of the frozen scientific record and must remain preserved.
+
+12. Current Forward-Looking Funding Notes (30 September 2026)
+
+       These items are examples of funding structures relevant to future continuation and are not
+
+claims of present applicant eligibility. Eligibility must be checked at the time of application.
+
+       National Eye Institute: F31 predoctoral and F32 postdoctoral fellowship mechanisms
+
+support mentored vision research training; F31 support can extend up to five years and F32
+
+generally supports two to three years.
+
+       NIH R15/AREA: designed for eligible undergraduate-focused institutions; current NIH
+
+guidance states that the PD/PI must hold a primary appointment at the eligible organization and
+
+that projects may run up to three years. Current NIH pages list total direct-cost limits up to
+
+$375,000 for the applicable AREA mechanism.
+
+       Foundation Fighting Blindness: the FY27 schedule lists an Individual Investigator
+
+Research Award LOI deadline of 8 October 2026, a Clinical/Research Fellowship deadline of 15
+
+October 2026, a Career Development Award deadline of 28 January 2027, and a Postdoctoral
+
+Fellowship LOI deadline of 8 October 2026. These programs are oriented toward retinal disease
+
+research and require program-specific eligibility and scope fit.
+                                                                                               264
+
+        CURE Epilepsy: Taking Flight supports early-career epilepsy investigators and requires
+
+defined postdoctoral-level eligibility and mentor support. Any application from this project
+
+should wait until the work contains a direct epilepsy/network physiology aim rather than using
+
+retinal or molecular plausibility as a surrogate.
+
+Record of Source Documents
+
+        Phase 1: Locus Characterization and Structural Definition of the 17p13.3 Microdeletion -
+
+Deletion Map v1.0.
+
+        Phase 2: Molecular and Chemical Characterization of an Interstitial 17p13.3
+
+Microdeletion - Comprehensive Synthesis.
+
+        Phase 3: Expression, Cellular Localization, Visual-System Distribution, and
+
+Developmental Timing; associated Phase 3 research and methods records.
+
+        Phase 4: Dosage Sensitivity, Molecular Perturbation, Cellular Phenotype, Developmental
+
+Perturbation, Functional Convergence, Visual-System Relevance, and Integrated Adjudication -
+
+Frozen Master Report v1.0.
+
+        Phase 5: Deterministic Evidence Integration, In-Silico Gap Resolution, Mechanistic
+
+Modeling, and Reproducibility Analysis - Frozen scientific record and casual-reader summary
+
+v1.0.
+
+Funding Sources Consulted for Forward-Looking Notes
+
+        National Eye Institute, Funding for Training and Career Development, accessed 30
+
+September 2026.
+
+        NIH Grants & Funding, Research Enhancement Awards (R15), accessed 30 September
+
+2026.
+                                                                                       265
+
+      Foundation Fighting Blindness, Scientific Grants and Awards Programs / FY27 schedule,
+
+accessed 30 September 2026.
+
+      CURE Epilepsy, Grants Program and Opportunities for Epilepsy Researchers, accessed
+
+30 September 2026.
+

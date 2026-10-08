@@ -1,0 +1,4728 @@
+                                                                                                80
+
+                                             Phase 3
+
+                              Spatiotemporal Functional Genomics
+
+Phase 3A - Abstract and Methods Summary
+
+Abstract-Ready Phase 3 Summary
+
+Phase 3 was organized into two analytical parts to determine whether the molecular
+
+       mechanisms identified in Phase 2 have the spatial opportunity to operate within the
+
+human visual system. Part I — retinal and ocular localization combined adult whole-tissue
+
+screening with adult human retinal cell-type analysis. Bulk retinal data showed the strongest
+
+expression among affected protein-coding loci for PRPF8, SERPINF1, PITPNA, RPA1,
+
+INPP5K, and TLCD2. Cell-type resolution then identified the clearest spatial convergence in
+
+retinal pigment epithelium, where INPP5K, PITPNA, and SERPINF1 converge on
+
+phosphoinositide regulation, phospholipid handling, and PEDF-associated trophic/lipid
+
+signaling. PRPF8 was broadly represented across neural retina, including photoreceptors, while
+
+TLCD2 showed a preliminary cone-photoreceptor signal. In contrast, the predicted WDR81-
+
+RILP trafficking pair was not demonstrated as a shared adult-retinal neuronal module. Part II —
+
+central visual-relay
+
+specificity tested whether the affected interval preferentially mapped onto magnocellular,
+
+       parvocellular, or koniocellular transcriptional programs in the human dorsal lateral
+
+geniculate nucleus. None of the 17 affected loci appeared among the reproducible human M-
+
+versus-P marker genes or principal K-cell markers reported in the reference dataset. Phase 3
+
+therefore provides evidence about where affected loci are expressed, which visual-system cell
+                                                                                                   81
+
+populations can plausibly experience their molecular effects, and whether the deletion
+
+preferentially maps onto a specific visual relay stream. The evidence to date supports a
+
+       distributed retinal and neural functional-reserve model, with the strongest cell-specific
+
+signal centered on RPE membrane/lipid biology, but does not support a selectively
+
+magnocellular lesion or establish a definitive visual-neurological phenotype.
+
+What Phase 3 Provides
+
+Phase 2 established mechanistic plausibility by determining what the affected loci
+
+       normally do. Phase 3 adds spatial opportunity: it tests whether those loci are normally
+
+active in the tissues and cell populations required for the proposed mechanisms to matter in the
+
+human visual system. Through the work completed to date, Phase 3 distinguishes broad retinal
+
+expression from cell-specific localization, tests whether molecularly related deleted genes are
+
+actually co-located in the same retinal compartment, and directly evaluates whether the deletion
+
+preferentially corresponds to one classical thalamic visual pathway. It therefore narrows the
+
+hypothesis without treating expression as proof of dysfunction.
+
+Step-by-Step Method Used Through Phase 3D
+
+Step 1 — Freeze the candidate set and hypotheses before examining expression results
+
+       All 17 structurally affected loci identified in Phase 1 were retained. No gene was
+
+removed because Phase 2 had assigned it weak visual or neurological relevance. The primary
+
+Phase 3 hypotheses were frozen in advance, including membrane/endosomal co-
+
+localization,
+
+       direct retinal localization, WDR81-RILP overlap, developmental enrichment,
+
+magnocellular specificity, and regulatory overlap. This was done to reduce phenotype-driven
+
+selection and confirmation bias.
+                                                                                                   82
+
+Step 2 — Separate loci according to assay compatibility
+
+       Protein-coding genes were treated as generally measurable by conventional bulk and
+
+single-cell RNA sequencing. PITPNA-AS1 and MIR22HG were retained with the recognition
+
+that lncRNAs can be poorly captured in some single-cell platforms. Mature MIR22 was not
+
+interpreted from ordinary poly(A)-selected RNA-seq because mature microRNAs require small-
+
+RNA or miRNA-specific measurement. RN7SL105P was treated cautiously because pseudogene
+
+homology can cause ambiguous short-read mapping.
+
+Step 3 — Screen adult whole-body tissue expression
+
+       Adult expression resources including GTEx and NCBI Gene summaries were used to
+
+determine whether each affected protein-coding locus was broadly expressed, brain biased,
+
+peripheral-tissue enriched, or strongly tissue specific. This established general biological context
+
+before any retina-specific ranking was performed. Cross-platform expression magnitudes were
+
+not treated as directly interchangeable.
+
+Step 4 — Perform the initial adult human retinal screen
+
+       Human ocular resources, especially eyeIntegration and the Human Protein Atlas retinal
+
+series, were used to determine which affected genes were detectably expressed in adult retina.
+
+The strongest bulk retinal signals among the affected protein-coding genes were PRPF8,
+
+SERPINF1, PITPNA, RPA1, INPP5K, and TLCD2. Genes showing weak whole-retina
+
+abundance were not discarded because bulk measurements can dilute expression from rare cell
+
+populations.
+
+Step 5 — Resolve the retinal signal to individual cell classes
+
+       Large human retinal single-cell atlases and independent adult human retinal datasets were
+
+used to test localization among photoreceptors, bipolar cells, amacrine cells, horizontal cells,
+                                                                                              83
+
+retinal ganglion cells, Müller glia, astrocytes, microglia, vascular populations, and RPE.
+
+Published marker frameworks were used as quality-control references for identifying major
+
+retinal populations.
+
+Step 6 — Test whether the Phase 2 molecular convergence survives cell-type resolution
+
+       The pre-specified membrane/endosomal candidate set was examined for shared
+
+localization. The strongest supported adult-retinal convergence became an RPE-centered
+
+INPP5K-PITPNA-SERPINF1 module. PRPF8 was broadly present across neural retina,
+
+and
+
+       TLCD2 showed a preliminary cone-associated signal. Conversely, WDR81 and RILP
+
+were not demonstrated as a shared mature retinal neuronal module. Negative results were
+
+retained rather than redefining the candidate set after inspection.
+
+Step 7 — Move from retina to the central visual relay
+
+       Human dorsal lateral geniculate nucleus single-nucleus RNA-seq data from the
+
+Allen/Bakken comparative LGN resource were used to test the pre-specified magnocellular
+
+hypothesis. The analysis treated magnocellular, parvocellular, and koniocellular identities
+
+symmetrically rather than defining magnocellular enrichment as the desired result.
+
+Step 8 — Compare affected loci with published human M/P/K transcriptional markers
+
+       The human dLGN study showed that M and P projection neurons largely form one
+
+transcriptomic MP population with a graded M-to-P continuum. The published reproducible M/P
+
+marker set and principal K-cell markers were compared against all 17 affected loci. None of the
+
+affected loci was a defining M, P, or K marker. The result was therefore recorded as a
+
+meaningful negative finding: current adult human dLGN transcriptomics does not support
+
+preferential magnocellular targeting by the deletion.
+                                                                                                  84
+
+Step 9 — Update the model without converting expression into causality
+
+       The evidence from the retinal and dLGN analyses was integrated with the Phase 2
+
+mechanisms. Expression was interpreted only as opportunity for a mechanism, not proof that the
+
+deletion produces dysfunction. The working visual-system model therefore shifted away from a
+
+selectively magnocellular lesion toward a distributed retinal and neural functional-
+
+reserve model, with the strongest present spatial convergence in RPE. No definitive
+
+phenotype
+
+       was assigned.
+
+Current Phase 3 Interpretation
+
+       Through Phase 3D, the study has established that several molecularly important deleted
+
+genes are normally positioned within biologically relevant human visual-system compartments.
+
+The strongest cell-type-specific convergence is INPP5K + PITPNA + SERPINF1 in RPE, while
+
+PRPF8 has broad neural-retinal availability and TLCD2 may contribute a cone-associated lipid
+
+component. At the same time, the data weaken two earlier possibilities: WDR81 and RILP have
+
+not been demonstrated as a shared adult-retinal trafficking module, and none of the affected loci
+
+demonstrates published magnocellular-specific transcriptional enrichment in adult human dLGN.
+
+The Phase 3 evidence therefore supports continued investigation of a distributed retinal/neural
+
+mechanism while rejecting, at the present level of evidence, a specifically magnocellular
+
+transcriptomic explanation.
+
+Phase 3 remains in progress. Human V1 and developmental brain/retinal analyses have
+
+       not yet been completed and must not be represented as results.
+                                                                                                  85
+
+Phase 3B - Research Through Phase 3D
+
+Document scope. This document reproduces the Phase 3 research conducted through
+
+Phase 3D. The wording of the research sections is preserved; prior hyperlink-style source
+
+notes
+
+        have been converted to MLA-style parenthetical citations. Phase 3B was defined in the
+
+frozen protocol but was not executed as a separate results section before Phase 3C, so its
+
+protocol language is included with an explicit scope note rather than with invented results.
+
+Phase 3A — Adult Whole-Tissue and Initial Ocular Expression Screen
+
+1. Objective
+
+Phase 3A asks whether the 17 loci affected by the 17p13.3 microdeletion are
+
+        transcriptionally active in adult human tissues relevant to the project's visual-neurological
+
+hypothesis.
+
+        The purpose is not to infer disease from expression.
+
+        Instead, Phase 3A establishes the first requirement for biological plausibility:
+
+A deleted locus must normally be expressed in the relevant tissue before
+
+reduced dosage can plausibly perturb that tissue through its canonical
+
+        molecular function.
+
+        All 17 loci remain under consideration.
+
+2. Data Sources
+
+        The current GTEx adult bulk-expression release is GTEx Analysis V11. The portal
+
+provides gene-level TPM and median tissue-expression matrices, including the current V11
+
+median gene-level TPM file. ("GTEx Portal")
+                                                                                                  86
+
+       For ocular-specific analysis, eyeIntegration v2.12 integrates publicly available healthy
+
+human ocular RNA-seq datasets with a substantial subset of GTEx samples processed through a
+
+common pipeline. It provides downloadable gene- and transcript-level raw-count matrices and
+
+includes multiple ocular tissue categories. ("eyeIntegration")
+
+       The initial retinal screen below additionally uses current Human Protein Atlas retinal
+
+RNA-expression pages. These provide a 105-sample adult human retinal series and consensus
+
+normalized transcript measurements. These values are useful for screening but will not substitute
+
+for the independent eyeIntegration and single-cell replication planned later in Phase 3.
+
+       Current NCBI Gene expression summaries were used as an independent whole-body
+
+localization check.
+
+3. Whole-Body Expression Pattern
+
+       The first result is that the deleted interval does not consist predominantly of retinaspecific
+
+or brain-specific genes.
+
+       Most affected protein-coding genes are broadly or ubiquitously expressed.
+
+       This is methodologically important.
+
+       A visual-neurological mechanism, if present, will therefore probably depend on:
+
+cell type + developmental context + dosage sensitivity
+
+       rather than simply: brain-specific gene expression.
+
+4. Whole-Tissue Classification
+
+Gene
+
+Current broad tissue pattern
+
+Phase 3A interpretation
+
+       Ubiquitous; NCBI highlights adipose
+                                                   87
+
+       Broadly available molecular
+
+INPP5K
+
+       and lung
+
+       mechanism
+
+       Ubiquitous; brain is among highest-
+
+PITPNA
+
+       Strong initial neural localization signal
+
+       expression tissues
+
+       Broad; strongest in placenta and
+
+       Primarily systemic/epithelial bulk
+
+SLC43A2
+
+       kidney
+
+       pattern
+
+       Broad; enriched toward
+
+       Supports immune/endothelial rather
+
+SCARF1
+
+       spleen/lung/lymphoid-endothelial
+
+       than primary neuronal axis
+
+       tissues
+
+       Bulk tissue does not discriminate
+
+RILP
+
+       Ubiquitous
+
+       neural function
+                                              88
+
+     Expected for core spliceosomal
+
+PRPF8
+
+     Ubiquitous
+
+     protein
+
+TLCD2
+
+     Broad; adipose and colon prominent
+
+     No bulk brain enrichment
+
+     Broad in current expression summary,
+
+     Requires cell-type and regional
+
+WDR81
+
+     although RefSeq specifically describes
+
+     resolution
+
+     predominant brain expression
+
+     Strongly biased toward liver and
+
+     Supports systemic fibrinolytic rather
+
+SERPINF2
+
+     kidney
+
+     than neural role
+
+     Systemic expression does not preclude
+
+SERPINF1
+
+     Broad, very high in liver/gallbladder
+
+     strong retinal expression
+
+     Ubiquitous, generally modest
+                                                                                            89
+
+SMYD4
+
+        No major adult tissue specificity
+
+        expression
+
+        Consistent with fundamental genome-
+
+RPA1
+
+        Ubiquitous
+
+        maintenance role
+
+        Broad but brain is the highest reported
+
+RTN4RL1
+
+        Strong adult neural localization signal
+
+        human tissue
+
+        Representative current NCBI values include PITPNA at approximately 31.8 RPKM in
+
+brain, RTN4RL1 at approximately 5.0 RPKM in brain, SLC43A2 at approximately 24.5
+
+RPKM in placenta and 14.0 in kidney, and SERPINF2 at approximately 275.1 RPKM in
+
+liver
+
+and 42.8 in kidney. ("PITPNA Gene"; "RTN4RL1 Gene"; "SLC43A2 Gene"; "SERPINF2
+
+        Gene")
+
+        INPP5K, RILP, PRPF8, TLCD2, SMYD4, and RPA1 are currently described as
+
+ubiquitous or broadly expressed. ("INPP5K Gene"; "RILP Gene"; "PRPF8 Gene"; "TLCD2
+
+Gene"; "SMYD4 Gene"; "RPA1 Gene")
+
+        SCARF1 shows a lymphoid/endothelial-biased pattern, while SERPINF1 remains
+
+broadly expressed despite very strong expression in several peripheral tissues. ("SCARF1 Gene";
+
+"SERPINF1 Gene")
+                                                                                                90
+
+       WDR81 is an interesting discrepancy: the current RefSeq functional summary calls it
+
+predominantly expressed in brain, whereas NCBI's aggregated expression line labels it
+
+       ubiquitous. This should not be forcibly reconciled; instead it becomes a reason to inspect
+
+regional and cell-level brain datasets directly. ("WDR81 Gene")
+
+5. Adult Human Retina Screen
+
+       The current Human Protein Atlas retinal series provides an initial quantitative screen for
+
+the 13 protein-coding genes.
+
+Table 3A.1 — Adult Human Retina Expression
+
+Gene
+
+Retina RNA expression
+
+Initial classification
+
+PRPF8
+
+76.4 nTPM
+
+       High
+
+SERPINF1
+
+56.9 nTPM
+
+       High
+
+PITPNA
+
+43.9 nTPM
+
+       High
+
+RPA1
+
+20.8 nTPM
+
+       Moderate-high
+                                91
+
+INPP5K
+
+14.7 nTPM
+
+     Moderate
+
+TLCD2
+
+10.1 nTPM
+
+     Moderate
+
+RTN4RL1
+
+7.9 nTPM
+
+     Moderate-low
+
+SMYD4
+
+7.2 nTPM
+
+     Moderate-low
+
+SLC43A2
+
+1.3 nTPM
+
+     Low
+
+WDR81
+
+0.7 nTPM
+
+     Low in whole-retina bulk
+
+SERPINF2
+
+0.5 nTPM
+
+     Very low
+                                                                                                92
+
+Gene
+
+Retina RNA expression
+
+Initial classification
+
+RILP
+
+0.4 nTPM
+
+        Very low in whole-retina bulk
+
+SCARF1
+
+0.2 nTPM
+
+        Very low
+
+        Current source values are directly reported by the Human Protein Atlas retinal pages.
+
+("PRPF8 Retina"; "SERPINF1 Retina"; "PITPNA Retina"; "RPA1 Retina"; "INPP5K Retina";
+
+"TLCD2 Retina"; "RTN4RL1 Retina"; "SMYD4 Retina"; "SLC43A2 Retina"; "WDR81 Retina";
+
+"SERPINF2 Retina"; "RILP Retina"; "SCARF1 Retina")
+
+        These values should be interpreted as screening measurements, not as direct measures of
+
+functional importance.
+
+6. First Major Phase 3 Result: PRPF8 Is Strongly Represented in Adult Retina
+
+        PRPF8 is the highest-expressed affected protein-coding gene in the initial retinal screen
+
+at approximately:
+
+76.4 nTPM.
+
+        ("PRPF8 Retina")
+
+        This substantially strengthens the Phase 2 observation that PRPF8 is biologically relevant
+
+to retinal tissue.
+
+        However, the significance is specific:
+                                                                                                93
+
+PRPF8 has both strong retinal expression and independently established
+
+         retinal disease biology.
+
+         It still does not establish that whole-gene heterozygous deletion produces the same
+
+mechanism as known pathogenic PRPF8 variants.
+
+7. SERPINF1 Is Also Strongly Expressed in Retina
+
+         SERPINF1 is expressed at approximately:
+
+56.9 nTPM
+
+         in the adult retinal series. ("SERPINF1 Retina")
+
+         This is particularly meaningful because Phase 2 independently established PEDF as a:
+
+   retinal neurotrophic factor;
+
+   antiangiogenic factor;
+
+   regulator of retinal survival;
+
+   participant in PEDF-R-linked phospholipid signaling.
+
+         The Phase 3A result therefore provides direct spatial opportunity for the Phase 2
+
+mechanism.
+
+         SERPINF1 is not merely a systemic secreted gene with incidental retinal literature.
+
+         It is substantially expressed within adult retinal tissue.
+
+8. PITPNA Provides a Strong Link Between the Phase 2 Lipid Cluster and Retina
+
+         PITPNA is expressed at approximately:
+
+43.9 nTPM
+
+         in adult retina. ("PITPNA Retina")
+
+         NCBI also identifies brain as one of PITPNA's highest-expression tissues. ("PITPNA
+
+Gene")
+                                                                                                   94
+
+       This makes PITPNA one of the first genes for which Phase 3 supports both:
+
+adult neural expression
+
+       and: substantial retinal expression.
+
+       Because PITPNA was already one of the strongest Phase 2 phosphoinositide-homeostasis
+
+candidates, this finding materially strengthens the membrane-lipid hypothesis.
+
+9. INPP5K Is Clearly Present in Adult Retina
+
+       INPP5K averages approximately:
+
+14.7 nTPM
+
+       in the retinal series. ("INPP5K Retina")
+
+       More importantly, current Human Protein Atlas single-cell annotations classify INPP5K
+
+as group enriched in retinal pigment epithelial cells and late spermatids, providing an early
+
+indication that its retinal bulk expression may contain a strong RPE component. ("INPP5K
+
+Single Cell")
+
+       This observation is significant because it begins to localize one of the central
+
+phosphoinositide enzymes from Phase 2 to a specific ocular cell population.
+
+       It will require confirmation in the dedicated retinal single-cell phase.
+
+10. RPA1 Is Substantially Expressed in Adult Retina
+
+       RPA1 shows approximately:
+
+20.8 nTPM
+
+       with relatively limited variation across the 105 retinal samples. ("RPA1 Retina")
+
+       This fits its ubiquitous genome-maintenance role.
+
+       The result establishes that the tissue contains substantial RPA1 transcript and therefore
+
+that the Phase 2 haploinsufficiency mechanism is molecularly available in retinal cells.
+                                                                                                95
+
+       It does not establish that retina is preferentially vulnerable to RPA1 loss.
+
+11. RTN4RL1 Is Detectable in Retina and Brain
+
+       RTN4RL1 shows approximately:
+
+7.9 nTPM
+
+       in adult retina. ("RTN4RL1 Retina")
+
+       Its whole-body pattern is additionally brain biased, with NCBI listing brain as its highest
+
+reported human tissue. ("RTN4RL1 Gene")
+
+       This supports the Phase 2 interpretation of RTN4RL1 as a legitimate
+
+neural/visualpathway candidate rather than a receptor whose optic-nerve biology is disconnected
+
+from human tissue expression.
+
+       The next decisive question is:
+
+Which retinal population expresses RTN4RL1?
+
+       If it localizes primarily to retinal ganglion cells, that would align closely with the
+
+opticnerve regeneration mechanism described in Phase 2.
+
+       If it instead localizes to another population, the working model must be revised
+
+accordingly.
+
+12. TLCD2 Is Detectable at Moderate Levels
+
+       TLCD2 shows approximately:
+
+10.1 nTPM
+
+       in adult retina. ("TLCD2 Retina")
+
+       This is an important result because TLCD2 had weak direct retinal evidence in Phase 2.
+                                                                                                 96
+
+Phase 3A therefore upgrades one specific proposition:
+
+The TLCD2 phospholipid-composition mechanism has an opportunity to
+
+       operate in adult retinal tissue.
+
+       It does not yet establish which retinal cells express TLCD2 or whether one-copy
+
+reduction meaningfully alters retinal membrane composition.
+
+13. WDR81 and RILP Produce an Important Bulk-Tissue Warning
+
+       WDR81 and RILP were among the strongest neural trafficking candidates in Phase 2.
+
+       Yet whole-retina expression is low:
+
+WDR81 ≈ 0.7 nTPM
+
+       RILP ≈ 0.4 nTPM.
+
+       ("WDR81 Retina"; "RILP Retina")
+
+       This does not currently falsify the WDR81–RILP hypothesis.
+
+       Instead, there are at least three possibilities:
+
+1. They are genuinely weakly expressed in adult retina.
+
+       That would weaken a retinal mechanism.
+
+2. They are expressed in a small retinal population.
+
+       Bulk retinal RNA would dilute such a signal.
+
+3. Their principal relevance lies outside retina, for example in dLGN, cortex,
+
+developmental
+
+       progenitors, or other neural tissues.
+
+Phase 3C–G will discriminate among these possibilities.
+
+       This is exactly why bulk tissue analysis was performed before cell-type interpretation.
+                                                                                                    97
+
+14. SCARF1 and SERPINF2 Behave as Predicted from Phase 2
+
+       SCARF1 and SERPINF2 show only approximately:
+
+0.2 nTPM
+
+       and:
+
+0.5 nTPM
+
+       respectively in adult retina. ("SCARF1 Retina"; "SERPINF2 Retina")
+
+       Their whole-body patterns are much more compatible with:
+
+SCARF1 → immune/endothelial biology
+
+       and: SERPINF2 → hepatic/systemic fibrinolysis.
+
+       This is a useful negative result.
+
+Phase 3A currently provides no reason to elevate either gene as a direct retinal candidate.
+
+       They remain in subsequent unbiased analyses but should not receive retinal priority
+
+merely because they fall inside the deletion.
+
+15. SLC43A2 Remains Weak as a Direct Retinal Candidate
+
+       SLC43A2 shows only approximately:
+
+1.3 nTPM
+
+       in adult retina. ("SLC43A2 Retina")
+
+       Combined with its placenta/kidney-biased whole-body pattern, this further supports its
+
+Phase 2 classification as primarily an epithelial nutrient-transport gene rather than a
+
+leading
+
+       direct visual-system candidate. ("SLC43A2 Gene")
+
+       A specialized retinal cell population could still express it, so it remains in the single-cell
+
+analysis.
+                                                                                                   98
+
+16. SMYD4 Is Detectable but Not Retinally Exceptional
+
+         SMYD4 averages approximately:
+
+7.2 nTPM
+
+         in adult retina. ("SMYD4 Retina")
+
+         Its whole-body expression is otherwise ubiquitous and relatively modest. ("SMYD4
+
+Gene")
+
+         Thus Phase 3A establishes that SMYD4 is available to operate in retinal tissue but does
+
+not provide evidence of retinal enrichment.
+
+         This is consistent with its Phase 2 classification as a broad regulatory gene rather than a
+
+direct retinal candidate.
+
+17. Initial Assessment of the Phase 2 Membrane/Endosomal Cluster
+
+         The pre-specified Phase 2 cluster was:
+
+INPP5K + PITPNA + TLCD2 + WDR81 + RILP + SERPINF1
+
+         The adult retinal bulk screen gives:
+
+Gene
+
+Retina nTPM
+
+Phase 3A status
+
+SERPINF1
+
+         56.9
+
+         Strongly supported
+
+PITPNA
+
+         43.9
+
+         Strongly supported
+                                                                                               99
+
+INPP5K
+
+       14.7
+
+       Supported
+
+TLCD2
+
+       10.1
+
+       Supported
+
+WDR81
+
+       0.7
+
+       Weak in bulk
+
+RILP
+
+       0.4
+
+       Weak in bulk
+
+       The first four genes therefore satisfy the most basic spatial criterion:
+
+their Phase 2 molecular mechanisms are clearly represented in adult human
+
+       retinal tissue.
+
+       The two endosomal-trafficking genes do not yet satisfy that criterion strongly at the
+
+whole-retina level.
+
+       Consequently, the Phase 2 convergence is partially supported rather than fully supported
+
+by Phase 3A.
+
+       That distinction should be preserved.
+
+18. Unexpectedly Strong Early Result: INPP5K–PITPNA–TLCD2–SERPINF1
+
+       Before single-cell analysis, four components of the membrane/lipid model already show
+
+measurable adult retinal expression:
+                                                                                                 100
+
+PITPNA
+
+       PI/PC transfer
+
+       +
+
+INPP5K
+
+       phosphoinositide turnover
+
+       +
+
+TLCD2
+
+       phospholipid acyl-chain regulation
+
+       +
+
+SERPINF1
+
+       PEDF-linked retinal lipid signaling.
+
+       This provides a preliminary spatial bridge across four molecular levels:
+
+lipid availability → phosphoinositide chemistry → membrane composition →
+
+       extracellular retinal lipid signaling.
+
+       The result is stronger than Phase 2 alone because these genes are not simply related in
+
+abstract molecular databases.
+
+       Their transcripts are all present within the same gross tissue compartment:
+
+       adult human retina.
+
+       However, whole-retina co-presence does not prove they occur in the same cells.
+
+       That becomes the central Phase 3C test.
+
+19. PRPF8 Creates an Independent High-Expression Retinal Axis
+
+       PRPF8's adult retinal expression is substantially higher than the membrane candidates
+
+except SERPINF1/PITPNA.
+                                                                                               101
+
+        This means the deletion contains, within the same retinal tissue:
+
+highly expressed RNA-splicing machinery
+
+        and: multiple expressed membrane/lipid regulators.
+
+        The later coexpression question is therefore particularly important:
+
+Does PRPF8 occupy the same retinal cell classes that express the membrane-
+
+homeostasis genes?
+
+        If so, there would be spatial opportunity for splicing perturbation and membrane
+
+perturbation to coexist within the same cells.
+
+        If not, the mechanisms may remain biologically separated.
+
+20. Noncoding Loci
+
+        The noncoding loci require separate treatment.
+
+PITPNA-AS1 and MIR22HG
+
+        Standard bulk RNA-seq can potentially detect these lncRNAs, but lower abundance,
+
+transcript annotation, and library-selection differences make cross-platform absence difficult to
+
+interpret.
+
+        They will therefore be analyzed through:
+
+   eyeIntegration gene/transcript matrices;
+
+   appropriate retinal single-cell datasets where captured;
+
+   developmental datasets.
+
+MIR22
+
+        Mature miR-22 is not validly quantified from conventional poly(A) mRNA RNA-seq.
+
+        MIR22 will therefore be excluded from the ordinary mRNA-expression ranking and
+
+analyzed later using small-RNA/miRNA-specific datasets.
+                                                                                              102
+
+RN7SL105P
+
+       Because RN7SL105P is a highly homologous pseudogene, apparent RNA-seq reads may
+
+be ambiguously mapped.
+
+       It will not receive an expression score unless locus-specific mapping quality can be
+
+established.
+                                                                                                 103
+
+21. Current Phase 3A Classification
+
+Strong adult retinal expression
+
+PRPF8
+
+SERPINF1
+
+PITPNA
+
+Clear/moderate adult retinal expression
+
+RPA1
+
+INPP5K
+
+TLCD2
+
+Detectable but lower adult retinal expression
+
+RTN4RL1
+
+SMYD4
+
+Low whole-retina expression
+
+SLC43A2
+
+WDR81
+
+Very low whole-retina expression
+
+SERPINF2
+
+RILP
+
+SCARF1
+
+       This classification is based only on the current bulk retinal screen and is not a final
+
+biological ranking.
+                                                                                                104
+
+22. Hypothesis Status After Phase 3A
+
+H1 — Membrane/endosomal co-localization
+
+       Partially supported.
+
+       PITPNA, INPP5K, TLCD2, and SERPINF1 are clearly present in adult retina.
+
+       WDR81 and RILP are weak in whole-retina bulk and require cell-type testing.
+
+H2 — Direct retinal localization
+
+       Partially supported at bulk level.
+
+       PRPF8, SERPINF1, and RTN4RL1 are all detectable in adult retina, with PRPF8 and
+
+SERPINF1 particularly strong.
+
+H3 — WDR81/RILP neural-trafficking overlap
+
+       Unresolved.
+
+       Whole-retina abundance is low for both.
+
+H4 — Developmental enrichment
+
+       Not yet tested.
+
+H5 — Magnocellular specificity
+
+       Not yet tested.
+
+H6 — Regulatory overlap
+
+       Not yet tested at cell-type resolution.
+
+23. Main Interpretation
+
+       The first in silico expression layer supports the project enough to continue, but it does not
+
+simply confirm the Phase 2 model.
+
+       Instead, it modifies it.
+
+       The strongest retinal molecular set at this stage is:
+                                                                                                  105
+
+PRPF8 + SERPINF1 + PITPNA + RPA1 + INPP5K + TLCD2
+
+       with RTN4RL1 also clearly detectable.
+
+       The specific Phase 2 membrane convergence is narrowed provisionally to:
+
+PITPNA + INPP5K + TLCD2 + SERPINF1
+
+       because those four demonstrate substantial adult retinal expression.
+
+       WDR81 and RILP remain highly credible neuronal proteins but are not strongly
+
+supported as whole-retina adult mechanisms from this first dataset.
+
+       That is a meaningful negative/qualifying result rather than a failure of the hypothesis.
+
+24. Phase 3A Working Conclusion
+
+Phase 3A demonstrates that several of the strongest Phase 2 candidate mechanisms
+
+       possess clear spatial opportunity within adult human retina.
+
+       Most notably:
+
+PITPNA
+
+INPP5K
+
+TLCD2
+
+       and:
+
+SERPINF1
+
+       are simultaneously represented in adult retinal tissue, supporting the existence of an
+
+ocular membrane/lipid-regulatory subnetwork.
+
+       PRPF8 is strongly expressed in the same gross tissue, while RPA1 is also substantially
+
+expressed and RTN4RL1 is clearly detectable.
+                                                                                                 106
+
+         Conversely, WDR81, RILP, SCARF1, SERPINF2, and SLC43A2 show low whole-retina
+
+expression, emphasizing that molecular importance identified in Phase 2 does not automatically
+
+imply adult retinal importance.
+
+         The appropriate conclusion is therefore:
+
+Phase 3A provides preliminary spatial support for a subset of the Phase 2
+
+visual-neural model, especially the PITPNA–INPP5K–TLCD2–SERPINF1
+
+membrane/lipid axis, while leaving the WDR81–RILP trafficking component
+
+unresolved and weakening direct retinal prioritization of several systemic
+
+         genes.
+
+         The next analysis must move below the tissue level.
+
+         Whole-retina RNA cannot determine whether these genes occur in the same biological
+
+cells.
+
+         The decisive next question is:
+
+Which retinal cell populations—rods, cones, bipolar cells, amacrine cells,
+
+retinal ganglion cells, Müller glia, RPE, vascular cells, or immune cells—
+
+express each affected locus?
+
+Phase 3B — Human Ocular Bulk Expression
+
+Editorial scope note: Phase 3B was defined in the frozen Phase 3 protocol but was not
+
+         executed as a separate results section before Phase 3C. Its initial ocular bulk screen was
+
+incorporated into Phase 3A above. The original Phase 3B protocol text is reproduced verbatim
+
+here so that the Phase 3 record remains complete without inventing a standalone result.
+
+         GTEx alone is insufficient for detailed eye biology.
+                                                                                              107
+
+         The primary ocular bulk resource will be eyeIntegration, which integrates healthy human
+
+ocular RNA-seq datasets processed through a consistent pipeline and provides gene- and
+
+transcript-level expression matrices. ("eyeIntegration")
+
+         The ocular analysis should include, where available:
+
+     neural retina;
+
+     retinal pigment epithelium;
+
+     choroid;
+
+     optic nerve;
+
+     cornea;
+
+     other ocular tissues as internal comparisons.
+
+         The main objective is to determine whether the Phase 2 candidates are actually enriched
+
+in:
+
+         neural retina and/or RPE relative to non-neural ocular tissues.
+
+Phase 3C — Adult Human Retinal Single-Cell Localization
+
+1. Objective
+
+Phase 3A established that several affected genes are detectably expressed in adult human
+
+         retina at the whole-tissue level.
+
+Phase 3C asks the more discriminating question:
+
+Which adult human retinal cell populations actually express the affected loci,
+
+and do the Phase 2 mechanistically related genes occupy the same cellular
+
+compartments?
+
+         This distinction is essential because bulk retinal RNA-seq can generate apparent
+
+convergence even when different genes are expressed in completely different cell populations.
+                                                                                                  108
+
+        The principal cell classes considered are:
+
+rod photoreceptors, cone photoreceptors, bipolar cells, amacrine cells, horizontal
+
+cells, retinal ganglion cells, Müller glia, astrocytes, microglia, and retinal pigment epithelial
+
+        cells.
+
+        RPE is treated separately from the neural retina because it is an epithelial support layer
+
+rather than a retinal neuron, despite its critical role in photoreceptor physiology.
+
+2. Reference Data
+
+        The principal contemporary reference is the 2026 Human Retina Cell Atlas, which
+
+integrated approximately 3.9 million cells from 125 human donors and identified more than
+
+130 retinal cell types. The atlas integrates multiple published studies with approximately
+
+2.7
+
+        million previously unpublished observations and includes both transcriptomic and
+
+chromatinaccessibility information. (Li et al.)
+
+        For replication and interpretation, older independent human retinal datasets remain
+
+useful. The 2019 Lukowski atlas profiled 20,009 cells from three healthy adult donors and
+
+resolved all major neural retinal populations, including rods, cones, bipolar cells, amacrine cells,
+
+retinal ganglion cells, horizontal cells, Müller glia, astrocytes, and microglia. (Lukowski et al.)
+
+        The current gene-level screen uses accessible Human Protein Atlas single-cell
+
+annotations together with independent retinal studies. Because some HPA classifications vary
+
+between releases and because the largest 2026 atlas is distributed primarily through interactive
+
+and downloadable single-cell resources, release-dependent signals are classified as preliminary
+
+rather than treated as replicated facts.
+                                                                                               109
+
+3. Evidence Classification
+
+Phase 3C uses four expression-evidence levels.
+
+Level
+
+Interpretation
+
+        Reproduced across independent human data or supported
+
+3 — Strong
+
+        by current single-cell evidence plus orthogonal retinal
+
+        evidence
+
+        Convincing localization in one major human single-cell
+
+2 — Moderate
+
+        resource
+
+        Suggestive, release-dependent, low-abundance, or
+
+1 — Preliminary
+
+        indirectly localized
+
+0 — Unsupported
+
+        No reliable adult retinal cell-type localization identified
+
+        An unsupported result does not mean that the gene is biologically absent. Low
+
+expression, technical dropout, library chemistry, or rare-cell localization may prevent detection.
+                                        110
+
+4. Adult Retinal Cell-Type Matrix
+
+Strongest current cell-type
+
+Locus
+
+Evidence
+
+Phase 3C interpretation
+
+signal
+
+         RPE-enriched
+
+INPP5K
+
+RPE
+
+         phosphoinositide
+
+         mechanism
+
+         RPE-enhanced lipid-transfer
+
+PITPNA
+
+RPE
+
+         mechanism
+
+         Possible glial/immune
+
+SLC43A2
+
+         Microglial-associated signal
+
+         localization; weak direct
+
+         neural-retinal role
+
+         Supports immune/vascular
+
+         Microglial/astrocytic/
+                                      111
+
+SCARF1
+
+       rather than neuronal
+
+       endothelial bias
+
+       localization
+
+       No convincing retina-
+
+       Adult retinal cell of origin
+
+RILP
+
+       specific enrichment; broader
+
+       unresolved
+
+       neuronal association
+
+       Broad retinal rather than
+
+       Broad neural retina,
+
+PRPF8
+
+       uniquely photoreceptor-
+
+       including rods and cones
+
+       specific requirement
+
+       Possible cone-associated
+
+TLCD2
+
+       Cone photoreceptor signal
+
+       1–2
+
+       membrane-lipid mechanism
+
+       No strong adult retinal
+                                        112
+
+WDR81
+
+         Microglial-associated signal
+
+         neuronal localization yet
+
+Strongest current cell-type
+
+Locus
+
+Evidence
+
+Phase 3C interpretation
+
+signal
+
+         No meaningful retinal
+
+         Supports systemic rather
+
+SERPINF2
+
+         specialization identified
+
+         than retinal mechanism
+
+         Strongly replicated
+
+SERPINF1
+
+RPE
+
+         RPE/PEDF localization
+
+         Broad regulatory expression
+
+         No retinal-specific
+
+SMYD4
+
+         rather than specialized
+
+         enrichment
+
+         retinal role
+                                   113
+
+       Broad/low-specificity
+
+       Housekeeping genome-
+
+RPA1
+
+       cellular expression
+
+       maintenance mechanism
+
+       Bulk retinal expression
+
+       confirmed, but RGC
+
+RTN4RL1
+
+       Cell of origin unresolved
+
+       localization not
+
+       demonstrated
+
+PITPNA-AS1
+
+       Unresolved
+
+       —
+
+       lncRNA capture limitation
+
+       lncRNA/host-transcript
+
+MIR22HG
+
+       Unresolved
+
+       —
+
+       capture limitation
+
+       Not validly measurable by
+
+MIR22
+
+       —
+                                                                                           114
+
+       Requires small-RNA data
+
+       standard scRNA-seq
+
+       Pseudogene mapping
+
+RN7SL105P
+
+       Unresolved
+
+       —
+
+       ambiguity
+
+5. INPP5K Localizes Strongly Toward Retinal Pigment Epithelium
+
+       Current Human Protein Atlas single-cell annotation classifies INPP5K as:
+
+group enriched in retinal pigment epithelial cells and late spermatids
+
+       and places it in the expression cluster:
+
+Retinal pigment epithelial cells — Retinol metabolism. ("INPP5K Single
+
+       Cell")
+
+       This substantially improves the Phase 3A interpretation.
+
+       INPP5K is not merely present somewhere in whole retinal tissue. Its expression appears
+
+preferentially associated with the RPE compartment.
+
+       That provides cellular opportunity for its Phase 2 phosphoinositide mechanism to operate
+
+at the interface responsible for:
+
+photoreceptor support
+
+       ↓
+
+outer-segment turnover
+
+       ↓
+                                                                                              115
+
+retinoid cycling
+
+       ↓ membrane trafficking and metabolic exchange.
+
+       The current evidence does not show that INPP5K loss disrupts these functions. It
+
+establishes only that the enzyme is preferentially positioned within an ocular compartment where
+
+intensive membrane processing occurs.
+
+Phase 3C status
+
+       RPE localization: supported. Photoreceptor localization: not established as the principal
+
+signal. RGC localization: not established.
+
+6. PITPNA Also Shows RPE Enhancement
+
+       PITPNA independently shows cell-type-enhanced expression in retinal pigment
+
+epithelial cells, in addition to several nonocular populations. ("PITPNA Single Cell")
+
+       This result is important because PITPNA and INPP5K were already independently linked
+
+in Phase 2 through phosphatidylinositol biology.
+
+       Their molecular functions differ:
+
+PITPNA
+
+                → phosphatidylinositol/phosphatidylcholine binding and transfer
+
+       whereas:
+
+INPP5K
+
+                          → phosphoinositide 5-phosphate hydrolysis.
+
+Phase 3C now adds a spatial relationship:
+
+       both are preferentially represented in RPE-associated single-cell expression.
+
+       This is substantially stronger evidence of functional convergence than their mere
+
+presence in the same whole-retina sample.
+                                                                                            116
+
+       It still does not demonstrate physical interaction or epistasis.
+
+Phase 3C status
+
+       INPP5K + PITPNA RPE co-localization: supported at the cell-class level.
+
+       The appropriate term is:
+
+       RPE-centered functional convergence.
+
+7. SERPINF1 Produces the Strongest RPE Signal
+
+       SERPINF1/PEDF is currently classified as group enriched in retinal pigment epithelial
+
+cells and decidual stromal cells in the Human Protein Atlas. ("SERPINF1 Single Cell")
+
+       Independent human retinal single-cell work also identified an RPE cluster characterized
+
+by high SERPINF1 and RLBP1 expression. (Voigt et al.)
+
+       This provides replication across independent human evidence.
+
+       SERPINF1 therefore receives: Expression Evidence Level 3 — Strong.
+
+       The result aligns closely with its established PEDF biology.
+
+Phase 2 showed that PEDF contributes to:
+
+   retinal trophic support;
+
+   antiangiogenic regulation;
+
+   photoreceptor survival;
+
+   extracellular-matrix signaling;
+
+   PEDF-R/PNPLA2-linked lipid metabolism.
+
+Phase 3C now localizes this mechanism strongly to:
+
+       retinal pigment epithelium.
+
+8. An RPE-Centered Molecular Module Now Emerges
+
+       The strongest new Phase 3C result is therefore:
+                                                                                                                          117
+
+PITPNA
+                                          RPE-centered functional convergence
+        +
+
+INPP5K           PITPNA                                    INPP5K                            SERPINF1/PEDF
+
+       Regulates phosphatidylinositol              Regulates phosphoinositide            Provides extracellular trophic
+        +
+       availability and lipid transfer.              phosphorylation state.            signaling linked to phospholipid
+                                                                                        metabolism through PEDF-R.
+
+SERPINF1
+
+        ↓ shared RPE localization.
+                                                 Shared RPE localization
+        Their functions are chemically different but complementary.
+
+PITPNA
+                       Their functions are chemically different but complementary.
+        Regulates phosphatidylinositol    availability and lipid transfer.
+
+INPP5K
+                                                     Resulting model
+        Regulates phosphoinositide phosphorylation state.
+
+SERPINF1/PEDF
+        Phospholipid availability               Phosphoinositide turnover           Lipid-linked trophic signaling
+
+        Provides extracellular trophic signaling linked to phospholipid metabolism through
+
+PEDF-R.
+
+        The resulting model is:
+                                          RPE membrane and signaling homeostasis
+phospholipid availability
+
+        +
+
+phosphoinositide turnover
+           This is currently the strongest cell-type-specific convergence identified anywhere in the project.
+        +
+
+extracellular lipid-linked trophic signaling
+
+        ↓ RPE membrane and signaling homeostasis.
+
+        This is currently the strongest cell-type-specific convergence identified anywhere in the
+
+project.
+                                                                                             118
+
+       Importantly, it differs from the original broad Phase 2 model.
+
+       The strongest membrane/lipid convergence in adult retina presently appears to occur
+
+primarily at the:
+
+RPE–neural-retina interface
+
+       rather than being uniformly distributed throughout retinal neurons.
+
+9. Why the RPE Finding Matters
+
+       RPE cells perform unusually membrane-intensive functions.
+
+       They support photoreceptors through:
+
+   outer-segment phagocytosis;
+
+   retinoid recycling;
+
+   nutrient transport;
+
+   ion and water regulation;
+
+   growth-factor secretion;
+
+   lipid handling.
+
+       Therefore a convergence of lipid and phosphoinositide regulators within RPE is
+
+biologically coherent.
+
+       However, this observation must not be converted prematurely into:
+
+       RPE dysfunction causes the candidate visual phenotype.
+
+       At this stage the correct conclusion is narrower:
+
+The deletion simultaneously affects several genes whose normal expression
+
+       and molecular functions converge within RPE cells.
+
+       That establishes a plausible cellular site of combined dosage perturbation.
+                                                                                                119
+
+10. PRPF8 Is Broadly Expressed Across Neural Retina
+
+       Earlier HPA releases classified PRPF8 as enhanced in rod photoreceptor cells and placed
+
+it within a photoreceptor/visual-perception expression cluster. ("PRPF8 Single Cell")
+
+       However, more recent evidence argues against interpreting PRPF8 as primarily
+
+rodspecific.
+
+       A 2026 human retinal-organoid study reported PRPF8 expression throughout the neural
+
+retina, including both rod and cone photoreceptors, and noted that this distribution is consistent
+
+with existing human retinal single-cell data showing broadly uniform retinal expression.
+
+(Zimmann et al.)
+
+       Therefore the stronger interpretation is:
+
+PRPF8 is broadly required across retinal cell populations, with robust
+
+       photoreceptor expression, rather than being a uniquely rod-restricted gene.
+
+       This fits its molecular role as a core spliceosomal protein.
+
+Phase 3C status
+
+       Adult neural-retinal expression: strong. Rod expression: strong. Cone expression: strong.
+
+Strict rod specificity: not supported.
+
+11. PRPF8 Therefore Represents a Different Type of Retinal Risk
+
+       The RPE module involves cell-enriched membrane and trophic functions.
+
+       PRPF8 is different.
+
+       Because it is a core RNA-processing protein expressed broadly through neural retina,
+
+reduced PRPF8 dosage—if functionally important—could potentially affect multiple retinal cell
+
+populations simultaneously.
+
+       Thus:
+                                                                                              120
+
+RPE module
+
+                        → spatially concentrated biochemical convergence
+
+         whereas:
+
+PRPF8
+
+                       → broad retinal information-processing vulnerability.
+
+         The two mechanisms could coexist in the same tissue without being part of the same
+
+direct pathway.
+
+12. TLCD2 Shows a Possible Cone-Photoreceptor Signal
+
+         The Human Protein Atlas v24 classification identifies TLCD2 as cell-type enhanced in
+
+cone photoreceptor cells, along with several nonocular cell populations. ("TLCD2 Single
+
+Cell")
+
+         This is potentially important because TLCD2 regulates phospholipid acyl-chain
+
+composition and membrane fluidity.
+
+         Cone photoreceptors depend on specialized membrane architecture and intense lipid
+
+turnover.
+
+         However, the TLCD2 signal is currently less secure than the RPE findings because
+
+celltype classifications have varied across HPA releases.
+
+         Therefore TLCD2 receives:
+
+         Expression Evidence Level 1–2: preliminary to moderate.
+
+         The current hypothesis is:
+
+TLCD2 dosage loss
+
+         ↓
+
+         possible altered phospholipid composition within cone-associated cells
+                                                                                                 121
+
+       but not: TLCD2 loss causes cone dysfunction.
+
+       Replication in the full 2026 Human Retina Cell Atlas should be required before assigning
+
+strong cell-type specificity.
+
+13. The Lipid Cluster Therefore Splits Into at Least Two Adult Retinal Compartments
+
+Phase 3A suggested a broad retinal set:
+
+       PITPNA + INPP5K + TLCD2 + SERPINF1.
+
+Phase 3C now indicates that this set is not homogeneous.
+
+       The strongest current organization is:
+
+RPE-associated module
+
+PITPNA
+
+INPP5K
+
+SERPINF1
+
+Possible photoreceptor-associated component
+
+TLCD2
+
+       particularly:
+
+cone photoreceptors
+
+       This distinction is scientifically important.
+
+       The deletion may perturb related aspects of membrane biology in adjacent but different
+
+retinal compartments rather than through a single intracellular pathway operating in one cell.
+
+14. WDR81 Does Not Show Strong Adult Retinal Neuronal Enrichment
+
+       WDR81 is classified by the Human Protein Atlas as cell-type enhanced in microglia,
+
+together with several non-neural cell types. ("WDR81 Single Cell")
+                                                                                              122
+
+Phase 3A also found only approximately 0.7 nTPM in whole-retina bulk tissue.
+
+       Thus the current adult-retinal evidence does not support strong WDR81 expression in:
+
+   rods;
+
+   cones;
+
+   bipolar neurons;
+
+   amacrine neurons;
+
+   retinal ganglion cells.
+
+       The available signal instead suggests a possible microglial association.
+
+       This does not weaken WDR81's established neurodevelopmental importance.
+
+       It changes where that importance should be investigated.
+
+       WDR81 may prove more relevant to:
+
+   developmental neural progenitors;
+
+   brain neurons;
+
+   glial populations;
+
+   dLGN;
+
+   cortical systems
+
+       than to mature retinal neurons.
+
+Phase 3C status
+
+       Adult retinal-neuronal hypothesis: weakened. Glial/microglial possibility: retained.
+
+Developmental neural hypothesis: still open.
+
+15. RILP Also Fails to Show a Strong Retina-Specific Cell-Type Signal
+
+       RILP is associated broadly with a neuronal neurotransmission/signaling expression
+                                                                                               123
+
+cluster, and current HPA data classify it as enhanced in “other brain neurons” among
+
+several
+
+          non-neural populations. ("RILP Single Cell")
+
+          However, no convincing adult-retinal cell-type enrichment emerged from the current
+
+screen.
+
+          Combined with its very low whole-retina bulk abundance, this argues against making
+
+RILP a leading adult retinal mechanism at present.
+
+          This is an important negative result.
+
+Phase 2 demonstrated strong neuronal RILP biology.
+
+Phase 3C now suggests that the best place to test that biology may be:
+
+          central visual-system neurons rather than mature retina.
+
+          Therefore the forthcoming dLGN and V1 analyses become especially important for
+
+RILP.
+
+16. The Original WDR81–RILP Retinal Convergence Is Not Supported
+
+Phase 2 predicted that WDR81 and RILP might form a coherent endosomal sequence:
+
+WDR81
+
+                                       → endosome maturation
+
+          ↓
+
+RAB7-positive late endosome
+
+          ↓
+
+RILP
+
+                                        → organelle transport.
+
+          At the molecular level this remains plausible.
+                                                                                               124
+
+        At the adult-retina expression level, however, Phase 3C does not currently demonstrate
+
+that both genes are strongly expressed in the same retinal neuronal population.
+
+        WDR81 shows a microglia-associated signal.
+
+        RILP shows a broader neuronal signal without clear retina-specific enrichment.
+
+        Therefore:
+
+        H3 is not supported in adult retina at this stage.
+
+        This does not falsify the molecular pathway.
+
+        It means the pathway's spatial opportunity has not yet been demonstrated in mature
+
+retinal cells.
+
+        It should now be tested in the dLGN, V1, and developmental datasets.
+
+17. RTN4RL1: An Important Negative/Unresolved Finding
+
+Phase 2 identified RTN4RL1 as a strong neural candidate because Nogo-receptor-family
+
+        biology directly affects retinal ganglion-cell axons and optic-nerve regeneration.
+
+Phase 3A showed detectable whole-retina expression.
+
+        However, current HPA single-cell classification does not identify retinal ganglion cells as
+
+an RTN4RL1-enriched population. Instead, the strongest whole-body single-cell specificity
+
+appears in spermatogenic cells, while human brain single-nucleus expression shows low overall
+
+cell-type specificity. ("RTN4RL1 Single Cell")
+
+        Human Protein Atlas protein-level data do support broader neural expression, including
+
+neurons, astrocytic/neuropil and microglial/neuropil compartments, but that does not establish a
+
+retinal ganglion-cell-specific signal. ("RTN4RL1 HPA")
+
+        Therefore the hypothesis:
+                                                                                                   125
+
+RTN4RL1 is specifically enriched in adult human retinal ganglion cells
+
+          is not currently supported.
+
+          This is important because it prevents the Phase 2 optic-nerve literature from being
+
+converted into an expression claim that the data do not yet support.
+
+Phase 3C status
+
+          Retinal presence: supported by bulk RNA. RGC-specific enrichment: unresolved/not
+
+demonstrated. Central neural relevance: still strongly plausible.
+
+18. RPA1 Appears to Behave as a Broad Cellular Maintenance Gene
+
+          RPA1 has low overall cell-type specificity in current single-cell resources, with
+
+enrichment signals occurring outside the retina, particularly in proliferative or specialized
+
+nonretinal populations. Its broader expression pattern is classified as consistent with basic
+
+cellular processes. ("RPA1 Single Cell")
+
+          This is consistent with RPA1's molecular function.
+
+          RPA1 is required for fundamental:
+
+   ssDNA protection;
+
+   replication;
+
+   repair;
+
+   ATR signaling.
+
+          Its substantial retinal bulk expression therefore likely reflects a widely distributed
+
+cellular maintenance requirement, rather than specialization within a particular mature
+
+retinal
+
+          neuron.
+
+          This matters for interpretation.
+                                                                                               126
+
+           RPA1 remains the strongest direct heterozygous molecular dosage candidate from Phase
+
+2, but Phase 3C provides no evidence that its dosage vulnerability is retina-specific.
+
+19. SMYD4 Also Shows No Specialized Adult Retinal Localization
+
+           SMYD4 currently demonstrates low cell-type specificity overall and no convincing
+
+retinal-specific enrichment. Its strongest HPA single-cell enhancement is reported in myonuclei
+
+rather than ocular neurons. ("SMYD4 Single Cell")
+
+           Thus its Phase 3A retinal bulk expression should be interpreted as:
+
+general expression compatible with a broad regulatory role
+
+           rather than:
+
+           evidence for a specialized retinal epigenetic mechanism.
+
+           The best later opportunity for SMYD4 may be developmental analysis, where epigenetic
+
+regulators can have transient effects not apparent in mature tissue.
+
+20. SLC43A2 Shows a Possible Microglial Association
+
+           SLC43A2 is not strongly expressed in whole adult retina.
+
+           Current single-cell resources nevertheless show an elevated signal involving
+
+microglia/neuropil among several other cell populations, while its overall strongest
+
+expression
+
+           remains associated with renal and epithelial transport systems. ("SLC43A2 Single Cell")
+
+           This supports a limited possibility that SLC43A2 has an immune/glial role within neural
+
+tissues.
+
+           However, the evidence does not support elevating SLC43A2 into the principal
+
+neuralretinal pathway.
+                                                                                                   127
+
+Phase 3C status
+
+       Photoreceptor role: unsupported. Retinal neuronal role: unsupported. Possible microglial
+
+contribution: preliminary.
+
+21. SCARF1 Is Consistent With a Glial/Vascular Rather Than Neuronal Role
+
+       SCARF1 shows strong cell-type specificity for several non-neuronal populations,
+
+including microglia and astrocytes, and its expression cluster is annotated as brain endothelial
+
+cells — blood-brain barrier. ("SCARF1 Single Cell")
+
+       This is consistent with its Phase 2 role in:
+
+   scavenger recognition;
+
+   apoptotic-cell clearance;
+
+   immune homeostasis.
+
+       Its very low adult-retinal bulk expression makes it unlikely to represent a major
+
+photoreceptor or retinal-neuron mechanism.
+
+       Instead, if it proves relevant to the visual system, the more plausible route would involve:
+
+       immune, glial, endothelial, or clearance biology.
+
+22. SERPINF2 Remains Essentially Non-Retinal
+
+       SERPINF2 shows strong single-cell enrichment in proximal tubular cells, with
+
+liverassociated systemic expression and only very low adult-retinal bulk abundance.
+
+("SERPINF2 Single Cell")
+
+       No compelling mature retinal neuronal or RPE cell-type signal emerged.
+
+       This strongly reinforces the Phase 2 classification:
+
+SERPINF2 is primarily a systemic hemostatic locus rather than a direct
+
+       retinal gene.
+                                                                                                128
+
+        Its inclusion in later retinal analyses should remain as an unbiased negative control rather
+
+than because there is currently a positive retinal hypothesis.
+
+23. Noncoding Loci Require a Separate Assay Strategy
+
+        The four noncoding loci cannot be treated like ordinary protein-coding genes.
+
+PITPNA-AS1
+
+        As a lncRNA, PITPNA-AS1 may have low abundance and can be poorly captured by
+
+droplet-based or 3′-biased scRNA-seq.
+
+        Current absence of a strong cell-type annotation is therefore:
+
+        unresolved, not evidence of true biological absence.
+
+MIR22HG
+
+        The same limitation applies to MIR22HG.
+
+        Its host-transcript abundance may be measurable in appropriate total-RNA datasets, but
+
+conventional retinal single-cell assays may underrepresent it.
+
+MIR22
+
+        Mature miR-22 cannot be validly inferred from ordinary poly(A)-selected scRNA-seq.
+
+        Its Phase 3 localization requires: small-RNA sequencing or miRNA-specific expression
+
+data.
+
+RN7SL105P
+
+        Because RN7SL105P is a homologous pseudogene, short-read mapping may not reliably
+
+distinguish it from related 7SL-derived sequences.
+
+        No expression score should presently be assigned.
+                                                                                   129
+
+24. Revised Cellular Architecture of the Deletion
+
+Phase 3C now permits the Phase 2/3A model to be reorganized by cellular compartment.
+
+Adult retinal compartment
+
+Most relevant affected loci currently supported
+
+RPE
+
+SERPINF1, INPP5K, PITPNA
+
+Photoreceptors
+
+PRPF8, possible TLCD2 cone enrichment
+
+Broad neural retina
+
+PRPF8, broad RPA1 availability
+
+Microglial/glial-associated
+
+       WDR81, SCARF1, possible SLC43A2
+
+Specific RGC enrichment
+
+None demonstrated yet
+
+Adult retinal endosomal WDR81–RILP pair
+
+Not demonstrated
+
+Systemic/non-retinal
+
+       SERPINF2 strongly; SLC43A2 predominantly
+
+Unresolved noncoding
+
+       PITPNA-AS1, MIR22HG, MIR22, RN7SL105P
+
+       This is more biologically informative than the Phase 3A bulk ranking.
+
+25. Hypothesis H1 — Membrane/Endosomal Co-Localization
+
+       Original H1 predicted that multiple members of:
+                                                                                       130
+
+INPP5K + PITPNA + TLCD2 + WDR81 + RILP + SERPINF1
+
+      would occupy at least one common retinal or visual-neural cell population.
+
+Current result
+
+      Partially supported, but substantially revised.
+
+      A clear adult RPE module is emerging: INPP5K + PITPNA + SERPINF1.
+
+      TLCD2 may instead preferentially involve cones.
+
+      WDR81 and RILP are not presently shown to occupy the same adult retinal population.
+
+      Therefore the original six-gene same-cell model is:
+
+      not supported as a single adult retinal module.
+
+      The broader pathway may instead span multiple adjacent cellular compartments.
+
+26. Hypothesis H2 — Direct Retinal Localization
+
+      The pre-specified candidates were:
+
+PRPF8
+
+SERPINF1
+
+      RTN4RL1.
+
+PRPF8
+
+      Strongly supported.
+
+      Broad neural-retinal and photoreceptor expression.
+
+SERPINF1
+
+      Strongly supported.
+
+      Strong replicated RPE localization.
+
+RTN4RL1
+
+      Partially supported.
+                                                                                                131
+
+       Bulk retinal expression exists, but the specific adult retinal cell population remains
+
+unresolved.
+
+       Therefore H2 is:
+
+supported for PRPF8 and SERPINF1, unresolved at cell-type level for
+
+       RTN4RL1.
+
+27. Hypothesis H3 — WDR81/RILP Neural Trafficking Overlap
+
+       In adult retina:
+
+       not currently supported.
+
+       The two genes do not presently demonstrate convincing shared retinal cell-type
+
+enrichment.
+
+       This is one of Phase 3C's most important negative results.
+
+       The appropriate next test is not to rescue the hypothesis by changing the criterion.
+
+       It is to move the same frozen hypothesis into:
+
+human dLGN
+
+       and: human V1.
+
+28. Hypothesis H6 — Regulatory Overlap
+
+       PRPF8 is broadly present through neural retina and therefore has cellular opportunity to
+
+influence transcripts in multiple retinal populations.
+
+       The miRNA component cannot yet be evaluated because mature miR-22 requires a
+
+different sequencing modality.
+
+       Thus: PRPF8 overlap: spatially plausible. MIR22 regulatory overlap: unresolved.
+
+       No direct target relationship should yet be inferred.
+                                                                                                           132
+
+29. Major New Phase 3C Finding
+29. Major New Phase 3C Finding
+      The principal result is not simply that several deleted genes are expressed in retina.
+       The principal result is not simply that several deleted genes are expressed in retina. It is that their
+       It is that their
+       expression beginsexpression     begins
+                         to organize into        to retinal
+                                           distinct  organize    into distinct
+                                                            biological         retinal biological compartments.
+                                                                       compartments.
+
+       The strongest current model is:
+
+Outer-retinal/RPE functional-reserve axis current model
+                                  Strongest
+
+PITPNA
+                                  Outer-retinal / RPE functional-reserve axis
+                                        → phospholipid handling
+
+       +
+                                                     PITPNA
+INPP5K
+                                               phospholipid handling
+
+                                      → phosphoinositide turnover
+
+       +                                             INPP5K
+
+                                             phosphoinositide turnover
+
+SERPINF1
+
+                                → PEDF trophic/lipid-linked
+                                             SERPINF1       signaling
+                                         PEDF trophic/lipid-linked signaling
+       ↓
+
+RPE support environment
+                                          RPE support environment
+       ↓
+
+       potential influence on neighboring photoreceptors.
+
+Photoreceptor-associated axis
+                               Potential influence on neighboring photoreceptors
+
+PRPF8
+
+                                   → broadly required RNA splicing
+
+       +                                Figure continues on the next page.
+
+       possible:
+                                                                                                                                  133
+
+TLCD2
+               Photoreceptor-associated axis                                             Glial / immune axis
+                               → cone-associated membrane lipid composition.
+
+Glial/immune axis
+                           PRPF8                                                             WDR81 / SCARF1
+WDR81
+                 broadly required RNA splicing                                current signals biased toward microglial or other
+                                                                                          non-neuronal populations
+SCARF1
+
+         and possibly:
+                       Possible TLCD2                                                        Possible SLC43A2
+SLC43A2cone-associated membrane lipid composition                              possible glial/immune localization; weak direct
+                                                                                               neural-retinal role
+
+         with current signals biased toward microglial or other non-neuronal populations.
+
+Central-neural candidates requiring later testing
+
+RILP                                     Central-neural candidates requiring later testing
+
+                              RILP, RTN4RL1, and potentially WDR81 may prove more important in central
+RTN4RL1                                         visual pathways than mature retina.
+
+
+
+         and potentially:
+
+WDR81
+
+         may prove more important in central visual pathways than mature retina.
+
+30. Implication for the Original Visual-Neurological Question
+
+Phase 3C strengthens the possibility of a retinal biological contribution, but not in the
+
+         simplistic form initially conceivable.
+
+         Current evidence does not suggest:
+
+all deleted neural genes are simultaneously weakened inside the same retinal
+
+         neuron.
+
+         Instead it suggests a distributed system:
+
+RPE molecular reserve
+
+         ↓
+                                                                                                134
+
+       supports
+                                 Distributed visual-system sequence
+photoreceptor physiology
+
+       ↓                                RPE molecular reserve
+
+
+       feeds into
+                                       Photoreceptor physiology
+retinal neuronal circuitry
+
+       ↓                               Retinal neuronal circuitry
+
+       which ultimately projects through: RGC → dLGN → V1.
+                                         RGC -> dLGN -> V1
+       Different deleted genes may operate at different positions along that sequence.
+
+       This is potentially more biologically realistic than a single-cell, single-pathway model.
+
+       It also makes later visual-pathway analysis essential.
+
+31. Important Negative Findings
+
+Phase 3C currently provides no strong evidence for:
+
+       RTN4RL1-specific enrichment in retinal ganglion cells.
+
+       It provides no strong evidence that: WDR81 and RILP form a coexpressed adult-retinal
+
+trafficking module.
+
+       It provides no evidence that: SERPINF2 is a significant retinal gene.
+
+       It provides no convincing specialized retinal localization for: SMYD4.
+
+       And conventional scRNA-seq cannot resolve: mature MIR22 dosage.
+
+       These negative results should be retained in the frozen dataset rather than discarded.
+
+32. Current Cell-Type Priority Ranking
+
+       For adult retinal biology specifically, the strongest current candidates are:
+                                                    135
+
+Rank class
+
+Loci
+
+Reason
+
+SERPINF1, INPP5K, PITPNA,
+
+         Strong cell-type localization plus
+
+Tier A
+
+PRPF8
+
+         established molecular relevance
+
+         Relevant expression but weaker retinal
+
+Tier B
+
+TLCD2, RPA1
+
+         specificity or mechanism
+
+         Strong prior biology but adult retinal
+
+Tier C
+
+RTN4RL1, WDR81, RILP
+
+         cell localization remains unresolved
+
+         Weak/specialized non-neuronal retinal
+
+Tier D
+
+SCARF1, SLC43A2, SMYD4
+
+         evidence
+
+         Little evidence for direct adult retinal
+                                                                       136
+
+Tier E
+
+SERPINF2
+
+         participation
+
+PITPNA-AS1, MIR22HG, MIR22,
+
+Separate assay required
+
+         RNA-class/technical limitations
+
+RN7SL105P
+
+         This ranking is only for adult retinal localization.
+
+         It does not replace the Phase 2 molecular-priority ranking.
+
+33. Evidence Boundary
+
+Phase 3C now permits statements such as:
+
+INPP5K, PITPNA and SERPINF1 show convergent expression within the
+
+         RPE compartment.
+
+         It permits:
+
+PRPF8 is broadly expressed across human neural retina, including
+
+         photoreceptors.
+
+         It tentatively permits:
+
+         TLCD2 may be enhanced in cone photoreceptors.
+
+         It does not permit:
+
+         The deletion impairs RPE function.
+
+         It does not permit:
+
+         The deletion damages cones.
+
+         It does not permit:
+                                                                                                137
+
+          The RPE module causes visual stress.
+
+          And it does not permit:
+
+          The genes interact epistatically.
+
+          Expression establishes:
+
+          cellular opportunity for a mechanism.
+
+          It does not establish pathological execution of that mechanism.
+
+34. Phase 3C Working Conclusion
+
+          Adult human retinal single-cell analysis substantially refines the bulk-expression model
+
+developed in Phase 3A.
+
+          The strongest finding is a reproducible RPE-centered convergence involving
+
+SERPINF1, INPP5K, and PITPNA. These genes independently regulate extracellular
+
+retinal
+
+          trophic signaling, phosphoinositide metabolism, and phospholipid handling, respectively.
+
+Their shared RPE localization provides the first strong evidence that multiple deleted genes with
+
+related membrane/lipid functions occupy the same biologically relevant human ocular cell
+
+compartment.
+
+          PRPF8 represents a second major retinal axis. Rather than being narrowly restricted to
+
+rods, current evidence supports broad expression through the neural retina, including rods and
+
+cones, consistent with a fundamental spliceosomal function.
+
+          TLCD2 provides a preliminary cone-photoreceptor signal that may extend the
+
+membranelipid mechanism into neural retina, but replication is required.
+
+          Conversely, the expected WDR81–RILP endosomal pair is not currently supported as a
+
+shared adult retinal module. WDR81 shows a more microglial-associated expression pattern,
+                                                                                                 138
+
+whereas RILP lacks strong retina-specific enrichment and retains a broader neuronal profile.
+
+RTN4RL1 also lacks demonstrated retinal ganglion-cell enrichment despite its strong
+
+experimental optic-nerve biology.
+
+Phase 3C therefore supports retinal involvement while narrowing and reorganizing
+
+       the mechanism.
+
+       The strongest present model is no longer:
+
+       one six-gene membrane pathway operating uniformly throughout retina.
+
+       It is:
+
+an RPE-centered membrane/phosphoinositide/trophic module, a separate
+
+photoreceptor-associated RNA/lipid module, and additional neural-
+
+trafficking genes whose principal relevance may emerge farther downstream
+
+       in the central visual pathway or during development.
+
+       That distinction should now be carried forward unchanged into the next analyses.
+
+Phase 3D — Human Dorsal Lateral Geniculate Nucleus Analysis
+
+1. Objective
+
+Phase 3D tests whether the loci affected by the 17p13.3 deletion show preferential
+
+       localization within one of the principal human dorsal lateral geniculate nucleus visual
+
+relay systems:
+
+magnocellular — M
+
+parvocellular — P
+
+       or: koniocellular — K.
+
+       This analysis directly addresses one of the project's pre-specified exploratory hypotheses:
+                                                                                              139
+
+H5 — One or more affected loci may show preferential expression in human
+
+         magnocellular dLGN neurons.
+
+         The analysis is deliberately symmetric.
+
+         Evidence favoring P or K neurons would be retained with equal weight, and absence of
+
+pathway-specific enrichment is treated as a meaningful negative result.
+
+2. Biological Context
+
+         The dorsal lateral geniculate nucleus is the principal thalamic relay between:
+
+retina
+
+         ↓
+
+dLGN
+
+         ↓ primary visual cortex — V1.
+
+         In primates, visual information has traditionally been divided into magnocellular,
+
+parvocellular and koniocellular streams.
+
+         These populations differ substantially in:
+
+   morphology;
+
+   receptive-field properties;
+
+   temporal response;
+
+   contrast sensitivity;
+
+   chromatic processing;
+
+   retinal input;
+
+   cortical projection patterns.
+
+         The transcriptomic question is whether those physiological distinctions are accompanied
+
+by correspondingly strong differences in gene expression.
+                                                                                               140
+
+        Current human evidence indicates that the answer is only partly yes.
+
+3. Primary Human Dataset
+
+        The principal dataset is the Allen Institute/Bakken et al. Comparative LGN study.
+
+        The Allen Institute currently provides processed human LGN expression and metadata
+
+for 1,209 nuclei. ("Comparative LGN")
+
+        The published analysis used approximately 950 neuronal nuclei from three postmortem
+
+human donors to construct the principal neuronal taxonomy. The study identified:
+
+   three GABAergic neuronal populations;
+
+   two koniocellular populations;
+
+   one combined magnocellular/parvocellular projection-neuron population.
+
+        The two koniocellular populations were designated:
+
+Kap
+
+        and: Kp.
+
+        The remaining major glutamatergic population was designated:
+
+MP. (Bakken et al.)
+
+        This point is central to interpretation.
+
+4. Human M and P Neurons Do Not Form Cleanly Separated Transcriptomic Classes
+
+        Despite the well-established physiological distinction between magnocellular and
+
+parvocellular neurons, human M and P nuclei did not resolve into two clean transcriptomic
+
+clusters.
+
+        Instead:
+
+        M and P neurons largely formed a common MP cluster.
+
+        Within that cluster, the investigators identified a continuous M-to-P expression gradient.
+                                                                                           141
+
+       Cross-species integration with macaque data confirmed that the human ends of this
+
+continuum correspond to more clearly separable macaque M and P populations. (Bakken et al.)
+
+       Therefore:
+
+M versus P
+
+       in adult human dLGN is better represented transcriptomically as:
+
+a graded molecular distinction
+
+       rather than:
+
+       two strongly separated gene-expression states.
+
+       This places an important constraint on the original magnocellular hypothesis.
+
+5. Published Human M-versus-P Marker Test
+
+       The study identified 32 genes showing consistent M-versus-P enrichment across all three
+
+human donors.
+
+       Validated examples included:
+
+Magnocellular-associated
+
+CRH
+
+SUSD2
+
+       with:
+
+ROBO2
+
+       also marking the M-directed end of the conserved human/macaque continuum.
+
+Parvocellular-associated
+
+EPHA7
+
+       FOXP2.
+
+       A pan-M/P marker included:
+                                                                           142
+
+BTNL9. (Bakken et al.)
+
+      The complete published Figure 3 marker set includes genes such as:
+
+   ABCC3
+
+   ADAMTSL3
+
+   AKAP2
+
+   ARHGAP6
+
+   ARHGEF28
+
+   CDH6
+
+   CDH8
+
+   CNKSR3
+
+   COL11A1
+
+   COL21A1
+
+   CRH
+
+   EGFEM1P
+
+   ELL2
+
+   FAM19A5
+
+   FER1L6
+
+   FOXP2
+
+   GALNTL6
+
+   GPC5
+
+   GRID2
+
+   HPSE2
+
+   KCNH7
+                                                                                             143
+
+      KCNJ6
+
+      LUZP2
+
+      MPPED2
+
+      PLCL1
+
+      PRKG1
+
+      PTER
+
+      ROBO2
+
+      RUNX1
+
+      SH3RF2
+
+      SPON1
+
+      SUSD2
+
+      TMTC1
+
+      TOX
+
+      VSNL1
+
+      EPHA7
+
+         across the donor-specific and joint M/P comparisons displayed by the study. (Bakken et
+
+al.)
+
+6. None of the 17 Deleted Loci Is a Published M/P Marker
+
+         The affected loci are:
+
+         **INPP5K
+
+         PITPNA
+
+         SLC43A2
+
+         SCARF1
+                                                                                        144
+
+       RILP
+
+       PRPF8
+
+       TLCD2
+
+       WDR81
+
+       SERPINF2
+
+       SERPINF1
+
+       SMYD4
+
+       RPA1
+
+       RTN4RL1
+
+       PITPNA-AS1
+
+       MIR22HG
+
+       MIR22
+
+       RN7SL105P.**
+
+       None appears among the published genes showing the consistent human M-versus-P
+
+marker pattern.
+
+       Therefore:
+
+No affected locus currently demonstrates published evidence of preferential
+
+       magnocellular transcriptional enrichment in the adult human dLGN.
+
+       Equally:
+
+       No affected locus emerges as a strong published parvocellular marker.
+
+       This is a genuine negative result for the pre-specified analysis.
+
+7. This Does Not Mean the Genes Are Absent From M or P Neurons
+
+       The distinction is critical.
+                                                                                                145
+
+       A gene can be expressed in:
+
+both M and P neurons
+
+       without being: differentially expressed between M and P neurons.
+
+       For example, a housekeeping or broadly neuronal protein could be essential to both
+
+populations while never appearing in an M-versus-P marker list.
+
+       Therefore the result supports:
+
+no demonstrated M-specific enrichment
+
+       but does not support:
+
+       no expression in magnocellular neurons.
+
+       Those are different propositions.
+
+8. Magnocellular Hypothesis Status
+
+       The frozen Phase 3 hypothesis was:
+
+       One or more affected genes may show preferential expression in human
+
+       magnocellular dLGN neurons.
+
+       The current result is: H5 — Not supported at the published marker level.
+
+       None of the affected loci appears among the consistent human M-enriched markers.
+
+       Therefore the project should not currently claim that the deletion preferentially targets the
+
+magnocellular pathway.
+
+       This substantially narrows the original hypothesis.
+
+9. Why This Result Is Particularly Important
+
+       A weaker analytical strategy could have proceeded from:
+
+visual stress
+
+       ↓
+                                                                                               146
+
+       historical magnocellular hypotheses
+
+       ↓
+
+       search for any deleted neural gene
+
+       ↓
+
+       claim magnocellular involvement.
+
+Phase 3D does not permit that inference.
+
+       When the actual human M/P transcriptomic dataset is examined first, the affected genes
+
+do not appear among the genes distinguishing M from P neurons.
+
+       Thus:
+
+current transcriptomic evidence does not support a magnocellular-specific
+
+       mechanism for this deletion.
+
+       This is one of the clearest examples so far of the project's phenotype-neutral design
+
+protecting against confirmation bias.
+
+10. Koniocellular Analysis
+
+       Human dLGN transcriptomics resolves the K populations more clearly than M and P.
+
+       The Bakken et al. study identified:
+
+Kap
+
+       and:
+
+Kp
+
+       koniocellular types.
+
+       The principal reported K-associated markers include:
+                                                                                              147
+
+CALB1
+
+CAMK2A
+
+PRKCG
+
+       with:
+
+PENK
+
+       selectively identifying the Kp population.
+
+       PENK-positive Kp neurons were anatomically confirmed in posterior K1 and K2 layers
+
+using RNA in situ hybridization. (Bakken et al.)
+
+11. No Deleted Locus Is a Defining K Marker
+
+       None of the 17 affected loci is among the primary K-defining markers reported by the
+
+human study.
+
+       Thus the current evidence also fails to support:
+
+       selective koniocellular involvement.
+
+       At the transcriptomic-marker level, the deletion does not map specifically onto:
+
+M
+
+P
+
+       or:
+
+K
+
+       identity.
+                                           148
+
+12. Gene-by-Gene dLGN Specificity Screen
+
+Published M-specific
+
+Published P-specific
+
+Affected locus
+
+Defining K marker
+
+Current interpretation
+
+marker
+
+marker
+
+       No relay-class
+
+INPP5K
+
+       No
+
+       No
+
+       No
+
+       specificity demonstrated
+
+       No relay-class
+
+PITPNA
+
+       No
+
+       No
+
+       No
+
+       specificity demonstrated
+
+       No relay-class
+
+SLC43A2
+
+       No
+                                  149
+
+       No
+
+       No
+
+       specificity demonstrated
+
+       No relay-class
+
+SCARF1
+
+       No
+
+       No
+
+       No
+
+       specificity demonstrated
+
+       Neural relevance
+
+RILP
+
+       No
+
+       No
+
+       No
+
+       retained; M/P/K
+
+       specificity unsupported
+
+       Likely broader cellular
+
+PRPF8
+
+       No
+
+       No
+
+       No
+
+       role rather than relay-
+
+       class marker
+                                150
+
+     No relay-class
+
+TLCD2
+
+     No
+
+     No
+
+     No
+
+     specificity demonstrated
+
+     Neural relevance
+
+WDR81
+
+     No
+
+     No
+
+     No
+
+     retained; M/P/K
+
+     specificity unsupported
+
+     No dLGN specialization
+
+SERPINF2
+
+     No
+
+     No
+
+     No
+
+     demonstrated
+
+     Strong retinal role does
+
+SERPINF1
+
+     No
+
+     No
+                                  151
+
+       No
+
+       not extend to dLGN
+
+       subtype specificity
+
+       No relay-class
+
+SMYD4
+
+       No
+
+       No
+
+       No
+
+       specificity demonstrated
+
+       Consistent with broad
+
+RPA1
+
+       No
+
+       No
+
+       No
+
+       cellular maintenance
+
+       role
+
+       Neural signaling
+
+RTN4RL1
+
+       No
+
+       No
+
+       No
+
+       relevance retained; no
+
+       M/P/K specialization
+                                 152
+
+PITPNA-AS1
+
+       No evidence
+
+       No evidence
+
+       No evidence
+
+       Unresolved
+
+MIR22HG
+
+       No evidence
+
+       No evidence
+
+       No evidence
+
+       Unresolved
+
+Published M-specific
+
+Published P-specific
+
+Affected locus
+
+Defining K marker
+
+Current interpretation
+
+marker
+
+marker
+
+       Not appropriately
+
+       Not appropriately
+
+       Not appropriately
+
+MIR22
+
+       measured as mature
+
+       Separate assay required
+                                                                                                153
+
+       measured
+
+       measured
+
+       miRNA
+
+       Mapping/function
+
+RN7SL105P
+
+       No evidence
+
+       No evidence
+
+       No evidence
+
+       unresolved
+
+       The table should be interpreted as a specificity matrix, not an absolute-expression matrix.
+
+13. RILP
+
+       RILP was specifically important entering Phase 3D because Phase 3C failed to establish a
+
+strong adult retinal localization despite compelling neuronal trafficking biology.
+
+       The dLGN analysis does not rescue RILP as a magnocellular-specific candidate.
+
+       RILP is not among the published:
+
+   M markers;
+
+   P markers;
+
+   K markers.
+
+       Thus its neuronal trafficking mechanism may still operate in visual-relay neurons, but
+
+current evidence does not associate it preferentially with one dLGN visual channel.
+
+       This leaves RILP as a:
+
+       general neural-trafficking candidate rather than a magnocellular candidate.
+                                                                                           154
+
+14. WDR81
+
+       The same conclusion applies to WDR81.
+
+Phase 2 established strong neural-development and endosomal PI3P biology.
+
+Phase 3C suggested that adult retinal expression may be more glial than neuronal.
+
+Phase 3D finds no evidence that WDR81 is a defining:
+
+   magnocellular;
+
+   parvocellular;
+
+   koniocellular
+
+       transcriptomic marker.
+
+       Therefore:
+
+WDR81 remains a strong neural mechanism but not a visual-relay-class-
+
+       specific mechanism.
+
+       Its strongest remaining Phase 3 opportunity may lie in:
+
+   developmental brain;
+
+   broader thalamic neurons;
+
+   cortical populations.
+
+15. RTN4RL1
+
+       RTN4RL1 was another important candidate because Phase 2 established direct axonal
+
+and optic-nerve relevance.
+
+       However, RTN4RL1 also fails to appear among the published M/P/K defining gene sets.
+
+       Therefore its functions involving:
+
+   axonal growth;
+
+   CSPG recognition;
+                                                                                               155
+
+   synaptic structural regulation
+
+       should currently be interpreted as:
+
+general neuronal structural biology
+
+       rather than evidence of a magnocellular pathway specialization.
+
+       This is consistent with Phase 3C, where retinal ganglion-cell-specific enrichment was
+
+also not demonstrated.
+
+       Two independent Phase 3 analyses therefore now fail to support a highly specialized
+
+RTN4RL1 visual-channel localization.
+
+16. PRPF8
+
+       PRPF8 likewise shows no M/P/K marker specificity.
+
+       This is biologically unsurprising.
+
+       Its function is fundamental spliceosomal RNA processing.
+
+Phase 3C demonstrated broad neural-retinal availability rather than narrow retinal
+
+       subtype restriction.
+
+Phase 3D now supports the same general interpretation centrally:
+
+PRPF8 is more plausibly a broadly required cellular factor than a
+
+       transcriptomic marker of a specific visual relay stream.
+
+       This does not weaken PRPF8's retinal relevance.
+
+       It weakens only a hypothesis of magnocellular-selective PRPF8 vulnerability.
+
+17. PITPNA, INPP5K, TLCD2 and SERPINF1
+
+       The Phase 3C retinal lipid module does not reappear as an M-specific dLGN
+
+transcriptional module.
+
+       None of:
+                                                                                            156
+
+PITPNA
+
+INPP5K
+
+TLCD2
+
+       or:
+
+SERPINF1
+
+       is among the published human M/P discriminating genes.
+
+       Therefore the strongest Phase 3C finding remains principally:
+
+retinal/RPE biology
+
+       rather than:
+
+       magnocellular thalamic biology.
+
+       This begins to spatially separate the two hypotheses.
+
+18. A Critical Property of the Human dLGN Dataset
+
+       Failure to find M-specific enrichment should not be exaggerated.
+
+       The original study itself found that human M and P neurons are remarkably similar
+
+transcriptomically relative to their major physiological and morphological differences.
+
+       Only a limited set of genes consistently distinguishes the two.
+
+       The human M/P cells remain one MP transcriptomic population with a molecular
+
+gradient rather than completely distinct cell types. (Bakken et al.)
+
+       Consequently:
+
+physiological specialization need not require large differences in steady-state
+
+       gene expression.
+
+       A deleted gene expressed equally in M and P neurons could theoretically have different
+
+functional consequences if the two neuronal types impose different physiological demands.
+                                                                                          157
+
+       That possibility remains open.
+
+       However, there is currently no positive transcriptomic evidence supporting it.
+
+19. Independent Primate Evidence Supports the Complexity of LGN Cell Identity
+
+       A 2026 reanalysis of the Allen macaque LGN dataset identified additional heterogeneity
+
+within the conventional M/P/K categories:
+
+   two magnocellular subpopulations;
+
+   two parvocellular subpopulations;
+
+   three koniocellular subpopulations.
+
+       The analysis used 1,309 macaque LGN nuclei and found substantial within-class
+
+transcriptomic complexity. (Sun, Renshaw, and Pezaris)
+
+       This reinforces an important conceptual point:
+
+       M, P and K are themselves not molecularly homogeneous populations.
+
+       The recent macaque analysis does not highlight RTN4RL1, RILP, WDR81, PRPF8,
+
+PITPNA, INPP5K, SERPINF1, TLCD2, or RPA1 among the principal subtype genes discussed
+
+in the article. (Sun, Renshaw, and Pezaris)
+
+       This is supporting primate evidence only.
+
+       It does not replace the human analysis.
+
+20. Revised Interpretation of the Magnocellular Hypothesis
+
+       At the start of the project, one conceivable mechanism was:
+
+17p13.3 deletion
+
+       ↓
+
+       specific disruption of genes important to the magnocellular pathway
+
+       ↓
+                                                                                            158
+
+       altered temporal/contrast processing
+
+       ↓
+
+       candidate visual-stress phenotype.
+
+Phase 3D does not support the critical middle step.
+
+       The current evidence instead favors:
+
+17p13.3 deletion
+
+       ↓
+
+       multiple retinal and broadly neuronal molecular perturbations
+
+       ↓
+
+       possible visual-system vulnerability
+
+       without evidence of: preferential magnocellular transcriptional targeting.
+
+       This is a substantially more conservative and defensible model.
+
+21. Consequence for the Visual-Stress Hypothesis
+
+       The historical literature around visual stress has sometimes invoked magnocellular
+
+dysfunction.
+
+Phase 3D means that this project should not use that literature as a shortcut to connect
+
+       the CNV with visual stress.
+
+       At present:
+
+The genomic findings do not independently predict a magnocellular-specific
+
+       lesion.
+
+       If later physiological evidence were to implicate magnocellular processing, that would
+
+require a separate explanation.
+
+       The present transcriptomic evidence does not supply it.
+                                                                              159
+
+22. What Phase 3D Does Support
+
+Phase 3D does support a different conclusion.
+
+        Several of the affected genes have substantial:
+
+   neural;
+
+   retinal;
+
+   membrane;
+
+   trafficking;
+
+   signaling
+
+        functions.
+
+        But those mechanisms appear more likely to operate as:
+
+broad cellular systems
+
+        than as molecular identities unique to one thalamic visual channel.
+
+        This is especially consistent with:
+
+PRPF8
+
+                               → universal spliceosomal machinery
+
+RPA1
+
+                                → genome-maintenance machinery
+
+RILP
+
+                             → general neuronal endosomal transport
+
+WDR81
+
+                                  → general endosomal signaling
+
+RTN4RL1
+
+                             → broadly neuronal structural signaling.
+                                                                                    160
+
+23. Cross-Phase Comparison
+
+Phase 3 has now produced three distinct spatial findings.
+
+Phase 3A — Whole Retina
+
+       Strong expression of:
+
+       **PRPF8
+
+       SERPINF1
+
+       PITPNA
+
+       RPA1
+
+       INPP5K
+
+       TLCD2**
+
+       with weaker adult-retinal signals for several trafficking genes.
+
+Phase 3C — Retinal Cell Types
+
+       Strongest convergence:
+
+INPP5K + PITPNA + SERPINF1
+
+       within the:
+
+RPE compartment
+
+       with PRPF8 broadly available through neural retina and possible TLCD2 cone
+
+association.
+
+Phase 3D — dLGN
+
+       No affected locus is currently identified as a strong:
+
+M
+
+P
+
+       or:
+                                                                                           161
+
+K
+
+       marker.
+
+       Thus the most specific spatial convergence discovered so far remains:
+
+       RPE-centered rather than magnocellular-centered.
+
+24. Hypothesis Status After Phase 3D
+
+H1 — Membrane/endosomal colocalization
+
+       Partially supported, principally through RPE rather than dLGN subtype specialization.
+
+H2 — Direct retinal localization
+
+       Supported for PRPF8 and SERPINF1; strong RPE convergence with INPP5K/PITPNA.
+
+H3 — WDR81/RILP neural-trafficking overlap
+
+Not demonstrated in adult retina and not demonstrated as M/P/K-specific in human
+
+       dLGN.
+
+       Still open in cortical/developmental analyses.
+
+H4 — Developmental enrichment
+
+       Not yet tested.
+
+H5 — Magnocellular specificity
+
+       Not supported.
+
+       This is now a meaningful negative result.
+
+H6 — Regulatory overlap
+
+       Still unresolved.
+                                                                                                 162
+
+25. Evidence Boundary
+
+Phase 3D permits the statement:
+
+None of the 17 affected loci has emerged as a published defining marker of
+
+        adult human magnocellular, parvocellular, or koniocellular dLGN identity.
+
+        It also permits:
+
+The available human transcriptomic data do not support preferential
+
+        magnocellular targeting by the deletion.
+
+        It does not permit:
+
+        The affected genes are absent from magnocellular neurons.
+
+        Nor does it permit:
+
+        Magnocellular physiology cannot be affected.
+
+        Those stronger claims would require direct quantitative expression and physiological
+
+data.
+
+26. Technical Limitation
+
+        The Allen Institute makes the complete processed human LGN expression matrix and
+
+metadata publicly downloadable, containing 1,209 nuclei. ("Comparative LGN")
+
+        The published paper and associated supplementary analyses provide the marker-level
+
+M/P/K results used here, including the 32 reproducible human M/P genes and the defining K
+
+markers. The underlying processed dataset is also deposited under GSE182211 and through the
+
+Allen Comparative LGN resource. ("GSE182211"; "Comparative LGN")
+
+        A final frozen Phase 3 matrix should ultimately include direct numerical extraction of
+
+each affected gene's expression across individual M, P and K nuclei.
+
+        Therefore the present conclusion is appropriately classified as:
+                                                                                              163
+
+strong marker-level negative evidence for subtype specificity
+
+       rather than:
+
+       complete quantitative absence of differential expression.
+
+27. Phase 3D Working Conclusion
+
+       Human dLGN transcriptomics does not currently support the hypothesis that the 17p13.3
+
+microdeletion preferentially disrupts a magnocellular molecular program.
+
+       Human magnocellular and parvocellular relay neurons themselves are transcriptionally
+
+much more similar than their well-known physiological differences might suggest. They form a
+
+largely shared MP transcriptomic population with a comparatively subtle M-to-P expression
+
+gradient. A limited set of genes—including CRH, SUSD2 and ROBO2 toward the magnocellular
+
+end and EPHA7 and FOXP2 toward the parvocellular end—defines this gradient. None of the 17
+
+loci affected by the index deletion appears among the published reproducible M/P marker genes.
+
+(Bakken et al.)
+
+       Likewise, the affected loci do not overlap the principal human koniocellular markers
+
+CALB1, CAMK2A, PRKCG and PENK.
+
+       Accordingly:
+
+The pre-specified magnocellular-specificity hypothesis is not supported by
+
+       current adult human dLGN transcriptomic evidence.
+
+       This result does not weaken the broader proposition that the deletion may affect
+
+visualneural biology. Instead, it changes the likely mechanism.
+
+       The strongest spatial evidence remains the RPE-centered INPP5K–PITPNA–
+                                                                                                 164
+
+SERPINF1 convergence, combined with broad retinal PRPF8 expression and additional
+
+neural
+
+         mechanisms that do not appear restricted to a particular thalamic visual stream.
+
+         The current model should therefore shift from:
+
+a magnocellular-specific defect
+
+         toward:
+
+a distributed retinal and neural functional-reserve model in which several
+
+molecular systems may be altered without preferentially targeting one
+
+         classical M/P/K visual channel.
+
+         That is a stronger conclusion scientifically because it follows the transcriptomic evidence
+
+rather than the original phenotype hypothesis.
+
+Phase 3C - Integrated Expression and Spatiotemporal Analysis
+
+         Research Scope and Status
+
+Phase 3 evaluates where and when genes disrupted by the GRCh37/hg19
+
+         chr17:1,411,408-1,841,103 microdeletion are expressed, with particular emphasis on the
+
+retina, retinal pigment epithelium (RPE), dorsal lateral geniculate nucleus (dLGN), primary
+
+visual cortex (V1), and developing human neocortex. The phase does not treat expression as
+
+evidence of disease causation. Its purpose is narrower: to determine whether genes already
+
+identified as structurally disrupted and mechanistically plausible in Phases 1 and 2 have spatial
+
+and temporal opportunity to influence visual-neural biology.
+
+         The deletion interval contains thirteen protein-coding loci considered in the Phase 3
+
+expression analysis (INPP5K, PITPNA, SLC43A2, SCARF1, RILP, PRPF8, TLCD2, WDR81,
+
+SERPINF2, SERPINF1, SMYD4, RPA1, and RTN4RL1) and four noncoding annotations
+                                                                                                165
+
+(PITPNA-AS1, MIR22HG, MIR22, and RN7SL105P). Phase 3 preserves the structural
+
+interpretation established previously: the deletion begins within INPP5K and ends within
+
+RTN4RL1, with the latter losing essentially the canonical coding sequence on the affected allele.
+
+Those structural facts are background constraints rather than expression results.
+
+Abstract
+
+Phase 3 integrates bulk tissue expression, single-cell and single-nucleus transcriptomics,
+
+       retinal cell-type resources, human dLGN transcriptomics, adult human brain atlases,
+
+developmental cortical multiomics, and spatial fetal-cortex transcriptomics. The strongest direct
+
+cell-localized convergence remains retinal and RPE-centered: INPP5K and PITPNA show
+
+RPEassociated expression, while SERPINF1 is strongly associated with retinal pigment
+
+epithelial cells and has an established retinal trophic context. Human Protein Atlas data classify
+
+INPP5K as group-enriched in retinal pigment epithelial cells and PITPNA as cell-type enhanced
+
+in retinal pigment epithelial cells; SERPINF1 is likewise group-enriched in retinal pigment
+
+epithelial cells (Human Protein Atlas, “INPP5K”; Human Protein Atlas, “PITPNA”; Human
+
+Protein Atlas, “SERPINF1”). PRPF8 is broadly expressed in retina rather than restricted to one
+
+visual cell class, TLCD2 has a cone-photoreceptor signal that remains preliminary for
+
+mechanistic interpretation, WDR81 is more compatible with microglial/non-specific cellular
+
+expression than a mature retinal neuronal module, and RTN4RL1 is detectably expressed in
+
+human retina but has not been demonstrated as retinal-ganglion-cell-specific (Human Protein
+
+Atlas, “TLCD2”; Human Protein Atlas, “WDR81”; Human Protein Atlas, “RTN4RL1”).
+
+       Central visual-system analysis does not support a magnocellular-specific model.
+
+Singlecell and single-nucleus profiling of primate dLGN found that human magnocellular and
+
+parvocellular projection neurons are transcriptomically similar relative to their marked
+                                                                                                   166
+
+physiological differences; the affected 17p13.3 loci do not emerge as defining published M-, P-,
+
+or K-cell markers (Bakken et al.). Adult cortical analysis similarly supports distributed neural
+
+expression rather than a deletion-wide V1-specific signature. Developmental analysis strengthens
+
+evidence that selected genes have temporal opportunity during cortical development, especially
+
+WDR81, RTN4RL1, RILP, and SERPINF1, but independent human developmental atlases
+
+demonstrate readily detectable V1 specialization without identifying the deletion interval as a
+
+conspicuous V1-defining program (Bhaduri et al.; Wang et al.; Qian et al.). The resulting model
+
+is therefore one of distributed functional reserve: several deleted genes plausibly constrain
+
+membrane, phosphoinositide, endosomal, trophic, RNA-processing, or genome-maintenance
+
+systems at different visual-system sites and developmental stages, but the complete causal chain
+
+from heterozygous dosage loss to biochemical disturbance to visual-neural phenotype has not
+
+been demonstrated.
+
+       Methods and Evidentiary Rules
+
+Phase 3 was designed as an expression-opportunity analysis rather than a phenotype-
+
+       association screen. Evidence was interpreted in the following order: genomic disruption,
+
+known molecular function, tissue or cell-type expression, spatiotemporal overlap, pathway
+
+convergence, perturbational evidence, phenotype association, and causality last. Accordingly,
+
+detection of a transcript in retina or cortex establishes only that the gene is biologically available
+
+in that compartment. It does not establish that the heterozygous deletion changes transcript
+
+abundance, protein abundance, enzymatic flux, synaptic physiology, or perception.
+
+       Adult tissue-level observations were treated as lower-resolution evidence than
+
+cellresolved data. Single-cell and single-nucleus findings were prioritized when the relevant cell
+
+type was represented and assay limitations were understood. Developmental comparisons were
+                                                                                                 167
+
+not interpreted as longitudinal trajectories unless the underlying study design supported that
+
+inference. Cross-sectional BrainSpan or Allen-derived standardized expression values from
+
+different donors and ages were therefore treated as suggestive temporal observations rather than
+
+within-subject fold changes. BrainSpan provides RNA-seq and microarray expression data
+
+across multiple cortical and subcortical structures and developmental periods, including prenatal
+
+laser-microdissection resources (Allen Institute for Brain Science).
+
+       Noncoding loci required additional caution. Standard polyadenylated or nuclear RNA
+
+workflows are not reliable assays for mature microRNA abundance; consequently, MIR22
+
+cannot be considered absent or low merely because it is poorly represented in ordinary
+
+singlenucleus RNA-seq. MIR22HG and MIR22 were also treated as related host/microRNA
+
+annotations rather than independent deletion events. PITPNA-AS1 and RN7SL105P remain
+
+technically underdetermined in the available visual-system single-cell resources.
+
+       Evidence labels used throughout this phase are: established, when supported directly by
+
+the relevant human dataset or well-validated cell-resolved resource; suggestive, when supported
+
+by cross-sectional, lower-resolution, or indirect evidence; inference, when a mechanistic
+
+interpretation combines independent observations without direct experimental demonstration;
+
+and unsupported, when the proposed specificity or relationship is not demonstrated by the
+
+reviewed evidence.
+
+Phase 3A: Adult Whole-Tissue and Ocular Expression
+
+       The initial adult expression screen asked whether the affected genes were detectably
+
+expressed in retina and brain before attempting cell-type localization. This screen supported
+
+substantial adult retinal expression opportunity for PRPF8, SERPINF1, PITPNA, RPA1,
+
+INPP5K, and TLCD2, with lower or less discriminatory whole-retina signals for several other
+                                                                                                168
+
+interval genes. Whole-tissue expression was not treated as evidence that all of these genes act in
+
+the same retinal cell. The Human Protein Atlas retina resource illustrates the interpretive
+
+problem: the retina expresses a large fraction of the human proteome, so bulk detection alone has
+
+limited specificity (Human Protein Atlas, “Retina Proteome”).
+
+       RTN4RL1 is a useful example. Current Human Protein Atlas data report detectable
+
+retinal RNA, with a GTEx-derived consensus around 7.9 nTPM, supporting retinal opportunity
+
+but not assigning that expression to retinal ganglion cells or another specific neuronal population
+
+(Human Protein Atlas, “RTN4RL1”). TLCD2 likewise shows retinal RNA in bulk data, while its
+
+single-cell annotation includes cone photoreceptor enhancement; this makes cone involvement a
+
+reasonable candidate for follow-up, not an established cone-specific deletion mechanism
+
+(Human Protein Atlas, “TLCD2”).
+
+Phase 3A therefore established a permissive rather than causal result: multiple affected
+
+       genes are present in adult ocular tissue, so retinal mechanisms cannot be excluded on
+
+expression grounds. The phase then moved to cell-resolved localization because bulk retinal
+
+abundance could not distinguish photoreceptor, RPE, glial, vascular, immune, or inner-retinal
+
+contributions.
+
+Phase 3B-3C: Retinal Cell Types and RPE-Centered Convergence
+
+       Human retinal single-cell resources provide a substantially stronger anatomical test.
+
+Cowan and colleagues sequenced 285,441 single cells from retinal organoids across
+
+developmental time points and from adult human peripheral retina, fovea, pigment epithelium,
+
+and choroid, demonstrating that retinal disease-related genes can show marked cell-type
+
+specificity (Cowan et al.). Independent adult retinal atlases likewise resolve foveal and peripheral
+                                                                                                     169
+
+retinal cell populations at single-cell scale (Yan et al.). These datasets make it possible to ask
+
+whether mechanistically related deletion genes actually occupy compatible retinal compartments.
+
+       The strongest Phase 3 retinal result is the RPE-centered convergence of INPP5K,
+
+PITPNA, and SERPINF1. Human Protein Atlas single-cell annotations classify INPP5K as
+
+group-enriched in retinal pigment epithelial cells and place it in an RPE-associated expression
+
+cluster. PITPNA is cell-type enhanced in RPE, while SERPINF1 is group-enriched in RPE and
+
+decidual stromal cells (Human Protein Atlas, “INPP5K”; Human Protein Atlas, “PITPNA”;
+
+Human Protein Atlas, “SERPINF1”). This is important because the three genes are not merely
+
+co-expressed names: their known molecular functions occupy complementary membrane, lipid,
+
+phosphoinositide, and trophic biology. Phase 3 does not claim that they form a single
+
+biochemical complex or that their heterozygous loss produces a measured RPE defect. It
+
+establishes spatial opportunity for functional convergence.
+
+       PRPF8 presents a different pattern. It is broadly expressed in retina and is biologically
+
+relevant to retinal disease under established variant mechanisms, but its expression is not
+
+restricted to one RPE or photoreceptor subtype. Consequently, PRPF8 is best treated as a broadly
+
+available RNA-processing constraint rather than evidence for the RPE membrane module. Its
+
+presence may matter if future perturbational work demonstrates altered splicing in affected visual
+
+cells, but expression alone cannot supply that missing step.
+
+       TLCD2 provides a weaker but potentially informative signal. Current Human Protein
+
+Atlas single-cell annotation lists cone photoreceptor cells among TLCD2-enhanced cell types,
+
+while bulk retina RNA is detectable (Human Protein Atlas, “TLCD2”). This supports a
+
+preliminary cone-associated expression opportunity. It does not establish that TLCD2 dosage
+                                                                                              170
+
+affects cone membrane composition in the deletion carrier, nor that such an effect contributes to
+
+photophobia, pattern glare, color processing, or another visual phenotype.
+
+          WDR81 did not produce the expected mature retinal neuronal convergence with RILP.
+
+Human Protein Atlas annotations describe WDR81 as having low overall cell-type specificity
+
+with enhancement in microglia among several cell types (Human Protein Atlas, “WDR81”).
+
+RILP, by contrast, is assigned to a neuronal neurotransmission-and-signaling expression cluster
+
+in the broader single-cell atlas (Human Protein Atlas, “RILP”). These findings do not
+
+demonstrate a shared adult retinal neuronal trafficking module. The WDR81-RILP relationship
+
+therefore remained mechanistically plausible from Phase 2 but anatomically unresolved in adult
+
+retina.
+
+          The retinal conclusion is correspondingly asymmetric. INPP5K-PITPNA-SERPINF1
+
+represents the strongest direct cell-localized convergence in Phase 3. PRPF8 contributes broad
+
+retinal RNA-processing opportunity; TLCD2 has preliminary cone-associated support;
+
+RTN4RL1 is expressed in retina but lacks demonstrated retinal-ganglion-cell enrichment; and
+
+WDR81-RILP co-localization in mature retinal neurons has not been established.
+
+Phase 3D: Human dLGN and the Magnocellular Hypothesis
+
+Phase 3D tested whether the deletion genes preferentially map to the magnocellular
+
+          visual pathway. This was a particularly important falsification test because a
+
+magnocellular model could otherwise become an attractive but weakly constrained explanation
+
+for visual discomfort or contrast-related symptoms. Bakken and colleagues profiled primate
+
+dLGN using single-cell and single-nucleus RNA sequencing, including nuclei from anatomically
+
+defined human magnocellular, parvocellular, and koniocellular regions. They identified four
+
+principal thalamocortical neuron types in primates but found relatively few strong transcriptional
+                                                                                                171
+
+differences between M and P populations despite their well-known morphological and
+
+physiological differences (Bakken et al.).
+
+       In human dLGN, M and P neurons largely occupy a shared transcriptomic MP cluster
+
+with a gradient rather than two completely separate molecular classes. Published M-associated
+
+markers include CRH and SUSD2, whereas EPHA7 is among validated P-associated markers;
+
+the study also identifies K-cell classes separately (Bakken et al.). None of the affected 17p13.3
+
+loci emerged as a defining published M, P, or principal K marker in this analysis.
+
+       This is a negative result with a specific meaning. It does not show that the deletion genes
+
+are absent from magnocellular neurons. It shows that the available human dLGN transcriptomic
+
+evidence does not support preferential magnocellular enrichment. Because M and P neurons are
+
+themselves transcriptomically similar, absence from a marker list cannot be treated as proof of
+
+equal functional importance in both populations. Nevertheless, the data fail to support a
+
+deletionwide magnocellular-specific mechanism. Hypothesis H5 is therefore classified as
+
+unsupported.
+
+Phase 3E: Adult Human V1 and Central Cortical Distribution
+
+Phase 3E extended the analysis from the thalamus to human cerebral cortex, with
+
+       particular interest in V1. Large adult human brain atlases demonstrate extensive neuronal
+
+and glial diversity across the brain and provide a framework for distinguishing broadly expressed
+
+genes from regionally specialized programs. Siletti and colleagues profiled more than three
+
+million nuclei from approximately one hundred dissections and identified thousands of
+
+transcriptomic subclusters, including area-specific cortical neurons (Siletti et al.).
+
+       Within this framework, several affected genes have credible central-neural expression,
+
+but the interval does not emerge as a coherent adult V1-specific program. RILP gains support as
+                                                                                                   172
+
+a neuronal gene because the Human Protein Atlas places it in a neuronal neurotransmission-
+
+andsignaling expression cluster (Human Protein Atlas, “RILP”). RTN4RL1 has human
+
+cerebralcortex and retinal expression and is classified as tissue enriched in cerebral cortex in
+
+current Human Protein Atlas protein-summary metadata, but this does not establish V1 or
+
+cortical-layer specificity (Human Protein Atlas, “RTN4RL1”). PITPNA and INPP5K remain
+
+broadly available rather than demonstrably V1-selective.
+
+       SERPINF1 retains trophic and vascular/glial opportunities in central tissue but does not
+
+reproduce the same sharply localized RPE pattern in V1. WDR81 and RILP remain compatible
+
+with endosomal and neuronal trafficking biology, yet Phase 3E found no evidence that WDR81-
+
+RILP-RTN4RL1 form a synchronized adult V1 cell-type module. PRPF8 and RPA1 are even
+
+less regionally discriminatory because their core functions in RNA processing and genome
+
+maintenance make broad expression biologically expected.
+
+       The adult cortical result therefore favors distributed vulnerability over a simple
+
+visualcortex lesion model. The genes can be biologically active in cortex without being
+
+selectively enriched in V1, layer 4, intratelencephalic neurons, corticothalamic neurons, or
+
+another single cortical class. This distinction became the rationale for Phase 3F: if adult
+
+specificity was weak, developmental timing might still reveal a period during which the deleted
+
+genes are unusually relevant to visual-cortex formation.
+
+Phase 3F: Human Visual-Cortex Development and Developmental Enrichment
+
+Phase 3F initially centered on the developmental multiomic atlas of Wang and colleagues
+
+       and was subsequently broadened to independent cortical arealization and spatial-
+
+transcriptomic resources. Wang et al. analyzed 27 brain specimens and 38 biological samples
+
+spanning five developmental stages from the first trimester through adolescence. Paired single-
+                                                                                                  173
+
+nucleus RNAseq and ATAC-seq were generated from PFC and V1, producing 243,535 nuclei
+
+after initial quality control and a final cortical dataset of approximately 232,000 nuclei. The
+
+study resolved progenitor, neuronal, glial, immune, and vascular classes and explicitly modeled
+
+regional developmental differences (Wang et al.).
+
+       The atlas is particularly valuable because it identifies a V1-specific layer-4
+
+intratelencephalic trajectory rather than assuming that all layer-4 neurons are equivalent.
+
+Common and V1-specific EN-L4-IT populations share an early trajectory and diverge later in
+
+development. The authors reported 1,908 differentially expressed genes distinguishing
+
+V1specific from common EN-L4-IT neurons and highlighted markers such as CUX1 and
+
+KCNIP1. Their analysis used sample-level pseudobulk logic with age and dataset effects and
+
+Benjamini- Hochberg multiple-testing correction (Wang et al.). None of the affected 17p13.3
+
+loci is among the conspicuous published markers defining that V1-specific branch.
+
+       A crucial evidence boundary was maintained throughout the Table 18 investigation. The
+
+supplementary archive containing the full differential-expression table is publicly listed, but the
+
+exact per-gene rows for all affected loci were not successfully retrieved in the research
+
+environment. Consequently, Phase 3 does not label the deletion genes statistically nonsignificant
+
+in that comparison. The justified statement is narrower: they are not among the highlighted
+
+defining V1-specific EN-L4-IT markers, while their exact effect sizes and adjusted P values
+
+remain an archival verification item.
+
+       The broadened search materially strengthens the interpretation because independent
+
+datasets show that V1 specialization is readily detectable when present. Bhaduri and colleagues
+
+profiled ten major brain structures and six neocortical areas during peak neurogenesis and early
+
+gliogenesis. They found extensive area-specific differential expression in the second trimester,
+                                                                                               174
+
+including in radial glia, with areal signatures becoming more pronounced as cells differentiate
+
+toward excitatory neurons. Their results support strong frontal-versus-occipital molecular
+
+patterning rather than a cortex that is transcriptionally homogeneous during development
+
+(Bhaduri et al.).
+
+        Qian and colleagues provide an even stronger spatial constraint. Using MERFISH and
+
+complementary approaches, they constructed a spatial atlas exceeding 18 million fetal cortical
+
+cells across eight cortical areas and seven developmental time points. They detected a discrete
+
+V1-V2 molecular boundary by approximately gestational week 20 and found early
+
+synaptogenesis-related changes in V1-specific layer-4 neurons (Qian et al.). Thus, the available
+
+technology and datasets are capable of detecting visual-cortex-specific developmental programs.
+
+The failure of the 17p13.3 interval to emerge as a conspicuous defining program cannot simply
+
+be attributed to an inability of developmental transcriptomics to resolve V1. Developmental
+
+Candidate: WDR81
+
+        WDR81 remains one of the strongest early-development candidates in the interval, but
+
+the evidence supports developmental opportunity rather than V1 specificity. Cross-sectional
+
+developing-brain resources suggest prenatal cortical expression, and its established endosomal
+
+biology gives that expression mechanistic relevance. However, WDR81 is not identified as a
+
+major V1 arealization determinant in the Bhaduri, Wang, or Qian studies. The Phase 3F
+
+classification is therefore: developmental neural relevance, suggestive to moderate; preferential
+
+V1 specification, unsupported. Developmental Candidate: RTN4RL1
+
+        RTN4RL1 is detectably expressed in human retina and brain and has a neuronal
+
+cellsurface biology compatible with neurite and circuit maturation. BrainSpan and Allen
+
+developmental resources provide temporal expression opportunity, while current Human Protein
+                                                                                                  175
+
+Atlas data show cerebral-cortex enrichment at the tissue level (Allen Institute for Brain Science;
+
+Human Protein Atlas, “RTN4RL1”). The expression pattern is better described as
+
+developmentally dynamic than as a simple prenatal peak. Because RTN4RL1 also suffers
+
+nearcomplete canonical coding loss on the affected allele, it remains a high-priority mechanistic
+
+candidate. Yet it is not established as a V1-specific arealization gene. Developmental Candidate:
+
+RILP
+
+       RILP retains a credible neuronal trafficking role but has weaker evidence for early
+
+cortical specification. Its neuronal expression-cluster assignment supports central-neural
+
+opportunity (Human Protein Atlas, “RILP”), while the developmental atlases do not identify it as
+
+a major V1 arealization or layer-4 determinant. The most conservative interpretation is that RILP
+
+may matter during neuronal maturation and endolysosomal cargo transport rather than during
+
+initial specification of V1 identity. Developmental Candidate: SERPINF1
+
+       SERPINF1 bridges the strongest retinal result and the developmental-cortical analysis. Its
+
+RPE enrichment is direct, while a 2026 developmental-brain analysis reported a rapid increase in
+
+SERPINF1 expression between approximately 24 gestational weeks and four months after birth
+
+(Musante et al.). This observation is secondary to that study's primary disease question, so it
+
+should not be over-weighted; nevertheless, it supports a developmental trophic opportunity
+
+during the late-prenatal to early-postnatal transition. It does not establish V1 specificity.
+
+Functional Ordering without a Demonstrated Molecular Chain
+
+       The broadened developmental evidence permits a cautious temporal functional model:
+
+WDR81 is most compatible with earlier endosomal and developmental regulation; RTN4RL1
+
+with later structural, neurite, and circuit-maturation opportunity; and RILP with neuronal
+
+endolysosomal transport during maturation. This ordering is an inference assembled from
+                                                                                                176
+
+independent functional and expression observations. It is not evidence that one gene activates the
+
+next, that the genes form a shared transcriptional module, or that heterozygous loss produces a
+
+sequential biochemical cascade.
+
+       Wang et al. also inferred hundreds of enhancer-associated regulatory programs from
+
+paired RNA and chromatin-accessibility data. The presence of a mapped regulatory landscape
+
+makes a shared deletion-specific V1 regulon testable in principle. At present, however, no
+
+published result establishes that the affected genes constitute a coordinated V1-specific
+
+eRegulon. Regulatory hypothesis H6 therefore remains technically testable but unsupported at
+
+the deletion-module level.
+
+       Integrated Gene-Level Interpretation
+
+       INPP5K. Strong RPE localization opportunity; phosphoinositide biology makes the RPE
+
+finding mechanistically coherent. Developmental cortical expression is compatible with a
+
+broader role, but V1 specificity is not demonstrated. Evidence status: established RPE expression
+
+opportunity; developmental regional specificity unsupported.
+
+       PITPNA. RPE-enhanced expression and neuronal/synaptic biology support
+
+membranelipid opportunity in retina and brain. The strongest Phase 3 use of PITPNA is as part
+
+of the RPEcentered convergence, not as a V1 marker. Evidence status: established RPE
+
+opportunity; V1 specificity unsupported.
+
+       SLC43A2. Expression opportunity is broad and not strongly visual-system-specific in the
+
+reviewed Phase 3 resources. Evidence status: low discriminatory value for Phase 3.
+
+       SCARF1. The available expression pattern is more compatible with immune/vascular
+
+biology than a specialized retinal-neuronal or V1 program. Evidence status: low support for a
+
+direct visual-neuronal localization hypothesis.
+                                                                                               177
+
+       RILP. Central neuronal expression is supported, and its trafficking function remains
+
+mechanistically relevant. Adult retinal neuronal co-localization with WDR81 and developmental
+
+V1 specificity are not demonstrated. Evidence status: moderate neuronal opportunity; specific
+
+visual module unresolved.
+
+       PRPF8. Broad retinal and neural expression is expected for a core spliceosomal factor. It
+
+remains biologically important but spatially nondiscriminatory. Evidence status: strong
+
+expression opportunity; low regional specificity.
+
+       TLCD2. Bulk retinal expression and cone-photoreceptor enhancement provide a
+
+preliminary cell-type lead. Evidence status: suggestive cone-associated opportunity; mechanistic
+
+and dosage consequences untested.
+
+       WDR81. Developmental and central-neural opportunity is supported, with microglial
+
+enhancement in current single-cell annotations. It remains a strong developmental candidate
+
+because of independent endosomal biology, not because it is a V1-specific marker. Evidence
+
+status: moderate developmental relevance; V1 specificity unsupported.
+
+       SERPINF2. Phase 3 provides little evidence for a specialized visual-neural expression
+
+pattern. Evidence status: low visual-system discriminatory value.
+
+       SERPINF1. Strong RPE enrichment and late-prenatal/early-postnatal developmental
+
+expression dynamics make SERPINF1 one of the most spatially informative genes in the
+
+interval. Evidence status: strong retinal/RPE opportunity; developmental trophic opportunity
+
+supported; V1 specificity unsupported.
+
+       SMYD4. Broad/low-specificity expression provides little anatomical discrimination.
+
+Evidence status: low Phase 3 specificity.
+                                                                                               178
+
+       RPA1. Broad expression is consistent with genome-maintenance function. Its importance
+
+is more likely to emerge through dosage-sensitive cellular stress than visual-system localization.
+
+Evidence status: strong general cellular opportunity; low visual specificity.
+
+       RTN4RL1. Retinal and cortical expression plus severe allelic coding disruption make
+
+RTN4RL1 a high-priority neuronal candidate. Cell-surface and circuit-maturation biology are
+
+compatible with visual-neural relevance, but retinal-ganglion-cell, V1-layer, and magnocellular
+
+specificity remain unproven. Evidence status: moderate-to-high neural opportunity; regional
+
+specificity unsupported.
+
+       PITPNA-AS1 / MIR22HG / MIR22 / RN7SL105P. Available Phase 3 assays are
+
+inadequate for confident visual-system localization of these noncoding loci, especially mature
+
+MIR22. Evidence status: technically underdetermined; no negative inference from ordinary
+
+snRNA-seq is permitted.
+
+       Hypothesis Adjudication
+
+       H1: Membrane/endosomal colocalization. Partially supported. The strongest celllocalized
+
+evidence is the RPE-centered INPP5K-PITPNA-SERPINF1 configuration. A comparable
+
+deletion-wide neuronal module has not been demonstrated in retina, dLGN, or V1.
+
+       H2: Direct retinal localization. Supported for selected genes, especially INPP5K,
+
+PITPNA, SERPINF1, PRPF8, TLCD2, and RTN4RL1 at differing levels of cellular resolution.
+
+Direct localization does not establish pathological effect.
+
+       H3: WDR81-RILP trafficking overlap. Mechanistically plausible but anatomically
+
+unresolved. Adult retinal neuronal co-localization is not demonstrated; developmental evidence
+
+is more compatible with temporally distributed roles.
+                                                                                                 179
+
+       H4: Developmental enrichment. Partially supported. Several genes have credible
+
+developmental cortical opportunity, but the interval is not demonstrated as a V1-specific
+
+developmental program.
+
+       H5: Magnocellular specificity. Unsupported. Human dLGN transcriptomics does not
+
+identify the affected loci as defining magnocellular markers, and no later developmental
+
+evidence restores this hypothesis.
+
+       H6: Shared V1 regulatory overlap. Presently unsupported. Modern multiomic atlases
+
+make the question testable, but no shared affected-gene V1-specific eRegulon has been
+
+established.
+
+       Interpretive Synthesis: Developmental and Cellular Functional Reserve
+
+       The most defensible lay and technical synthesis of Phase 3 is a functional-reserve model.
+
+Several genes in the deletion are expressed in biologically relevant visual or neural
+
+compartments, and some occupy complementary molecular systems. In RPE, the convergence is
+
+unusually concrete because INPP5K, PITPNA, and SERPINF1 share cell-type opportunity while
+
+contributing to phosphoinositide, lipid/membrane, and trophic biology. In the developing cortex,
+
+WDR81, RTN4RL1, RILP, SERPINF1, PRPF8, and RPA1 provide different forms of
+
+developmental or cellular opportunity, but not a single V1-specific transcriptional program.
+
+       The term functional reserve is preferable to assuming a fixed fifty-percent loss of
+
+function. A heterozygous deletion removes one genomic copy, but the downstream protein or
+
+pathway effect depends on transcriptional compensation, protein stability, feedback regulation,
+
+redundant pathways, cell type, developmental stage, and physiological demand. Phase 3
+
+therefore supports the proposition that the deletion could reduce reserve in several molecular
+
+systems; it does not quantify that reduction.
+                                                                                              180
+
+       Likewise, the project has not yet demonstrated a complete chemical or molecular chain
+
+linking the deletion to a visual-neural phenotype. Individual biochemical functions are known:
+
+INPP5K acts in phosphoinositide metabolism; PITPNA participates in
+
+phosphatidylinositol/phosphatidylcholine transfer; WDR81 and RILP participate in
+
+endosomal/lysosomal trafficking; SERPINF1/PEDF has trophic and lipid-linked retinal biology;
+
+PRPF8 is a core spliceosomal component; RPA1 supports replication and genome maintenance;
+
+and RTN4RL1 is a neuronal surface receptor-family protein. What remains unproven is the
+
+connecting chain from heterozygous dosage reduction to altered pathway chemistry in the
+
+relevant human visual cell, then to altered circuit function, and finally to a reproducible
+
+phenotype.
+
+       Negative Findings and Falsification Value
+
+Phase 3 generated several negative findings that materially constrain the research. First,
+
+       the deletion does not presently support a magnocellular-specific model. Second, adult V1
+
+does not reveal a deletion-wide region- or layer-specific expression program. Third, the mature
+
+retinal WDR81-RILP trafficking pair was not demonstrated as a shared neuronal module. Fourth,
+
+the developmental interval genes do not emerge among the conspicuous V1-specific layer-4
+
+markers in modern human developmental atlases. Fifth, no shared V1-specific regulatory
+
+network among the affected genes has been established.
+
+       These negative findings are not failures of the project. They reduce the number of
+
+plausible mechanistic models and prevent the analysis from drifting toward a preferred
+
+phenotype narrative. The strongest surviving model is more distributed: retinal/RPE
+
+membranetrophic vulnerability combined with central-neural developmental, trafficking, RNA-
+                                                                                                181
+
+processing, and genome-maintenance constraints. This model is less anatomically simple but
+
+better aligned with the evidence.
+
+       Limitations
+
+       The principal limitation is that expression is not perturbation. None of the reviewed
+
+atlases directly measures the molecular state of cells carrying this specific heterozygous deletion.
+
+Normal-reference expression establishes opportunity, not dosage response. A gene may be
+
+highly expressed yet fully compensated after heterozygous loss, or modestly expressed yet
+
+functionally dose-sensitive.
+
+       Second, cell-resolved atlases have sampling and technical limitations. Single-nucleus
+
+methods can underrepresent cytoplasmic transcripts, rare cell populations can be missed, and
+
+regional dissections are imperfect. The dLGN study itself notes practical limitations in isolating
+
+thin K layers (Bakken et al.). Spatial assays solve some localization problems but often measure
+
+restricted gene panels or snapshots rather than complete developmental trajectories.
+
+       Third, developmental datasets are generally cross-sectional across different donors.
+
+Apparent age-related changes should not be interpreted as within-person trajectories unless the
+
+analysis explicitly models age across samples. The older Allen/BrainSpan signals used in Phase
+
+3F were therefore treated as supportive context, not definitive temporal kinetics.
+
+       Fourth, the full gene-level statistics from Wang et al. Supplementary Table 18 remain
+
+incompletely extracted for the affected loci. This prevents a formal statement that each gene is
+
+statistically nonsignificant in the V1-specific versus common EN-L4-IT comparison. The correct
+
+record is that none is among the conspicuous published defining markers and exact per-gene
+
+statistics remain pending archival verification.
+                                                                                                182
+
+       Finally, the available evidence does not justify attributing Irlen Syndrome, visual stress,
+
+photophobia, pattern glare, cortical hyperexcitability, epilepsy, retinal degeneration, or another
+
+clinical phenotype to this deletion. If later phases address such phenomena, they should be
+
+decomposed into measurable traits and tested against molecular and physiological data rather
+
+than treated as a single genetically established syndrome.
+
+Phase 3 Final Conclusion
+
+Phase 3 establishes that the 17p13.3 deletion intersects multiple genes with credible
+
+       spatial and temporal opportunity in the human visual system. The strongest direct
+
+anatomical convergence is RPE-centered and involves INPP5K, PITPNA, and SERPINF1.
+
+Additional genes contribute broader retinal, neuronal, cortical, developmental, or cellular-
+
+maintenance opportunity. Human dLGN data do not support preferential magnocellular
+
+enrichment. Adult cortical data favor distributed rather than V1-specific expression.
+
+Developmental multiomic and spatial atlases demonstrate that V1-specific programs are
+
+detectable, yet the affected interval does not presently emerge as a major defining V1
+
+developmental module.
+
+       The resulting evidence supports moderate mechanistic plausibility for a distributed
+
+reduction in visual-neural developmental and cellular functional reserve. It does not establish a
+
+direct dosage-to-chemistry-to-circuit-to-phenotype chain. Phase 4 should therefore shift from
+
+expression opportunity toward perturbational evidence: whether heterozygous reduction of the
+
+highest-priority genes measurably changes phosphoinositide handling, membrane composition,
+
+endosomal trafficking, trophic signaling, RNA processing, genome-stress responses,
+
+neurite/circuit maturation, or combinations of these processes in relevant human cellular models.
+                                                                                              183
+
+Phase 3 Frozen Record
+
+Phase 3 may be considered substantively complete subject to one archival refinement:
+
+       retrieval of exact affected-gene rows from Wang et al. Supplementary Table 18. That
+
+unresolved lookup should remain recorded as a quantitative limitation rather than converted into
+
+a negative biological result. The principal conclusions are sufficiently replicated across
+
+independent retinal, dLGN, adult-brain, developmental multiomic, and spatial-transcriptomic
+
+resources to support transition to Phase 4.
+

@@ -1,0 +1,196 @@
+                                                                                                 245
+
+                                              Phase 5
+
+ Deterministic Evidence Integration and Reproducibility Analysis - Available Frozen Summary
+
+                                                v1.0
+
+Phase 5 - Casual Reader Summary
+
+        What the genome research found, without the technical detail. FROZEN SCIENTIFIC
+
+RECORD - VERSION 1.0. Prepared by Zachariah P. Laing, 29 September 2026.
+
+This is a plain-language companion to the frozen Phase 5 scientific record. It simplifies
+
+terminology but does not change the scientific conclusion.
+
+The short version
+
+        The deletion does not look biologically meaningless. It removes or disrupts a group of
+
+genes that have real roles in the retina, brain development, nerve-cell communication, membrane
+
+biology, cellular cleanup, and stress responses. The evidence does not point cleanly to one single
+
+gene as the explanation, and it also does not support treating every deleted gene as an equal 50%
+
+loss.
+
+        The best overall explanation is that the deletion may reduce biological "reserve" across
+
+several systems at once. In this model, many individual effects can be mild, partly compensated,
+
+or only become important under stress. That fits the available research better than a single-gene
+
+explanation or a simple sum of seventeen harmful effects.
+
+        The original question involved photosensitivity and visually triggered seizures. Phase 5
+
+does not prove that connection. Instead, it shows that broader eye and brain phenotypes are
+
+currently better supported than photosensitivity itself.
+                                                                                                246
+
+What appears most worth paying attention to
+
+1. Retinal/RPE functional reserve - This is the strongest eye-related signal. Several deleted
+
+   genes affect photoreceptors, retinal support cells, cilia, phagocytosis, or retinal maintenance.
+
+2. Brain development and neural-network organization - Several genes affect neurites,
+
+   synapses, neuronal survival, trafficking, or coordinated network activity.
+
+3. Stress-dependent vulnerability - A recurring pattern is that cells may look relatively normal
+
+   at baseline but become less resilient under injury, oxidative stress, heavy activity, aging, or
+
+   other challenge.
+
+4. Seizure susceptibility / epileptogenesis - There is some direct epilepsy-related evidence,
+
+   especially around MIR22, but it does not show that this exact one-copy deletion causes
+
+   epilepsy.
+
+5. Retinal timing / visual signal processing - Plausible, but not directly measured in the exact
+
+   CNV.
+
+6. Cortical synchronization / flicker entrainment - Mechanistically relevant, but currently a
+
+   missing link rather than a demonstrated phenotype.
+
+7. Photosensitivity / photoparoxysmal response - Still plausible, but it sits furthest downstream
+
+   and currently has the least direct evidence of the major candidate outcomes.
+
+Why one gene is probably not the whole story
+
+       Some genes in the deletion have very strong eye or brain effects when they are
+
+completely knocked out or heavily damaged. The problem is that the actual CNV is
+
+heterozygous: one copy is affected and one copy remains. For several genes, one copy is enough
+
+to avoid the severe phenotype seen in full knockouts.
+                                                                                                 247
+
+       PRPF8 is a good example: reduced RNA does not necessarily mean reduced protein.
+
+PITPNA and WDR81 show threshold or recessive behavior, where the severe phenotype appears
+
+mainly after much greater loss of function. That makes it risky to claim that any one of these
+
+genes automatically explains the whole CNV phenotype.
+
+Why "all the genes add up" is also too simple
+
+       Not every deleted gene pushes biology in the same direction. In some experiments, losing
+
+TLCD2, MIR22HG, or SERPINF2 can actually be protective under specific stress conditions.
+
+RTN4RL1 loss can reduce coordinated neural activity rather than increase it. These findings do
+
+not make the genes irrelevant; they show that their effects depend on context.
+
+       That is why the leading model is a distributed reserve model rather than a simple
+
+arithmetic total of gene losses.
+
+What the simulations actually contributed
+
+       The simulations were not used to invent biological evidence. They were used to answer
+
+methodological questions: how many biological replicates would be needed, how easily small
+
+effects could be missed, how often frequency scans generate false positives, and whether a
+
+distributed mechanism could be mistaken for a single-gene mechanism.
+
+   The final standardized simulation suite used 20,000 replicates per scenario/cell where
+
+    applicable, totaling about 1.88 million primary stochastic draws/resamples.
+
+   With that many runs, Monte Carlo sampling error became very small; the larger uncertainty
+
+    now comes from biology, not from the number of simulations.
+
+   Small one-copy effects can be difficult to detect with too few independent cell lines or
+
+    clones.
+
+   Using many cells from the same clone does not replace independent biological replication.
+                                                                                                248
+
+   Scanning many flicker frequencies without correction can produce apparently significant
+
+    results by chance surprisingly often.
+
+   Small datasets can make a distributed mechanism look like a simpler single-gene
+
+    explanation.
+
+So what does Phase 5 actually conclude?
+
+       The deletion is best viewed as a candidate distributed visual-neural reserve lesion, not as
+
+a proven single-gene photosensitivity mutation.
+
+       The strongest candidate consequences are subtle retinal/RPE dysfunction, altered neural
+
+development or network organization, and reduced resilience under stress. There is also
+
+moderate support for an effect on seizure susceptibility or epileptogenesis. Photosensitivity
+
+remains possible, but the key physiological chain from the retina through the thalamus and visual
+
+cortex to a photoparoxysmal response has not been directly measured for this exact CNV.
+
+What has NOT been proven
+
+   That every deleted gene loses exactly half of its function.
+
+   That the genes act synergistically.
+
+   That the exact CNV causes a measurable retinal abnormality.
+
+   That the CNV causes abnormal visual-cortex excitation or flicker entrainment.
+
+   That the CNV causes a photoparoxysmal response or visually triggered seizure.
+
+   That one specific gene is the sole driver.
+
+Why the result is still useful
+
+       The project started with a broad question about photosensitivity. Phase 5 narrowed the
+
+problem. It now appears more defensible to study the CNV as a broader visual-neural reserve
+
+problem, with retinal maintenance, neural-network organization, and stress response as the
+                                                                                               249
+
+strongest candidate phenotype domains. That is more specific than simply saying "we do not
+
+know," while still respecting the fact that the missing physiological measurements have not been
+
+made.
+
+        The next project stage, Phase 6 - Conclusion, integrates this frozen Phase 5 record with
+
+the earlier genomic, mechanistic, and expression phases. Phase 6 is a separate master conclusion
+
+and does not alter the frozen Phase 5 findings.
+
