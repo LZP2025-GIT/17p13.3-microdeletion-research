@@ -1,0 +1,1335 @@
+                                                                                                4
+
+                                              Phase 1
+
+            Locus Characterization and Structural Definition of the 17p13.3 Microdeletion
+
+1. Research Objective
+
+Phase 1 establishes the structural genomic foundation for the larger investigation of an
+
+intersti-
+
+       tial 17p13.3 microdeletion and its possible downstream molecular, biochemical,
+
+neurological, and visual-system effects. The index deletion was reported as:
+
+GRCh37/hg19 chr17:1,411,408–1,841,103
+
+       The objectives of this phase were to determine:
+
+1. the exact genomic interval being studied;
+
+2. all identifiable genes and other annotated loci intersected by that interval;
+
+3. which protein-coding genes are fully versus partially deleted;
+
+4. whether the two breakpoint-intersected genes, INPP5K and RTN4RL1, lose actual
+
+protein-
+
+       coding sequence;
+
+5. the relationship of each breakpoint to the current clinically standardized transcript;
+
+6. the approximate percentage of coding sequence removed from each breakpoint gene;
+
+7. which noncoding RNAs and pseudogenes are contained within the interval;
+
+8. which nearby loci should explicitly be excluded;
+
+9. and which structural questions remain unresolved because the reported clinical
+
+coordinates may
+
+       not represent nucleotide-level chromosome junctions. This phase is deliberately restricted
+
+to structural genomic characterization. No visual, neurological, developmental, or other
+                                                                                                  5
+
+phenotype is inferred from the presence of a gene inside the deletion. The final product of the
+
+phase is designated:
+
+17p13.3 Deletion Map v1.0
+
+2. Reproducibility Standard
+
+       A researcher reproducing this analysis should maintain a record of:
+
+   database name;
+
+   database or annotation release when available;
+
+   access date;
+
+   genome assembly;
+
+   chromosome;
+
+   genomic coordinates;
+
+   transcript accession;
+
+   transcript version;
+
+   protein accession;
+
+   strand;
+
+   source URL or database accession;
+
+   calculations performed;
+
+   interpretation;
+
+   and unresolved discrepancies.
+
+       The project should preferably use a directory structure such as:
+
+Phase_1_Locus_Characterization/ │ ├──01_raw_coordinates/ ├──02_gene_annotations/
+
+├──03_transcripts/ ├──04_clinvar_landmarks/ ├──05_ccds/ ├──06_non_coding_loci/
+                                                                                  6
+
+├──07_calculations/ ├──08_figures/ ├──09_source_archive/ └──README.txt A master
+
+spreadsheet should contain at minimum:
+
+       Field
+
+       Description
+
+       Source
+
+       NCBI, Ensembl, ClinGen, etc.
+
+       Assembly
+
+       GRCh37, GRCh38
+
+       Chromosome
+
+       chr17
+
+       Start
+
+       Genomic start
+
+       End
+
+       Genomic end
+
+       Strand
+
+       + or −
+
+       Gene
+
+       HGNC gene symbol
+
+       Gene type
+
+       Protein coding, ncRNA, pseudogene
+
+       Transcript
+
+       Accession.version
+
+       CNV state
+                                                                                                     7
+
+       Full / partial / outside
+
+       Coding affected
+
+       Yes / No / unresolved
+
+       Evidence
+
+       Source supporting classification
+
+       Access date
+
+       Date data were retrieved
+
+       Notes
+
+       Annotation discrepancies or caveats This prevents later phases from relying upon
+
+browser screenshots or undocumented manual interpretation.
+
+3. Coordinate System and Genome Assembly
+
+3.1 Freeze the genome assembly
+
+       The first requirement is to preserve the genome assembly exactly as reported. The index
+
+finding uses:
+
+GRCh37 / hg19
+
+       For NCBI, the corresponding reference assembly is:
+
+GRCh37.p13 — GCF_000001405.25
+
+       NCBI maintains GRCh37.p13 annotation resources, while Ensembl maintains a dedicated
+
+GRCh37 archive. The Ensembl GRCh37 gene annotation is based on an older frozen gene build,
+
+whereas some variation and phenotype information continues to receive updates. Consequently,
+
+Ensembl GRCh37 and current RefSeq/MANE annotations should not be expected to contain
+
+identical transcript versions. (ncbi.nlm.nih.gov) The working rule for this study is therefore: Do
+
+not mix GRCh37 and GRCh38 coordinates within a single structural calculation. If a source
+                                                                                                   8
+
+provides only GRCh38 coordinates, those coordinates must either be excluded from the GRCh37
+
+calculation or deliberately converted using a documented assembly-conversion method.
+
+3.2 Preserve the original clinical coordinates
+
+        Create a source record containing: Assembly: GRCh37/hg19 Chromosome: 17 Start:
+
+1,411,408 End: 1,841,103 Variant: deletion If the coordinates are treated as 1-based inclusive,
+
+the nominal interval length is:
+
+                            1, 841, 103 −1, 411, 408 + 1 = 429, 696 bp
+
+        or approximately:
+
+429.7 kb
+
+        The clinical description of >430 kb should be preserved as reported rather than silently
+
+changed, because clinical microarray boundaries may reflect probe resolution, reporting
+
+conventions, or approximate interval designation. For calculations in this project, the explicit
+
+genomic coordinates take precedence over the rounded verbal size.
+
+4. Coordinate-Convention Control
+
+        Coordinate conventions are a potential source of one-base replication errors. NCBI GFF3
+
+annotation uses 1-based coordinates, with the start and end positions representing genomic
+
+feature boundaries. (ncbi.nlm.nih.gov) BED-based formats used by UCSC and many
+
+bioinformatics programs use a 0-based, half-open convention. (genome.ucsc.edu) Therefore the
+
+1-based inclusive interval: chr17:1,411,408-1,841,103 would be represented in BED format as:
+
+chr17
+
+        17p13.3_index_deletion The original clinical coordinates should never be overwritten by
+
+this conversion. Instead preserve both: Clinical/1-based: chr17:1411408-1841103 BED/0-based
+                                                                                                   9
+
+half-open: chr17 1411407 1841103 A peer attempting to reproduce the analysis should verify
+
+which convention is expected by every software package before entering coordinates.
+
+5. Initial Browser Verification
+
+Step 1 — Ensembl GRCh37
+
+        Open the Ensembl GRCh37 Archive and select the human GRCh37 assembly. Search:
+
+17:1411408-1841103 The GRCh37 archive supports direct browsing of genes, transcripts,
+
+noncoding RNAs, structural variants, and regulatory annotations on the older assembly.
+
+(grch37.ensembl.org) Record:
+
+   every visible protein-coding locus;
+
+   every noncoding locus;
+
+   strand orientation;
+
+   apparent breakpoint-intersected genes;
+
+   transcript IDs;
+
+   and any loci lying very close to either boundary.
+
+        Do not yet interpret phenotype relevance. The purpose is to produce an initial candidate
+
+locus list.
+
+Step 2 — NCBI Gene / Genome Data Viewer
+
+        Repeat the interval inspection using NCBI resources. For each candidate locus:
+                                                                                                  10
+
+1. search the official gene symbol in NCBI Gene;
+
+2. locate the Genomic context section;
+
+3. select or identify the GRCh37.p13 row;
+
+4. record the genomic start and end;
+
+5. record strand;
+
+6. record exon count where shown;
+
+7. record RefSeq transcript and protein accessions.
+
+       The same gene should be checked independently in at least two annotation resources
+
+when it lies close to a deletion boundary.
+
+6. Classifying Gene-Level CNV Overlap
+
+       For each gene with genomic interval:
+
+       [𝐺𝑠, 𝐺𝑒] and the deletion:
+
+       [𝐷𝑠, 𝐷𝑒] use the following rules.
+
+Full deletion
+
+       A gene is completely encompassed if:
+
+       𝐺𝑠≥𝐷𝑠 and
+
+       𝐺𝑒≤𝐷𝑒
+
+Partial deletion
+
+       A gene is partially affected if the two intervals overlap but at least one gene boundary
+
+extends outside the deletion. Formally:
+
+       max(𝐺𝑠, 𝐷𝑠) ≤min(𝐺𝑒, 𝐷𝑒) while the full-deletion condition is not satisfied.
+
+Outside
+
+       A gene is outside the deletion if:
+                                                                                                   11
+
+                                             𝐺𝑒< 𝐷𝑠
+
+        or
+
+                                             𝐺𝑠> 𝐷𝑒
+
+        These rules should be applied to genomic coordinates before any functional
+
+interpretation.
+
+7. Identification of the Two Boundary Genes
+
+        Using this interval method, two protein-coding genes intersect the deletion boundaries:
+
+   INPP5K at the lower-coordinate boundary;
+
+   RTN4RL1 at the upper-coordinate boundary.
+
+        The remaining confirmed internal protein-coding genes fall completely inside the
+
+deletion. The next analytical problem is therefore not merely whether INPP5K and RTN4RL1
+
+overlap the deletion, but whether the overlap includes coding sequence.
+
+8. Selecting the Reference Transcript
+
+8.1 Why MANE Select is used
+
+        Transcript selection is necessary because one gene may have multiple isoforms with
+
+different exons and coding boundaries. The Matched Annotation from NCBI and EMBL-EBI
+
+project (MANE) provides a standardized transcript pair in which the RefSeq and
+
+Ensembl/GENCODE representatives are matched in exon structure and coding sequence. MANE
+
+Select is intended to provide one representative transcript per locus and is widely useful for
+
+clinical reporting and genomic research. (ncbi.nlm.nih.gov) For Phase 1, the rule is:
+
+Use the current MANE Select transcript as the primary transcript-level reference
+
+        whenever one is available. Alternative transcripts should be preserved separately rather
+
+than substituted silently.
+                                                                                              12
+
+8.2 INPP5K reference transcript
+
+       Record: Gene: INPP5K RefSeq MANE Select: NM_016532.4 Ensembl MANE Select:
+
+ENST00000421807.7 Protein: NP_057616.2 CCDS: CCDS11004.1 Protein length: 448 aa The
+
+CCDS database confirms that NM_016532.4 and ENST00000421807.7 are accepted MANE
+
+Select members of CCDS11004.1 and encode a 448-amino-acid protein. (ncbi.nlm.nih.gov)
+
+8.3 RTN4RL1 reference transcript
+
+       Record: Gene: RTN4RL1 RefSeq MANE Select: NM_178568.4 Ensembl MANE Select:
+
+ENST00000331238.7 Protein: NP_848663.1 CCDS: CCDS45569.1 Protein length: 441 aa NCBI
+
+identifies RTN4RL1 as a two-exon minus-strand gene and reports NM_178568.4 / NP_848663.1
+
+as the validated RefSeq transcript/protein pair, with CCDS45569.1 as its consensus coding
+
+sequence. (ncbi.nlm.nih.gov)
+
+9. INPP5K Breakpoint Mapping
+
+9.1 Establish genomic orientation
+
+       NCBI places INPP5K on the minus strand. This is critical because transcript direction is
+
+opposite increasing chromosome coordinates. For a minus-strand gene: higher genomic
+
+coordinates = transcript 5′ side lower genomic coordinates
+
+       = transcript 3′ side The deletion begins at: 1,411,408 inside INPP5K. The deleted portion
+
+runs from that point toward the higher-coordinate end of the gene. Therefore: The index deletion
+
+removes the 5′ portion of INPP5K.
+
+10. Using ClinVar as Transcript Landmarks
+
+       ClinVar variant reports provide genomic locations, HGVS expressions, transcript
+
+information, protein changes, and assembly-specific mappings. ClinVar itself distinguishes
+
+calculated molecular consequence from experimentally demonstrated functional consequence,
+                                                                                             13
+
+which is important when interpreting these data. (ncbi.nlm.nih.gov) The method used here is not
+
+to infer pathogenicity from the variants. Instead, known variant coordinates are used as
+
+landmarks linking transcript position to GRCh37 genomic position.
+
+10.1 Search procedure
+
+       For INPP5K:
+
+1. open ClinVar;
+
+2. search INPP5K NM_016532.4;
+
+3. verify that the result uses transcript NM_016532.4;
+
+4. locate the GRCh37 genomic mapping;
+
+5. record both:
+
+   HGVS cDNA coordinate;
+
+   GRCh37 genomic coordinate;
+
+6. compare that genomic coordinate with the deletion boundary.
+
+       The following landmarks were obtained:
+
+       Classification for structural Transcript position
+
+       GRCh37 position
+
+       mapping c.165
+
+       1,416,843
+
+       Deleted side c.277
+
+       1,413,078
+
+       Deleted side c.419
+
+       ~1,412,607
+
+       Deleted side
+                                                                                                  14
+
+       ~1,412,457
+
+       Deleted side c.554+16 c.793
+
+       ~1,401,400
+
+       Retained side The scientific interpretation is independent of the clinical classification of
+
+those individual variants. The only question being asked is: Does this known transcript
+
+coordinate map inside or outside the deletion?
+
+11. INPP5K Breakpoint Bracketing
+
+       Because: c.554+16 →deleted while: c.793 →retained the deletion breakpoint lies
+
+between those transcript regions. This establishes that the deletion extends beyond coding
+
+position c.554 but does not reach the region containing c.793. Direct CCDS/exon reconciliation
+
+further places approximately the first 666 coding nucleotides of NM_016532.4 on the deleted
+
+chromosome segment under the reported-coordinate model. Because the INPP5K protein
+
+contains 448 amino acids:
+
+448 × 3 = 1344
+
+       amino-acid-coding nucleotides. The fraction removed is therefore approximately:
+
+1344 = 0.4955
+
+       or:
+
+       49.6%
+
+Reproducible INPP5K result
+
+       Gene: INPP5K CNV state: Partial Strand: - Affected side: 5′ Coding sequence affected:
+
+Yes Estimated amino-acid-coding sequence removed: ~49.6% Transcript: NM_016532.4 Model
+
+limitation: based on reported CNV coordinates
+                                                                                                 15
+
+12. RTN4RL1 Breakpoint Mapping
+
+12.1 Establish orientation
+
+       RTN4RL1 is also located on the minus strand. Its GRCh37 gene span is approximately:
+
+chr17:1,837,971-1,928,628 while the deletion ends at: 1,841,103 Therefore only the low-
+
+coordinate portion of the genomic gene span overlaps the deletion. Because the gene is on the
+
+minus strand, the low-coordinate segment corresponds to the 3′ side of the transcript. Thus: The
+
+deletion removes the 3′ portion of RTN4RL1.
+
+13. Confirming RTN4RL1 Coding Loss
+
+       Repeat the ClinVar landmark procedure using: NM_178568.4 A useful landmark is:
+
+NM_178568.4:c.1056G>A p.Pro352= which maps to approximately: GRCh37 chr17:1,840,060
+
+Because:
+
+                             1, 411, 408 < 1, 840, 060 < 1, 841, 103
+
+       this coding position lies inside the deleted interval. Therefore: RTN4RL1 coding
+
+sequence is definitively intersected. This conclusion does not depend upon whether the variant
+
+itself is pathogenic, benign, or synonymous. The variant is simply being used as a coordinate
+
+marker.
+
+14. RTN4RL1 Coding-Overlap Calculation
+
+       CCDS45569.1 contains the consensus coding sequence corresponding to the 441-amino-
+
+acid RTN4RL1 protein. Under the reported-coordinate model, approximately: 1,313 of 1,326
+
+CCDS nucleotides fall on the deleted side of the breakpoint. The estimated CCDS loss is
+
+therefore:
+
+1326 = 0.9902
+
+       or approximately:
+                                                                                                  16
+
+        99.0%
+
+Reproducible RTN4RL1 result
+
+        Gene: RTN4RL1 CNV state: Partial Strand: - Affected side: 3′ Coding sequence affected:
+
+Yes Estimated CCDS nucleotide sequence removed: ~99.0% Transcript: NM_178568.4 Model
+
+limitation: based on reported CNV coordinates This illustrates why the percentage of the entire
+
+genomic gene span deleted is not a reliable proxy for the fraction of coding sequence disrupted.
+
+15. Direct GFF3 Validation
+
+        The browser and ClinVar procedure should be independently checked against an
+
+assembly-matched annotation file. NCBI provides GFF3 annotations for annotated genome
+
+assemblies, and GFF3 start/end positions are represented as 1-based genomic coordinates.
+
+(ncbi.nlm.nih.gov) For GRCh37, use an annotation corresponding to: Assembly: GRCh37.p13
+
+Accession: GCF_000001405.25 The NCBI GRCh37 annotation report can be used to document
+
+the annotation release associated with the downloaded file. (ncbi.nlm.nih.gov)
+
+15.1 Manual GFF3 procedure
+
+        Download the GRCh37.p13 GFF3 annotation and search for: NM_016532.4 and:
+
+NM_178568.4 Extract every row where feature type is: exon or: CDS Record:
+
+   chromosome accession;
+
+   feature type;
+
+   start;
+
+   end;
+
+   strand;
+
+   phase;
+
+   transcript accession.
+                                                                                     17
+
+      Create one table per transcript. Example:
+
+      Transcript
+
+      Feature
+
+      Start
+
+      End
+
+      Strand
+
+      Overlap with CNV
+
+      NM_016532.4
+
+      CDS
+
+      X
+
+      Y
+
+      −
+
+      Full/Partial/None
+
+      NM_016532.4
+
+      CDS
+
+      X
+
+      Y
+
+      −
+
+      Full/Partial/None The exact rows should be preserved in the project archive.
+
+16. Computational CDS-Overlap Calculation
+
+      For each coding segment:
+
+      [𝐶𝑠, 𝐶𝑒] and deletion interval:
+
+      [𝐷𝑠, 𝐷𝑒] calculate:
+                                                                                             18
+
+       𝐿𝑜𝑣𝑒𝑟𝑙𝑎𝑝= max (0, min(𝐶𝑒, 𝐷𝑒) −max(𝐶𝑠, 𝐷𝑠) + 1) Then sum across all CDS
+
+segments:
+
+                                          𝐿𝑑𝑒𝑙𝑒𝑡𝑒𝑑= ∑
+
+       𝐿𝑜𝑣𝑒𝑟𝑙𝑎𝑝,𝑖
+
+       𝑖 Calculate total coding length:
+
+                                           𝐿𝐶𝐷𝑆= ∑
+
+       (𝐶𝑒,𝑖−𝐶𝑠,𝑖+ 1)
+
+       𝑖 Then:
+
+                                  %CDS deleted = 𝐿𝑑𝑒𝑙𝑒𝑡𝑒𝑑
+
+                                              × 100
+
+       𝐿𝐶𝐷𝑆 If reporting amino-acid-coding sequence, exclude the stop codon from the
+
+denominator. If reporting CCDS nucleotide sequence, explicitly state whether the stop codon is
+
+included. This distinction explains why the INPP5K result is reported as approximately 49.6% of
+
+amino-acid-
+
+coding sequence, whereas the RTN4RL1 result is described as approximately 99% of
+
+CCDS se-
+
+       quence.
+
+17. Optional BEDTools Replication
+
+       A researcher using BEDTools may create the deletion BED file: chr17
+
+       index_deletion and convert the relevant CDS annotations into BED coordinates. Then
+
+use: bedtools intersect \ -a transcript_CDS.bed \ -b index_deletion.bed \ -wao The output
+
+provides the number of overlapping bases for each CDS feature. Important: GFF3 coordinates
+
+must be converted correctly from 1-based inclusive to 0-based half-open BED coordinates before
+                                                                                                19
+
+performing this analysis. Failure to convert coordinate conventions consistently will produce
+
+boundary errors.
+
+18. IGV Visual Quality-Control Procedure
+
+       IGV may be used as an independent visual check.
+
+Procedure
+
+1. open IGV;
+
+2. select the hg19/GRCh37 human genome;
+
+3. navigate to:
+
+       chr17:1,350,000-1,950,000
+
+4. load the deletion as a BED track;
+
+5. display gene/transcript annotation;
+
+6. zoom into the lower breakpoint around:
+
+       chr17:1,411,408
+
+7. zoom into the upper breakpoint around:
+
+       chr17:1,841,103
+
+8. confirm visually that:
+
+   INPP5K crosses the lower deletion boundary;
+
+   RTN4RL1 crosses the upper deletion boundary;
+
+   the internal genes lie within the deletion;
+
+   RTN4RL1-AS1 lies outside the interval.
+
+       IGV should be treated as visual quality control, not as the sole source of numeric
+
+coordinates. Numeric calculations should derive from exported annotation data.
+                                                                                                20
+
+19. Census of Fully Deleted Protein-Coding Genes
+
+       After establishing the breakpoint genes, query every locus between the two boundaries.
+
+For each candidate:
+
+1. retrieve its GRCh37 gene coordinates;
+
+2. apply the full/partial/outside equations;
+
+3. independently confirm boundary-near genes;
+
+4. record gene type;
+
+5. avoid phenotype interpretation at this stage.
+
+       The final confirmed protein-coding inventory is:
+
+       Gene
+
+       Structural classification
+
+INPP5K
+
+       Partial; 5′ coding disruption
+
+       Fully encompassed
+
+PITPNA
+
+SLC43A2
+
+       Fully encompassed
+
+SCARF1
+
+       Fully encompassed
+
+RILP
+
+       Fully encompassed
+
+PRPF8
+
+       Fully encompassed
+                                                                                                21
+
+TLCD2
+
+       Fully encompassed
+
+       Fully encompassed
+
+WDR81
+
+SERPINF2
+
+       Fully encompassed
+
+SERPINF1
+
+       Fully encompassed
+
+SMYD4
+
+       Fully encompassed
+
+RPA1
+
+       Fully encompassed
+
+RTN4RL1
+
+       Partial; 3′ coding disruption Thus:
+
+11 fully encompassed protein-coding genes
+
+2 partially coding-disrupted protein-coding genes
+
+13 affected protein-coding loci total
+
+20. Noncoding RNA Census
+
+       A protein-coding-only search is insufficient for complete structural characterization.
+
+Repeat the interval query while including:
+
+   lncRNA;
+
+   antisense RNA;
+
+   microRNA;
+                                                                                                22
+
+   host RNA genes;
+
+   pseudogenes;
+
+   other annotated RNA loci.
+
+20.1 PITPNA-AS1
+
+         NCBI identifies PITPNA-AS1 as a validated antisense noncoding RNA locus. Relevant
+
+validated transcript: NR_028514.1 Coordinate comparison places the locus completely inside the
+
+deletion. Classification: FULL
+
+20.2 MIR22HG
+
+         Record: Gene: MIR22HG GRCh37: chr17:1,614,798-1,619,504 Strand: - Type:
+
+noncoding RNA host gene Validated transcripts include: NR_028503.2 NR_028504.2
+
+NR_028505.2 All genomic coordinates fall inside the deletion. Classification: FULL
+
+20.3 MIR22
+
+         Record: Gene: MIR22 GRCh37: chr17:1,617,197-1,617,281 Strand: - Type: microRNA
+
+RefSeq: NR_029494.1 Classification: FULL No phenotype interpretation is assigned at this
+
+stage.
+
+21. Pseudogene Census
+
+         An expanded interval search identified: RN7SL105P with GRCh37 coordinates:
+
+chr17:1,507,668-1,507,966 The locus lies completely inside the deletion. Classification: FULL
+
+Its biological relevance to the study is currently: UNSUPPORTED / UNKNOWN It should
+
+nevertheless be retained in the structural map because Phase 1 records what is physically deleted,
+
+not merely what is presently believed to be clinically significant.
+                                                                                             23
+
+22. Explicit Negative Boundary Check: RTN4RL1-AS1
+
+       Every boundary analysis should also document the nearest loci that are not deleted. NCBI
+
+places: RTN4RL1-AS1 at approximately: GRCh37 chr17:1,921,010-1,924,000 The index
+
+deletion ends at: 1,841,103 Therefore:
+
+                                    1, 921, 010 > 1, 841, 103
+
+       and RTN4RL1-AS1 lies approximately 80 kb beyond the index interval. Classification:
+
+OUTSIDE This negative result is important because larger 17p13.3 deletions can encompass
+
+RTN4RL1-AS1. A peer should therefore not copy gene lists from broader “17p13.3 deletion”
+
+reports without performing coordinate-level comparison.
+
+23. Minimum Structural Inventory
+
+       After combining protein-coding, noncoding, and pseudogene results, the minimum
+
+confirmed affectedlocus inventory is:
+
+Protein-coding
+
+Partial 1. INPP5K 2. RTN4RL1
+
+       Full 3. PITPNA 4. SLC43A2 5. SCARF1 6. RILP 7. PRPF8 8. TLCD2 9. WDR81 10.
+
+SERPINF2 11. SERPINF1 12. SMYD4 13. RPA1
+                                                                                                 24
+
+Noncoding
+
+14. PITPNA-AS1
+
+15. MIR22HG
+
+16. MIR22
+
+Pseudogene
+
+17. RN7SL105P
+
+Explicitly excluded
+
+       RTN4RL1-AS1 Therefore:
+
+At least 17 structurally confirmed loci are affected by the index deletion under the
+
+       present annotation scope. The phrase at least is necessary. This inventory does not yet
+
+constitute a complete regulatory map.
+
+24. Transcript-Version Quality Control
+
+       The project identified discrepancies between current MANE annotations and the
+
+historical Ensembl GRCh37 gene build. This is expected. Ensembl states that the GRCh37 gene
+
+annotation is based on its older frozen annotation rather than the continuously updated main
+
+human gene annotation. (grch37-mart.ensembl.org) For example:
+
+INPP5K
+
+       Current: NM_016532.4 ENST00000421807.7 Historical GRCh37 archive representation:
+
+NM_016532.3 ENST00000421807.2
+
+RTN4RL1
+
+       Current: NM_178568.4 ENST00000331238.7 Historical GRCh37 archive representation:
+
+NM_178568.2 ENST00000331238.6 MANE itself notes that MANE transcripts are defined
+
+against GRCh38, while mappings are made available for GRCh37 and other assemblies for
+                                                                                                   25
+
+clinical interpretation. (ncbi.nlm.nih.gov) The replication rule is therefore: Record transcript
+
+accession and version exactly.
+
+Do not assume that the tran-
+
+script displayed by an older GRCh37 browser is the latest clinically standardized
+
+       transcript.
+
+25. ClinGen Dosage Data: Record but Do Not Interpret Yet
+
+       Once the structural map is frozen, a researcher may record ClinGen dosage-sensitivity
+
+status for each protein-coding gene. ClinGen evaluates evidence for haploinsufficiency and
+
+triplosensitivity at gene and genomicregion levels. (clinicalgenome.org) For Phase 1, however,
+
+dosage information should be recorded as metadata only. Example fields:
+
+       Gene
+
+       HI score
+
+       TS score
+
+       Curation date
+
+       Evidence status Functional prioritization based on those scores belongs to Phase 2. This
+
+prevents Phase 1 from selecting genes merely because they fit an anticipated phenotype.
+
+26. Breakpoint-Resolution Limitation
+
+       The strongest limitation in Phase 1 concerns the meaning of the clinical CNV endpoints.
+
+The calculations treat: chr17:1,411,408-1,841,103 as the operational deleted interval. If these
+
+values originated from chromosomal microarray analysis, they may represent the positions of the
+
+last informative probes or another assay-defined boundary rather than the exact DNA junction.
+
+Therefore the analysis establishes:
+                                                                                               26
+
+feature overlap at the resolution of the reported CNV
+
+         but not necessarily: the exact nucleotide at which the chromosome physically broke and
+
+rejoined. Consequently, statements such as: ~49.6% INPP5K coding loss ~99.0% RTN4RL1
+
+CCDS loss must be qualified: under the reported-coordinate model. Nucleotide-resolution
+
+confirmation would require an assay capable of identifying the physical breakpoint, such as
+
+appropriate whole-genome sequencing, targeted breakpoint sequencing, long-read sequencing, or
+
+another validated breakpoint-resolution method.
+
+27. Independent Peer-Replication Checklist
+
+         A peer should be able to reproduce Phase 1 without seeing the project’s conclusions
+
+beforehand. The recommended blinded replication sequence is:
+
+A. Freeze input
+
+         □Record GRCh37 □Record chr17:1411408-1841103 □Record original clinical size
+
+description separately
+
+B. Verify assembly
+
+         □Confirm GRCh37.p13 / GCF_000001405.25 □Do not substitute GRCh38 coordinates
+
+C. Census loci
+
+         □Search Ensembl GRCh37 □Search NCBI □Create independent gene list □Include
+
+ncRNAs and pseudogenes □Record strand orientation
+
+D. Classify overlap
+
+         □Full □Partial □Outside
+
+E. Resolve breakpoint transcripts
+
+         □Identify MANE Select □Preserve accession.version □Record CCDS □Record protein
+
+length
+                                                                                                    27
+
+F. Map INPP5K
+
+       □Confirm minus strand □Verify ClinVar transcript landmarks □Extract CDS coordinates
+
+□Calculate CDS overlap □Compare with ~49.6%
+
+G. Map RTN4RL1
+
+       □Confirm minus strand □Verify c.1056 landmark □Extract CDS coordinates □Calculate
+
+CDS overlap □Compare with ~99%
+
+H. Negative controls
+
+       □Confirm RTN4RL1-AS1 is outside □Check other loci immediately outside both
+
+boundaries
+
+I. Annotation reconciliation
+
+       □Compare current MANE against GRCh37 Ensembl □Record version discrepancies
+
+rather than replacing them
+
+J. Archive
+
+       □Save GFF/GTF files □Save tables □Record database release □Record access date □Save
+
+calculation sheet or script If the peer’s result differs, the discrepancy should first be investigated
+
+for:
+
+1. assembly mismatch;
+
+2. transcript-version mismatch;
+
+3. coordinate-convention mismatch;
+
+4. inclusive versus half-open interval treatment;
+
+5. alternative transcript selection;
+
+6. annotation-release differences.
+
+       Only after these are excluded should the biological interpretation itself be questioned.
+                                                                           28
+
+28. Replication Output Expected
+
+      A successful independent replication should approximately recover:
+
+      Feature
+
+      Expected result
+
+      Assembly
+
+      GRCh37/hg19
+
+      CNV
+
+      chr17:1,411,408–1,841,103
+
+      Nominal span
+
+      429,696 bp
+
+      INPP5K
+
+      Partial, 5′ coding disruption
+
+      INPP5K coding loss
+
+      ~49.6% under coordinate model
+
+      RTN4RL1
+
+      Partial, 3′ coding disruption
+
+      RTN4RL1 CCDS loss
+
+      ~99% under coordinate model
+
+      Full coding genes
+
+      Total affected coding genes
+
+      Confirmed ncRNA genes
+
+      Confirmed pseudogene
+
+      Minimum loci
+                                                                                                 29
+
+        RTN4RL1-AS1
+
+        Outside A replication does not need to reproduce every historical transcript ID identically
+
+if annotation databases have changed after the original analysis. It must instead document the
+
+annotation version used and explain any discrepancy.
+
+29. Evidence Classification
+
+Structurally Established
+
+        The following findings are supported at the resolution of the reported CNV:
+
+   INPP5K is partially deleted.
+
+   INPP5K protein-coding sequence is affected.
+
+   The deleted INPP5K sequence lies on the transcript’s 5′ side.
+
+   Approximately 49.6% of the MANE amino-acid-coding sequence lies within the operational
+
+    dele-
+
+        tion interval.
+
+   RTN4RL1 is partially deleted.
+
+   RTN4RL1 protein-coding sequence is affected.
+
+   The deleted RTN4RL1 sequence lies on the transcript’s 3′ side.
+
+   Approximately 99% of its CCDS nucleotide sequence lies within the operational deletion
+
+    interval.
+
+   Eleven internal protein-coding genes are completely encompassed.
+
+   PITPNA-AS1, MIR22HG, and MIR22 are completely encompassed.
+
+   RN7SL105P is encompassed.
+
+   RTN4RL1-AS1 is outside the deletion.
+
+   At least 17 annotated loci are structurally affected.
+                                                      30
+
+Structurally Unresolved
+
+Phase 1 does not establish:
+
+   nucleotide-exact chromosome junctions;
+
+   whether INPP5K produces a truncated RNA;
+
+   whether RTN4RL1 produces a truncated RNA;
+
+   nonsense-mediated decay;
+
+   transcript stability;
+
+   altered protein production;
+
+   promoter activity;
+
+   enhancer effects;
+
+   compensatory expression from the intact allele;
+
+   tissue-specific dosage effects.
+
+Phenotypically Unresolved
+
+Phase 1 does not establish:
+
+   visual stress;
+
+   photophobia;
+
+   magnocellular dysfunction;
+
+   retinal dysfunction;
+
+   cortical hyperexcitability;
+
+   seizures;
+
+   hearing loss;
+
+   developmental delay;
+
+   intellectual disability;
+                                                                                                                        31
+
+   congenital heart disease causality;
+
+   or any other genotype–phenotype relationship.
+
+         These are deliberately deferred.
+
+30.
+30. Phase
+    Phase 11 Final
+             Final Structural Model
+                   Structural Model
+         The
+         Thedeletion
+             deletioncan now
+                       can   be represented
+                           now              as: as: 5′ INPP5K [PARTIAL — ~49.6% coding loss]
+                                be represented
+
+│ ▼ PITPNAINPP5K
+           SLC43A2 SCARF1 RILP PRPF8   TLCD2 WDR81 SERPINF2 SERPINF1
+                                FULL HETEROZYGOUS DELETION        RTN4RL1
+
+    Partial - ~49.6% coding loss                                                                       Partial - ~99%
+SMYD4  RPA1 PITPNA-AS1 MIR22HG MIR22 RN7SL105P [FULL HETEROZYGOUS
+                                                              CCDS loss
+
+
+DELETION]
+  5-prime
+          │ ▼ RTN4RL1 [PARTIAL — ~99% CCDS loss] 3′ This diagram describes  the
+                                                                       3-prime
+
+affected chromosome only. The homologous chromosome is not represented and may retain
+    This diagram describes the affected chromosome only. The homologous chromosome is not represented and may retain
+    intact copies unless additional variation is present.
+intact copies unless additional variation is present.
+
+31. Phase 1 Conclusion
+
+Phase 1 establishes the index CNV as a structurally defined interstitial 17p13.3 deletion
+
+rather
+
+         than a generic 17p13.3 syndrome interval. The most important structural findings are that
+
+both breakpoint genes lose coding sequence and that their functional coding disruption is
+
+substantially different from what genomic-span overlap alone would imply. INPP5K loses
+
+approximately half of its MANE protein-coding sequence from the affected chromosome under
+
+the reported-coordinate model. RTN4RL1 presents an even more pronounced discrepancy
+
+between genomic-span overlap and coding disruption: although the deletion intersects only a
+
+small proportion of the total genomic locus, it encompasses approximately 99% of the relevant
+
+CCDS nucleotide sequence. The internal interval completely encompasses at least eleven
+
+additional protein-coding genes, three established noncoding RNA genes, and one RNA
+
+pseudogene. The resulting minimum map contains:
+                                                                                               32
+
+17 𝑎𝑓𝑓𝑒𝑐𝑡𝑒𝑑𝑎𝑛𝑛𝑜𝑡𝑎𝑡𝑒𝑑𝑙𝑜𝑐𝑖
+
+       No phenotype has been inferred from this finding. The purpose of Phase 1 is to establish
+
+a reproducible genomic substrate upon which later biochemical and functional analyses can
+
+operate.
+
+32. Phase Status
+
+PHASE 1 — COMPLETE
+
+Frozen Structural Reference
+
+Designation: 17p13.3 Deletion Map v1.0
+
+Assembly: GRCh37/hg19
+
+Interval: chr17:1,411,408–1,841,103
+
+       Future work must use this structural reference unless:
+
+1. an amended clinical report changes the CNV coordinates;
+
+2. breakpoint-resolving sequencing identifies the physical junction;
+
+3. a demonstrable calculation error is identified;
+
+4. or a future annotation update materially changes transcript interpretation.
+
+       If any of those occur, the reference should not be silently edited. It should instead
+
+become:
+
+Deletion Map v1.1 or v2.0
+
+       with the change documented.
+

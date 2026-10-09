@@ -1,0 +1,2185 @@
+                                                                                                    33
+
+                                               Phase 2
+
+       Molecular and Chemical Characterization of the Interstitial 17p13.3 Microdeletion
+
+Abstract
+
+       An interstitial 17p13.3 microdeletion spanning GRCh37/hg19 chr17:1,411,408–
+
+1,841,103 removes approximately 429.7 kb and disrupts a minimum of 17 annotated loci. Phase
+
+1 established that the deletion fully encompasses eleven protein-coding genes—PITPNA,
+
+       SLC43A2, SCARF1, RILP, PRPF8, TLCD2, WDR81, SERPINF2, SERPINF1, SMYD4,
+
+and RPA1—while partially disrupting INPP5K and RTN4RL1. Exon-level analysis
+
+demonstrated that the partial genomic designations substantially underestimate coding
+
+disruption: approximately 49.6% of the INPP5K amino-acid-coding sequence and approximately
+
+99.0% of the RTN4RL1 CCDS are deleted under the reported-coordinate model. Four additional
+
+noncoding loci—PITPNA-AS1, MIR22HG, MIR22, and RN7SL105P—are completely
+
+encompassed.
+
+Phase 2 systematically characterized the molecular functions, biochemical mechanisms,
+
+       structural evidence, loss-of-function biology, heterozygous dosage evidence, neural
+
+relevance, retinal/visual relevance, and experimental tractability of all affected loci. The
+
+principal finding is not the identification of a single candidate disease gene. Instead, the interval
+
+contains several independently characterized regulators of membrane lipid composition,
+
+phosphoinositide metabolism, endosomal maturation, intracellular neuronal transport,
+
+extracellular neuronal signaling, retinal trophic support, RNA processing, post-transcriptional
+
+regulation, epigenetic modification, DNA replication and repair, amino-acid transport,
+
+efferocytosis, and fibrinolysis.
+
+       The strongest multi-gene convergence involves INPP5K, PITPNA, TLCD2, WDR81,
+                                                                                                  34
+
+RILP, and SERPINF1, which affect different levels of membrane and phospholipid
+
+       homeostasis. RTN4RL1 extends this system into cell-surface neuronal structural
+
+signaling. PRPF8 provides an independent spliceosomal mechanism with definitive evidence for
+
+PRPF8related autosomal-dominant retinopathy, although the established retinal disease
+
+mechanism cannot be assumed to be equivalent to whole-gene haploinsufficiency. RPA1
+
+provides the strongest direct evidence that heterozygous loss within the interval can produce a
+
+measurable human cellular phenotype: RPA1-containing deletions have been associated
+
+experimentally with reduced RPA1 abundance and impaired ATR-dependent DNA-damage
+
+responses, including functional rescue following RPA1 restoration (Clinical Genome Resource,
+
+“PRPF8-Related Retinopathy”).
+
+       The noncoding analysis identifies the MIR22HG/MIR22 unit as the most consequential
+
+regulatory locus outside the protein-coding set. Complete Mir22 loss exacerbates experimental
+
+epilepsy in mice, demonstrating neurological functionality while not establishing a human
+
+heterozygous seizure phenotype (Silva et al.).
+
+       Collectively, Phase 2 supports a model of multisystem molecular dosage disruption
+
+with a prominent membrane/phosphoinositide/endosomal convergence, but does not
+
+       establish a definitive clinical phenotype for the specific heterozygous deletion. The
+
+principal unresolved question is whether one-copy loss produces sufficiently large, tissue-
+
+specific and developmentally coincident perturbations to alter retinal or neurological physiology.
+
+This question provides the basis for subsequent spatiotemporal functional-genomic and pathway
+
+analyses.
+                                                                                                  35
+
+Keywords: 17p13.3; microdeletion; copy-number variation; phosphoinositides; endosome;
+
+        membrane homeostasis; PRPF8; RPA1; SERPINF1; WDR81; MIR22; dosage sensitivity;
+
+retinal biology; neurodevelopment.
+
+1. Introduction
+
+        Copy-number variants can affect biological systems in ways that are not adequately
+
+represented by simple gene-counting approaches. A deletion may remove entire genes, disrupt
+
+only selected exons, eliminate regulatory RNAs, alter dosage of multimeric complexes, or
+
+simultaneously perturb several mechanistically related pathways. Consequently, interpretation of
+
+a rare CNV requires more than identification of disease-associated genes located within the
+
+interval.
+
+        The deletion evaluated in this project is an interstitial 17p13.3 microdeletion reported on
+
+the GRCh37/hg19 assembly as:
+
+        chr17:1,411,408–1,841,103
+
+        corresponding to a nominal span of:
+
+        429,696 bp, or approximately 429.7 kb.
+
+Phase 1 established a minimum inventory of 17 affected loci. Thirteen are protein-coding
+
+        genes:
+                                                                                              36
+
+1. INPP5K
+
+2. PITPNA
+
+3. SLC43A2
+
+4. SCARF1
+
+5. RILP
+
+6. PRPF8
+
+7. TLCD2
+
+8. WDR81
+
+9. SERPINF2
+
+10. SERPINF1
+
+11. SMYD4
+
+12. RPA1
+
+13. RTN4RL1
+
+       Four additional affected loci are noncoding:
+
+14. PITPNA-AS1
+
+15. MIR22HG
+
+16. MIR22
+
+17. RN7SL105P.
+
+       Eleven of the protein-coding genes are completely encompassed. INPP5K and RTN4RL1
+
+lie at the CNV boundaries. Detailed coding analysis showed that INPP5K loses approximately
+
+49.6% of its amino-acid-coding sequence, including a large portion of the catalytic domain,
+
+while RTN4RL1 loses approximately 99.0% of its CCDS. These findings demonstrate why
+
+genomic overlap percentage alone is an inadequate measure of functional gene disruption.
+                                                                                               37
+
+       The purpose of Phase 2 was therefore to move from structural annotation to molecular
+
+characterization. The central question was:
+
+       What molecular functions are disrupted by heterozygous dosage loss of the
+
+       affected loci, and which of these functions provide experimentally testable
+
+       biochemical mechanisms for subsequent visual-system and neurological analysis?
+
+       The analysis was deliberately phenotype-neutral at the outset. Genes were not prioritized
+
+because they appeared to fit a proposed clinical phenotype. Instead, every affected proteincoding
+
+gene was characterized independently, followed by parallel evaluation of the noncoding loci.
+
+       The resulting analysis reveals a deletion that affects multiple independent cellular
+
+systems but also contains a notable concentration of genes involved in membrane lipid
+
+regulation, phosphoinositide biology, endosomal maturation, intracellular trafficking, and
+
+neuronal membrane signaling. The distinction between these two observations—
+
+multisystem
+
+       disruption and local mechanistic convergence—is central to interpretation.
+
+2. Analytical Framework
+
+2.1 Structural state
+
+       Each locus was first classified according to the Phase 1 structural model.
+
+       The eleven fully encompassed protein-coding genes were treated as complete
+
+heterozygous gene losses.
+
+       INPP5K was classified as a major partial coding disruption because approximately 666 of
+
+1,344 amino-acid-coding nucleotides are deleted under the reported-coordinate model.
+
+       RTN4RL1 was classified as a functionally near-complete coding disruption because
+
+approximately 1,313 of 1,326 CCDS nucleotides are deleted.
+                                                                                               38
+
+       All four noncoding loci are completely encompassed.
+
+       This classification describes the affected chromosome only. The homologous
+
+chromosome 17 retains the second genomic copy unless another independent variant affects it.
+
+2.2 Evidence categories
+
+       Each protein-coding gene was evaluated independently across the following dimensions:
+
+   structural disruption;
+
+   biochemical characterization;
+
+   experimental structural evidence;
+
+   experimental loss-of-function evidence;
+
+   human heterozygous dosage evidence;
+
+   neural relevance;
+
+   direct retinal/visual relevance;
+
+   chemical and experimental tractability.
+
+       These dimensions were intentionally maintained separately.
+
+       A protein may have exceptionally well-characterized biochemical activity but little
+
+evidence that heterozygous loss affects humans. Conversely, a gene may have comparatively
+
+modest mechanistic characterization while possessing direct human dosage evidence.
+
+       The noncoding loci were assessed using a modified framework emphasizing:
+
+   RNA class;
+
+   experimentally demonstrated regulatory activity;
+
+   perturbation evidence;
+
+   heterozygous dosage evidence;
+
+   neural relevance;
+                                                                                                    39
+
+   visual relevance;
+
+   experimental tractability.
+
+       Protein-centered metrics such as catalytic domains, three-dimensional protein structures,
+
+pLI, and LOEUF were not mechanically transferred to lncRNAs, miRNAs, or pseudogenes.
+
+3. Protein-Coding Locus Characterization
+
+3.1 INPP5K: phosphoinositide 5-phosphate hydrolysis
+
+       INPP5K encodes an inositol polyphosphate 5-phosphatase. Its principal membrane
+
+substrates include PI(4,5)P2 and PI(3,4,5)P3.
+
+       The major reactions can be represented as:
+
+                          PI(4,5)P2 + H2O → PI(4)P + inorganic phosphate
+
+       and:
+
+                        PI(3,4,5)P3 + H2O → PI(3,4)P2 + inorganic phosphate.
+
+       The reaction is Mg2+-dependent.
+
+Phase 1 showed that the deletion removes approximately the first 666 coding nucleotides
+
+       of the canonical INPP5K coding sequence on the affected allele. Because INPP5K lies on
+
+the minus strand, this removes the 5′ coding region. The deleted portion intersects the catalytic
+
+EEP domain and removes annotated catalytic residues, including residues involved in metal
+
+binding and proton-transfer chemistry.
+
+       A 2026 human INPP5K crystal structure resolved the catalytic domain at 1.9 Å in
+
+complex with the noncompetitive inhibitor CPD-1, establishing a structurally defined catalytic
+
+and allosteric system (Nomura et al.).
+                                                                                                40
+
+          The deletion therefore cannot produce an intact canonical INPP5K catalytic domain from
+
+the affected allele under the reported-coordinate model. Whether the rearranged allele produces
+
+no transcript, an unstable transcript, or an aberrant protein remains unresolved.
+
+          INPP5K represents a strong biochemical candidate but weakly established human
+
+haploinsufficiency candidate.
+
+3.2 PITPNA: phosphatidylinositol and phosphatidylcholine transfer
+
+          PITPNA encodes phosphatidylinositol transfer protein alpha, a soluble lipid-binding
+
+protein capable of transporting phosphatidylinositol and phosphatidylcholine between membrane
+
+environments.
+
+          PITPNA does not catalyze phosphate transfer or phospholipid hydrolysis. Its chemistry is
+
+instead based on reversible sequestration of a single phospholipid within a hydrophobic binding
+
+cavity.
+
+          Conceptually:
+
+          ⇌
+
+          PI in membrane A + PITPNA
+
+                                 PITPNA·PI → PI in membrane B
+
+          with an analogous cycle for phosphatidylcholine.
+
+          PITPNA therefore affects the availability of phosphatidylinositol from which
+
+phosphorylated phosphoinositides are generated.
+
+          The neurological importance of PITPNA is strongly supported in the vibrator mouse.
+
+Reduction of PITPNA expression to approximately 20% of normal causes tremor, brainstem and
+
+spinal-cord neurodegeneration, and premature death (Hamilton et al.).
+
+          The index CNV completely deletes one PITPNA copy.
+                                                                                                 41
+
+       The important distinction is that the severe vibrator phenotype represents much greater
+
+reduction than an ordinary heterozygous deletion. Nonetheless, the model demonstrates that
+
+PITPNA possesses dose-dependent neurological biology.
+
+3.3 SLC43A2: essential neutral amino-acid transport
+
+       SLC43A2 encodes LAT4, a plasma-membrane facilitated-diffusion transporter for
+
+neutral amino acids including:
+
+   leucine;
+
+   isoleucine;
+
+   valine;
+
+   methionine;
+
+   phenylalanine.
+
+       Transport is not directly ATP driven and is largely sodium independent.
+
+       The protein therefore introduces a nutrient-transport mechanism distinct from the
+
+membrane-signaling cluster.
+
+       Potential downstream consequences of altered SLC43A2 activity include changes in:
+
+   essential amino-acid availability;
+
+   leucine-sensitive mTORC1 signaling;
+
+   methionine-dependent S-adenosylmethionine metabolism;
+
+   general cellular anabolic state.
+
+       However, these are downstream possibilities rather than established consequences of
+
+heterozygous SLC43A2 loss.
+                                                                                                  42
+
+       Experimental loss-of-function models establish important placental, intestinal and renal
+
+transport roles, but current evidence for a direct heterozygous neurological or retinal phenotype
+
+is weak.
+
+       SLC43A2 should therefore remain an independent nutrient-transport axis rather than
+
+being forced into the principal neural convergence model.
+
+3.4 SCARF1: scavenger recognition and efferocytosis
+
+       SCARF1 encodes a type-I scavenger receptor involved in recognition and removal of
+
+apoptotic material.
+
+       One important mechanism involves C1q acting as a molecular bridge between
+
+phosphatidylserine-rich apoptotic membranes and SCARF1.
+
+       The functional sequence is approximately:
+
+       apoptotic membrane
+
+       ↓
+
+       C1q recognition
+
+       ↓
+
+       SCARF1 engagement
+
+       ↓
+
+       efferocytosis.
+
+       SCARF1-deficient mice develop defective apoptotic-cell clearance and lupus-like
+
+autoimmunity, establishing strong loss-of-function biology.
+
+       However, SCARF1 currently contributes little direct evidence to the visual-neurological
+
+hypothesis.
+                                                                                                   43
+
+       Its principal Phase 2 significance is the demonstration that the deletion also affects an
+
+immune-clearance and damage-recognition pathway.
+
+3.5 RILP: RAB7-dependent late-endosomal transport
+
+       RILP encodes Rab-interacting lysosomal protein, an effector of active RAB7A.
+
+       The relevant interaction is:
+
+       ⇌
+
+       RAB7A-GTP + RILP
+
+       RAB7A-GTP:RILP complex.
+
+       RILP does not hydrolyze GTP. Instead, it recognizes the active GTP-bound state of
+
+RAB7A and connects late endosomes and lysosomes to:
+
+   dynein;
+
+   dynactin;
+
+   HOPS;
+
+   additional trafficking machinery.
+
+       This enables minus-end-directed intracellular transport and perinuclear positioning of late
+
+endosomal compartments.
+
+       Recent neuronal work has strengthened the relevance of this system substantially.
+
+Interference with RILP-RAB7A-mediated late-endosome transport impairs dendritic cargo
+
+movement and dendrite arborization (Yap et al.).
+
+       RILP therefore provides direct mechanistic evidence that the deletion affects neuronal
+
+intracellular trafficking, although human haploinsufficiency remains weakly characterized.
+
+3.6 PRPF8: spliceosomal RNA processing
+
+       PRPF8 encodes one of the central structural and regulatory proteins of the spliceosome.
+                                                                                                 44
+
+       It contacts pre-mRNA, U5 snRNA, U6 snRNA, and multiple spliceosomal proteins and
+
+contributes to organization of the catalytic center.
+
+       The two principal pre-mRNA splicing reactions are transesterification reactions.
+
+       First:
+
+       branch-point adenosine 2′-OH attacks the 5′ splice site
+
+       forming the intron lariat.
+
+       Second:
+
+       the released exon 1 3′-OH attacks the 3′ splice site
+
+       joining the two exons.
+
+       PRPF8 itself is not accurately described as a conventional phosphodiesterase or ligase.
+
+Catalysis is largely RNA based, with PRPF8 organizing the molecular environment in which the
+
+reactions occur.
+
+       The index deletion removes one complete PRPF8 copy.
+
+       PRPF8 is exceptional because its retinal relevance is established independently of this
+
+CNV. ClinGen classifies autosomal-dominant PRPF8-related retinopathy as Definitive (Clinical
+
+Genome Resource, “PRPF8-Related Retinopathy”).
+
+       Recent experimental work on retinitis-pigmentosa-associated PRPF8 variants showed
+
+reduced pre-mRNA binding, slower intron splicing and altered expression of hundreds of genes
+
+in retinal pigment epithelial cells (Zimmann et al.).
+
+       Heterozygous PRPF8 variants have also been reported in individuals with
+
+neurodevelopmental disorders (O’Grady et al.).
+                                                                                                   45
+
+        A critical limitation remains: classic PRPF8-associated retinopathy is usually linked to
+
+specific pathogenic variants, particularly C-terminal variants, and is not established as a simple
+
+whole-gene haploinsufficiency disorder.
+
+        Consequently:
+
+PRPF8 has definitive retinal disease relevance, but the phenotype associated
+
+specifically with heterozygous whole-gene deletion remains incompletely
+
+        defined.
+
+3.7 TLCD2: phospholipid acyl-chain composition and membrane fluidity
+
+        TLCD2 is a small multi-pass membrane protein belonging to the TLC-domain family.
+
+        Its experimentally supported function involves regulation of which fatty-acid species are
+
+incorporated into membrane phospholipids.
+
+        Reduction of TLCD1/2 activity increases incorporation of long-chain polyunsaturated
+
+fatty acids into phospholipids and alters membrane fluidity (Ruiz et al.).
+
+        The mechanism is not equivalent to fatty-acid synthesis or bulk uptake. TLCD proteins
+
+appear to influence intracellular phospholipid composition, particularly the balance among
+
+saturated, monounsaturated and polyunsaturated fatty-acid-containing phospholipids.
+
+        This is important because membrane acyl-chain composition affects:
+
+   fluidity;
+
+   curvature;
+
+   protein mobility;
+
+   organelle interactions;
+
+   susceptibility to lipid peroxidation.
+
+        The index deletion removes one complete TLCD2 copy.
+                                                                                               46
+
+       Human haploinsufficiency is not established, and TLCD1 may provide substantial
+
+functional redundancy.
+
+       TLCD2 is therefore a strong biochemical membrane candidate but weak dosage
+
+candidate.
+
+3.8 WDR81: PI3P regulation and endosome maturation
+
+       WDR81 is a large endosomal regulatory protein with particularly important consequences
+
+for the emerging membrane model.
+
+       WDR81, together with WDR91, negatively regulates the class III phosphatidylinositol
+
+3kinase complex involved in formation of phosphatidylinositol-3-phosphate.
+
+       The relevant enzymatic conversion is:
+
+                                   PI + ATP → PI3P + ADP
+
+       performed by VPS34/PIK3C3.
+
+       WDR81 does not catalyze the reaction. It restrains the PI3K complex.
+
+       Loss of WDR81/WDR91 activity therefore produces:
+
+       excess PI3P
+
+       ↓
+
+       excessive early-endosome fusion
+
+       ↓
+
+       defective early-to-late endosome conversion
+
+       ↓
+
+       abnormal receptor trafficking.
+
+       This regulatory mechanism has been directly demonstrated experimentally (Liu et al.).
+                                                                                                47
+
+           WDR81 loss also disrupts EGFR trafficking and MAPK signaling in neural progenitor
+
+cells and reduces progenitor proliferation and brain growth in experimental models (Carpentieri
+
+et al.).
+
+           WDR81 additionally participates in selective autophagic removal of ubiquitinated protein
+
+aggregates.
+
+           Thus WDR81 links:
+
+           phosphoinositide chemistry
+
+           to:
+
+           endosomal identity
+
+           to:
+
+           neural developmental signaling.
+
+           Established human WDR81 disorders are predominantly recessive, so heterozygous
+
+dosage consequences remain much less certain.
+
+3.9 SERPINF2: plasmin inhibition and fibrinolysis
+
+           SERPINF2 encodes alpha-2-antiplasmin, the principal physiological inhibitor of plasmin.
+
+           Plasmin degrades fibrin during fibrinolysis.
+
+           Alpha-2-antiplasmin inhibits plasmin using the classical serpin suicide-inhibition
+
+mechanism:
+
+           plasmin + alpha-2-antiplasmin
+
+           ↓
+
+           reactive-center-loop cleavage
+
+           ↓
+
+           covalent serpin-protease intermediate
+                                                                                                  48
+
+        ↓
+
+        conformational trapping
+
+        ↓
+
+        inactive plasmin-antiplasmin complex.
+
+        SERPINF2 is additionally crosslinked into fibrin by factor XIIIa, placing the inhibitor
+
+directly within the clot.
+
+        Severe biallelic deficiency causes hyperfibrinolytic bleeding.
+
+        Importantly, heterozygous carriers can demonstrate approximately half-normal
+
+biochemical activity and may range from asymptomatic to clinically significant bleeding
+
+following surgery, trauma or dental procedures. A review of 123 reported cases confirms this
+
+variable heterozygous phenotype (Matrane et al.).
+
+        SERPINF2 therefore provides meaningful evidence that one-copy loss can produce a
+
+measurable biochemical dosage effect, although it does not materially strengthen the
+
+principal
+
+        visual-neural model.
+
+3.10 SERPINF1: PEDF neurotrophic and retinal signaling
+
+        SERPINF1 encodes pigment epithelium-derived factor, or PEDF.
+
+        Despite being a serpin-family protein, PEDF is not a conventional protease inhibitor. Its
+
+serpin fold has instead been adapted to extracellular signaling.
+
+        PEDF has established:
+
+   neurotrophic activity;
+
+   antiangiogenic activity;
+
+   extracellular-matrix binding;
+                                                                                                 49
+
+   retinal protective effects;
+
+   roles in bone mineralization.
+
+        One important receptor is PNPLA2/PEDF-R, which possesses phospholipase activity.
+
+        PEDF therefore connects an extracellular trophic signal to membrane-lipid metabolism.
+
+        Experimental ablation of PEDF-R in mice causes altered retinal phospholipid
+
+composition, photoreceptor abnormalities, apoptosis and attenuation of electroretinographic
+
+responses. Even heterozygous Pnpla2 animals demonstrated electrophysiological attenuation in
+
+that experimental system (Bernardo-Colón et al.).
+
+        Heterozygous human SERPINF1 mutation carriers provide especially useful dosage
+
+evidence. Eighteen carriers showed reduced SERPINF1 transcript levels and significantly
+
+reduced circulating PEDF but no detectable abnormalities in bone density or related skeletal
+
+parameters (Al-Jallad et al.).
+
+        This demonstrates:
+
+        heterozygous loss
+
+        ↓
+
+        measurable biochemical dosage reduction
+
+        without necessarily producing:
+
+        a penetrant clinical phenotype.
+
+        SERPINF1 is therefore one of the strongest direct retinal-biological candidates in the
+
+interval, while remaining an incompletely established heterozygous retinal disease candidate.
+
+3.11 SMYD4: protein lysine methylation and epigenetic regulation
+
+        SMYD4 encodes a SET- and MYND-domain lysine methyltransferase.
+
+        The fundamental methyltransferase reaction is:
+                                                                                             50
+
+        protein lysine + S-adenosylmethionine
+
+        ↓
+
+        methylated lysine + S-adenosylhomocysteine.
+
+        SMYD4 therefore directly performs a covalent chemical modification.
+
+        Experimental evidence implicates SMYD4 in:
+
+   H3K4 methylation;
+
+   interaction with HDAC1;
+
+   regulation of histone acetylation;
+
+   developmental transcription.
+
+        More recent human-cell work has demonstrated nonhistone activity. SMYD4 promotes
+
+lysine monomethylation of MYH9, increasing its ubiquitination and degradation and thereby
+
+influencing WNT/beta-catenin signaling (Yang et al.).
+
+        Despite this increasingly strong biochemical characterization, human heterozygous
+
+dosage sensitivity remains weak.
+
+        SMYD4 is therefore best treated as an epigenetic and post-translational regulatory
+
+component rather than a major direct neural or retinal candidate.
+
+3.12 RPA1: single-stranded DNA protection and ATR signaling
+
+        RPA1 encodes the 70-kDa subunit of the heterotrimeric Replication Protein A complex.
+
+        RPA binds exposed single-stranded DNA during:
+
+   replication;
+
+   stalled replication forks;
+
+   homologous recombination;
+
+   DNA repair;
+                                                                                                51
+
+   telomere replication.
+
+       Binding is noncovalent and mediated through multiple OB-fold DNA-binding domains.
+
+       RPA-coated ssDNA also recruits ATRIP and contributes to activation of the ATR
+
+DNAdamage checkpoint.
+
+       The index deletion completely removes one RPA1 copy.
+
+       RPA1 is particularly important because human cellular haploinsufficiency has already
+
+been experimentally demonstrated in the context of contiguous gene deletions. Patient-derived
+
+cells containing heterozygous RPA1 deletions demonstrated impaired ATR-dependent
+
+DNAdamage responses (O’Driscoll et al.).
+
+       The original experiments further demonstrated correction after RPA1 restoration,
+
+strengthening attribution of the cellular phenotype to RPA1 dosage.
+
+       Current ClinGen dosage sensitivity remains formally Awaiting Review, emphasizing that
+
+a molecular haploinsufficiency phenotype does not automatically constitute a fully curated
+
+clinical haploinsufficiency syndrome (Clinical Genome Resource, “RPA1 Dosage Sensitivity
+
+Curation”).
+
+       RPA1 therefore provides the strongest evidence in the interval that:
+
+heterozygous gene loss itself can produce a directly measurable molecular
+
+       defect.
+
+       Its strongest consequence is genome-maintenance vulnerability rather than established
+
+visual-system dysfunction.
+
+3.13 RTN4RL1: neuronal extracellular signaling and axonal plasticity
+
+       RTN4RL1 encodes NgR3, a GPI-anchored neuronal receptor.
+                                                                                              52
+
+       Although only a small percentage of the genomic RTN4RL1 span overlaps the deletion,
+
+approximately 99% of the CCDS is removed under the Phase 1 model.
+
+       The affected allele therefore cannot encode an intact canonical NgR3 receptor.
+
+       NgR3 contains extracellular leucine-rich repeats and recognizes glycosaminoglycan
+
+components of chondroitin sulfate proteoglycans.
+
+       NgR1 and NgR3 jointly mediate CSPG-associated restriction of axonal growth.
+
+Combined receptor loss enhances regeneration following optic-nerve injury, whereas isolated
+
+single-receptor loss produces substantially weaker effects (Dickendesher et al.).
+
+       This establishes two important points.
+
+       First, RTN4RL1 is directly relevant to neuronal structural signaling.
+
+       Second, substantial Nogo-receptor-family redundancy exists.
+
+       RTN4RL1 therefore provides strong neural and direct visual-pathway experimental
+
+relevance, but relatively weak evidence that heterozygous loss alone produces a human
+
+phenotype.
+
+4. Noncoding Loci
+
+4.1 PITPNA-AS1
+
+       PITPNA-AS1 is an antisense long noncoding RNA.
+
+       Experimental cancer-cell studies demonstrate that it can participate in:
+
+   miRNA sequestration;
+
+   RNA-protein interactions;
+
+   mRNA stabilization;
+
+   regulation of EGFR/PI3K-AKT and other signaling pathways.
+                                                                                             53
+
+       However, effects are strongly context dependent, and evidence remains dominated by
+
+cancer models.
+
+       Critically, there is insufficient evidence to assume that PITPNA-AS1 loss directly
+
+reduces PITPNA expression merely because the genes are antisense neighbors.
+
+       PITPNA-AS1 should therefore remain in transcriptomic analysis but currently represents
+
+a low-to-moderate-priority regulatory candidate.
+
+4.2 MIR22HG
+
+       MIR22HG is a long noncoding host transcript containing the MIR22 precursor.
+
+       This creates two molecular layers:
+
+       MIR22HG lncRNA function
+
+       and:
+
+       miR-22 production.
+
+       The host RNA has experimentally demonstrated regulatory functions independent of
+
+mature miR-22, including RNA-protein interactions and effects on major signaling pathways.
+
+       The direction of MIR22HG activity is highly context dependent, particularly across
+
+different malignancies.
+
+       The index deletion removes one MIR22HG copy and simultaneously removes one
+
+genomic MIR22 precursor.
+
+       This structural relationship is important:
+
+MIR22HG and MIR22 are distinct functional annotations but not
+
+       independent deletion events.
+                                                                                                 54
+
+4.3 MIR22
+
+        MIR22 encodes a regulatory microRNA processed into mature miR-22 species that
+
+associate with Argonaute-containing RISC complexes.
+
+        The simplified mechanism is:
+
+        miR-22 + Argonaute
+
+        ↓
+
+        target-mRNA base pairing
+
+        ↓
+
+        translation suppression and/or increased target-RNA degradation.
+
+        MicroRNAs are capable of regulating many transcripts simultaneously.
+
+        Consequently, MIR22 loss has the potential to affect regulatory networks rather than a
+
+single biochemical reaction.
+
+        Direct neurological evidence exists.
+
+        Genetic deletion of Mir22 in mice resulted in earlier onset, increased frequency and
+
+increased duration of spontaneous seizures following experimental status epilepticus (Silva et
+
+al.).
+
+        Importantly, baseline brain structure and behavior were comparatively normal in the
+
+knockout model before the epileptogenic challenge.
+
+        This suggests that miR-22 may influence response or resilience to neural stress rather
+
+than being required for basic nervous-system formation.
+
+        The finding does not establish that one-copy MIR22 loss causes seizures in humans.
+
+        MIR22 nevertheless becomes the most compelling noncoding neurological candidate in
+
+the interval.
+                                                                                                55
+
+4.4 RN7SL105P
+
+        RN7SL105P is an inferred 7SL-related pseudogene.
+
+        Functional 7SL RNA is an important component of the signal recognition particle, but
+
+this ancestral relationship cannot be transferred automatically to RN7SL105P.
+
+        No convincing locus-specific evidence currently establishes:
+
+   functional RNA production;
+
+   SRP participation;
+
+   neural activity;
+
+   retinal activity;
+
+   clinically significant dosage sensitivity.
+
+        RN7SL105P is therefore retained for structural completeness but presently receives no
+
+major mechanistic weight.
+
+5. Integrated Molecular Characterization Matrix
+
+Principal
+
+Structural
+
+Heterozygous
+
+Locus
+
+Neural relevance
+
+Visual relevance
+
+molecular system
+
+consequence
+
+dosage evidence
+
+        ~49.6% coding loss;
+                               56
+
+Phosphoinositide INPP5K
+
+catalytic region
+
+Weak
+
+Moderate
+
+Limited–moderate
+
+hydrolysis
+
+disrupted PITPNA
+
+PI/PC transfer
+
+Full gene loss
+
+Moderate
+
+Strong
+
+Limited
+
+Essential amino-acid SLC43A2
+
+Full gene loss
+
+Weak
+
+Limited
+
+Minimal
+
+transport
+
+Efferocytosis/ SCARF1
+
+Full gene loss
+
+Weak
+
+Limited
+
+Minimal
+                           57
+
+immune clearance
+
+Late-endosome RILP
+
+Full gene loss
+
+Weak
+
+Strong
+
+Limited
+
+transport
+
+Moderate/uncertain PRPF8
+
+Pre-mRNA splicing
+
+Full gene loss
+
+Strong
+
+Very strong
+
+mechanism
+
+Membrane TLCD2
+
+phospholipid
+
+Full gene loss
+
+Weak
+
+Limited
+
+Minimal
+
+composition
+
+PI3P/endosome WDR81
+
+Full gene loss
+
+Weak
+                           58
+
+Strong
+
+Limited
+
+maturation
+
+Fibrinolysis/plasmin
+
+Moderate–strong SERPINF2
+
+Full gene loss
+
+Limited
+
+Minimal
+
+inhibition
+
+biochemical
+
+PEDF trophic/retinal
+
+Moderate SERPINF1
+
+Full gene loss
+
+Strong
+
+Very strong
+
+lipid signaling
+
+biochemical
+
+Protein SMYD4
+
+methylation/epigenet
+
+Full gene loss
+
+Weak
+
+Limited
+
+Minimal
+                        59
+
+ic regulation
+
+DNA
+
+Strongest direct RPA1
+
+replication/repair/A
+
+Full gene loss
+
+Moderate
+
+Minimal
+
+molecular evidence
+
+TR response
+
+Axon/synapse RTN4RL1
+
+~99% CCDS loss
+
+Weak–moderate
+
+Strong
+
+Moderate
+
+signaling PITPNA-AS1
+
+lncRNA regulation
+
+Full locus loss
+
+Unknown
+
+Limited
+
+None established
+
+lncRNA/miRNA- MIR22HG
+
+Full locus loss
+
+Unknown
+                                                                                              60
+
+       Limited–moderate
+
+       Limited
+
+       host regulation
+
+       miRNA post-
+
+       Moderate–strong MIR22
+
+       transcriptional
+
+       Full locus loss
+
+       Unknown in humans
+
+       Limited
+
+       experimental
+
+       regulation
+
+       7SL-related RN7SL105P
+
+       Full locus loss
+
+       None established
+
+       None
+
+       None
+
+       pseudogene
+
+6. Principal Mechanistic Convergence: Membrane, Phosphoinositide and Endosomal
+
+Homeostasis
+
+       The strongest Phase 2 finding is the presence of several independently characterized
+
+genes affecting different layers of membrane biology.
+
+       This cluster consists principally of:
+                                                                                                             61
+
+PITPNA
+
+                          → phosphatidylinositol availability and lipid transfer
+
+INPP5K
+
+                               → phosphoinositide 5-phosphate hydrolysis
+
+WDR81
+
+                               → regulation of endosomal PI3P production
+
+TLCD2
+
+                    → phospholipid fatty-acyl composition and membrane fluidity
+
+SERPINF1
+
+                 → extracellular trophic signaling linked to phospholipid metabolism
+
+RILP
+
+                              → RAB7-dependent late-endosomal transport.
+
+        These genes do not perform the same biochemical reaction.
+
+        Their importance lies in their positions at distinct regulatory layers of a common cellular
+        These genes do not perform the same biochemical reaction. Their importance lies in their positions
+system.at distinct regulatory layers of a common cellular system.
+
+        A simplified integrated model is:
+                                   Simplified integrated model
+
+        phospholipid composition
+                         Phospholipid composition
+        +
+
+        phosphatidylinositol availability
+
+        ↓
+
+        phosphoinositide synthesis and turnover
+
+        ↓
+                                                 Membrane identity
+        membrane identity
+
+
+                                           Figure continues on the next page.
+                                                                                              62
+
+       ↓
+                                            Membrane identity
+       endosome maturation
+
+       ↓
+                                     Endosome maturation
+       RAB7-dependent organelle trafficking
+
+       ↓
+
+       neuronal cargo transport and receptor signaling.
+                                RAB7-dependent organelle trafficking
+
+       SERPINF1 provides an additional retina-specific extension by coupling extracellular
+
+PEDF signaling to a phospholipase-linked receptor and retinal phospholipid homeostasis.
+                              Neuronal cargo transport and receptor signaling
+       RTN4RL1 then extends the membrane model outward from intracellular membrane
+
+regulation to neuronal cell-surface recognition and cytoskeletal signaling.
+
+7. The Convergence Is Not Necessarily Directionally Additive
+
+       The observation that multiple genes affect the same broad system does not mean their
+
+deletion drives every molecular variable in the same direction.
+
+       This is particularly important for phosphoinositides.
+
+       Reduced PITPNA could potentially decrease efficient phosphatidylinositol supply.
+
+       Reduced WDR81 could increase endosomal PI3P because normal WDR81 restrains class
+
+III PI3K activity.
+
+       Reduced INPP5K could impair degradation of PI(4,5)P2 and PI(3,4,5)P3.
+
+       These effects occur:
+
+   on different phosphoinositide species;
+
+   in different cellular compartments;
+
+   through different reactions.
+
+       Consequently, the current evidence supports:
+                                                                                               63
+
+dysregulated phosphoinositide homeostasis
+
+       rather than:
+
+       uniformly increased or uniformly decreased phosphoinositide signaling.
+
+       The possibility of opposing and compensatory effects is one of the most important
+
+reasons that transcriptomic and pathway analysis must precede causal interpretation.
+
+8. Independent Regulatory Axes
+
+8.1 RNA processing
+
+       PRPF8 creates a potentially broad regulatory mechanism because altered spliceosomal
+
+function can affect many transcripts simultaneously.
+
+       A later testable question is whether PRPF8 dosage perturbation preferentially affects
+
+transcripts involved in:
+
+   phosphoinositide metabolism;
+
+   endosomal trafficking;
+
+   neuronal signaling;
+
+   retinal maintenance.
+
+       Such an observation would connect PRPF8 to the membrane cluster through functional
+
+convergence.
+
+       It cannot currently be assumed.
+
+8.2 Post-transcriptional RNA regulation
+
+       MIR22HG/MIR22 introduces a second RNA regulatory layer.
+
+       Unlike PRPF8, which regulates intron removal, miR-22 controls mRNA abundance and
+
+translation through sequence-specific RISC targeting.
+
+       Thus the deletion simultaneously affects:
+                                                                                              64
+
+        pre-mRNA processing
+
+        and:
+
+        post-transcriptional gene regulation.
+
+        MIR22’s experimental influence on epileptogenesis makes this mechanism relevant to
+
+later neurological analysis (Silva et al.).
+
+8.3 Epigenetic regulation
+
+        SMYD4 contributes covalent protein methylation and chromatin-associated regulation.
+
+        This introduces a third level of information control:
+
+        chromatin/protein modification
+
+        ↓
+
+        RNA processing
+
+        ↓
+
+        post-transcriptional miRNA regulation.
+
+        Whether these three regulatory systems converge on common target pathways remains
+
+unknown.
+
+8.4 Genome maintenance
+
+        RPA1 establishes a separate genome-integrity axis.
+
+        The deletion therefore affects not only membrane signaling and RNA processing but also:
+
+   replication-fork protection;
+
+   ssDNA stabilization;
+
+   ATR checkpoint activation;
+
+   homologous recombination;
+
+   telomere-associated DNA metabolism.
+                                                                                                    65
+
+        The direct human cellular haploinsufficiency evidence for RPA1 makes this mechanism
+
+especially important even though it is not primarily visual (O’Driscoll et al.).
+
+9. Additional Systemic Axes
+
+9.1 Amino-acid transport
+
+        SLC43A2 contributes an essential-amino-acid transport mechanism.
+
+        This potentially affects nutrient sensing and metabolism but currently has limited direct
+
+evidence for visual-neural involvement.
+
+9.2 Immune clearance
+
+        SCARF1 contributes apoptotic-cell clearance and immune homeostasis.
+
+        Its inclusion demonstrates that the deletion can influence extracellular damage
+
+recognition and immune regulation independently of the neural mechanisms.
+
+9.3 Hemostasis
+
+        SERPINF2 contributes fibrinolytic regulation.
+
+        Its heterozygous carrier literature is important because it demonstrates that reduced gene
+
+dosage can result in measurable biochemical loss of function even when clinical penetrance is
+
+incomplete (Matrane et al.).
+
+10. Heterozygous Dosage Is the Principal Unresolved Variable
+
+        The most important lesson from Phase 2 is that gene importance and haploinsufficiency
+
+are not equivalent.
+
+        For most loci, severe experimental loss establishes biological importance.
+
+        It does not establish that reducing gene copy number from two to one produces a
+
+clinically significant effect.
+
+        Three loci provide particularly useful dosage examples.
+                                                                                               66
+
+RPA1
+
+        Heterozygous genomic loss has been associated directly with:
+
+   reduced RPA1 abundance;
+
+   impaired ATR signaling;
+
+   replication-stress abnormalities;
+
+   molecular rescue after RPA1 restoration.
+
+        This constitutes the strongest direct one-copy molecular evidence in the interval
+
+(O’Driscoll et al.).
+
+SERPINF1
+
+        Heterozygous carriers demonstrate reduced PEDF but no clearly penetrant skeletal
+
+phenotype.
+
+        This demonstrates:
+
+molecular dosage effect without corresponding overt clinical disease. (Al-
+
+        Jallad et al.)
+
+SERPINF2
+
+        Heterozygous carriers can show approximately half-normal biochemical activity, but
+
+clinical expression ranges from absent to substantial bleeding under physiological challenge
+
+(Matrane et al.).
+
+        These examples argue against a simplistic model in which:
+
+                    one deleted allele = exactly 50% function = predictable disease.
+
+        Biological output depends on:
+
+   transcriptional compensation;
+
+   protein stability;
+                                                                                            67
+
+   pathway reserve;
+
+   paralogous proteins;
+
+   complex stoichiometry;
+
+   tissue expression;
+
+   developmental stage;
+
+   environmental or physiological stress.
+
+       A more defensible concept is:
+
+       reduced functional reserve.
+
+       The deletion may reduce the capacity of multiple systems without eliminating them.
+
+11. Neural and Visual-System Evidence
+
+Phase 2 identifies several genes with strong neural relevance but only a smaller subset
+
+       with direct retinal or visual-system evidence.
+
+11.1 PRPF8
+
+       PRPF8 provides the strongest established human retinal disease relationship.
+
+       ClinGen currently classifies PRPF8-related autosomal-dominant retinopathy as Definitive
+
+(Clinical Genome Resource, “PRPF8-Related Retinopathy”).
+
+       The relevant limitation is mechanism: known pathogenic retinal variants cannot
+
+automatically be equated with whole-gene deletion.
+
+11.2 SERPINF1
+
+       SERPINF1 provides strong direct retinal biology through:
+
+   PEDF neurotrophic signaling;
+
+   photoreceptor survival;
+
+   retinal ganglion-cell support;
+                                                                                                   68
+
+   angiogenesis regulation;
+
+   retinal phospholipid metabolism.
+
+           PEDF-R deficiency alters both retinal lipid composition and electrophysiological
+
+function experimentally (Bernardo-Colón et al.).
+
+           SERPINF1 is therefore one of the strongest mechanistic retinal candidates even though
+
+heterozygous SERPINF1 deletion is not an established dominant retinal disorder.
+
+11.3 RTN4RL1
+
+           RTN4RL1 provides direct visual-pathway evidence through retinal ganglion-cell axon
+
+biology and optic-nerve regeneration.
+
+           Combined NgR1/NgR3 loss enhances regeneration after optic-nerve crush (Dickendesher
+
+et al.).
+
+           This supports an optic-pathway mechanism but not a normal visual-perception
+
+phenotype.
+
+11.4 WDR81, RILP and PITPNA
+
+           These genes provide strong neuronal mechanisms involving:
+
+   neural-progenitor proliferation;
+
+   endosomal maturation;
+
+   dendritic cargo transport;
+
+   neuronal survival.
+
+           WDR81 loss alters endosomal EGFR trafficking and neural-progenitor proliferation
+
+(Carpentieri et al.).
+
+           RILP-RAB7A late-endosomal transport is directly relevant to dendrite arborization (Yap
+
+et al.).
+                                                                                                  69
+
+        PITPNA reduction produces severe neurodegeneration in mouse models (Hamilton et
+
+al.).
+
+        These findings justify neurological investigation but do not establish a specific human
+
+visual phenotype.
+
+11.5 MIR22
+
+        MIR22 adds a neural regulatory mechanism associated experimentally with response to
+
+epileptogenic stress.
+
+        Complete knockout exacerbates spontaneous seizure development after status epilepticus
+
+(Silva et al.).
+
+        This evidence is mechanistically important but cannot establish seizure susceptibility
+
+from heterozygous MIR22 loss.
+
+12. What Phase 2 Supports
+
+        The combined evidence supports several conclusions with relatively high confidence.
+
+        First, the deletion removes or severely disrupts multiple biologically functional loci.
+
+        Second, several affected genes independently regulate components of the same broader
+
+membrane/endosomal system.
+
+        Third, the convergence is chemically substantive rather than merely semantic. The
+
+affected functions include:
+
+   lipid binding and transfer;
+
+   phosphate-ester hydrolysis;
+
+   PI3P synthesis regulation;
+
+   phospholipid acyl-chain composition;
+
+   phospholipase-linked extracellular signaling;
+                                                                                                 70
+
+   RAB7-dependent organelle transport.
+
+       Fourth, several affected genes have direct experimental neural or retinal functions.
+
+       Fifth, heterozygous molecular dosage effects are demonstrable for at least some genes,
+
+most clearly RPA1 and biochemically for SERPINF1 and SERPINF2.
+
+       Sixth, the deletion also affects independent systems that should not be forced into the
+
+primary neural model.
+
+       The most defensible overall characterization is therefore:
+
+a multisystem heterozygous dosage lesion containing a prominent
+
+       membrane/phosphoinositide/endosomal-neuronal convergence.
+
+13. What Phase 2 Does Not Establish
+
+Phase 2 does not establish that the deletion causes a specific clinical phenotype.
+
+       It does not demonstrate that all affected genes experience exactly 50% reduction in
+
+transcript or protein abundance.
+
+       It does not demonstrate that all affected pathways are impaired in the same direction.
+
+       It does not establish synergy or epistasis among deleted genes.
+
+       It does not establish that the membrane/endosomal convergence is active at pathological
+
+magnitude in retinal or neural tissue.
+
+       It does not establish that PRPF8 whole-gene deletion produces the same phenotype as
+
+established PRPF8 retinal variants.
+
+       It does not establish that heterozygous WDR81 loss reproduces recessive WDR81
+
+disorders.
+
+       It does not establish that heterozygous SERPINF1 loss causes retinal degeneration.
+
+       It does not establish that heterozygous MIR22 loss causes seizures.
+                                                                                              71
+
+        It does not establish:
+
+   photophobia;
+
+   pattern glare;
+
+   visual stress;
+
+   magnocellular dysfunction;
+
+   cortical visual hyperexcitability;
+
+   epilepsy;
+
+   hearing abnormalities;
+
+   congenital cardiac disease
+
+        as consequences of this deletion.
+
+        These remain hypotheses or phenotype variables for later investigation.
+
+14. Limitations
+
+14.1 CNV breakpoint resolution
+
+        The reported array coordinates may represent probe-defined boundaries rather than
+
+nucleotide-exact physical breakpoints.
+
+        Coding overlap is therefore established at CNV resolution, but exact breakpoint-junction
+
+biology remains unknown.
+
+14.2 Transcript fate
+
+        For the partially deleted genes INPP5K and RTN4RL1, genomic disruption does not
+
+establish the exact RNA product.
+
+        Potential outcomes include:
+
+   reduced transcription;
+
+   aberrant splicing;
+                                                                                            72
+
+   unstable RNA;
+
+   nonsense-mediated decay;
+
+   unusual truncated products.
+
+       These require direct transcript evidence.
+
+14.3 Dosage compensation
+
+       Complete deletion of one genomic allele does not prove a 50% reduction in cellular
+
+protein.
+
+       The intact allele may:
+
+   compensate transcriptionally;
+
+   fail to compensate;
+
+   overcompensate;
+
+   show tissue-specific regulation.
+
+14.4 Paralogous redundancy
+
+       Several genes have functionally related family members.
+
+       Examples include:
+
+       RTN4RL1
+
+       with RTN4R and RTN4RL2,
+
+       and:
+
+       TLCD2
+
+       with TLCD1.
+
+       Such redundancy can reduce the phenotypic impact of heterozygous loss.
+
+14.5 Evidence derived from severe loss
+
+       Many mechanistic studies use:
+                                                                                                  73
+
+   homozygous knockout;
+
+   severe hypomorphic alleles;
+
+   RNA knockdown;
+
+   cancer-cell overexpression;
+
+   experimental injury.
+
+        These conditions cannot automatically be extrapolated to constitutional heterozygous
+
+deletion.
+
+14.6 Tissue specificity
+
+        A molecular effect observed in:
+
+   liver;
+
+   kidney;
+
+   tumor cells;
+
+   fibroblasts;
+
+   cultured neurons
+
+        may not occur identically in:
+
+   retina;
+
+   retinal pigment epithelium;
+
+   retinal ganglion cells;
+
+   thalamic visual nuclei;
+
+   visual cortex.
+
+        This is the principal reason Phase 3 requires tissue- and cell-type-specific expression
+
+analysis.
+                                                                              74
+
+14.7 Network inference
+
+        Pathway overlap does not establish direct interaction.
+
+        The terms:
+
+   functional convergence;
+
+   pathway overlap;
+
+   network proximity
+
+        are currently appropriate.
+
+        Terms such as:
+
+   synergistic interaction;
+
+   epistasis;
+
+   causal pathway
+
+        require additional evidence.
+
+15. Phase 2 Working Model
+
+       The2 integrated
+15. Phase    Working molecular
+                       Model model can be represented as follows:
+
+        Heterozygous
+        The             17p13.3model
+            integrated molecular deletion
+                                     can be represented as follows:
+
+        ↓
+                                        Heterozygous 17p13.3 deletion
+Membrane and phosphoinositide regulation
+
+PITPNA
+                                  Membrane and phosphoinositide regulation
+        PI availability and transfer
+
+INPP5K
+                                                     PITPNA
+
+        phosphoinositide turnover            PI availability and transfer
+
+
+
+WDR81                                                 INPP5K
+
+                                             phosphoinositide turnover
+        endosomal PI3P regulation
+                                                      WDR81
+
+                                             endosomal PI3P regulation
+
+
+                                         Figure continues on the next page.
+                                                                                                                                     75
+
+TLCD2
+                                                              TLCD2
+
+       membrane acyl-chain composition
+                                 membrane acyl-chain composition
+
+
+       ↓
+                                       Membrane-dependent signaling and trafficking
+Membrane-dependent signaling and trafficking
+
+SERPINF1
+                                         SERPINF1 - PEDF/PEDF-R retinal lipid signaling
+       PEDF/PEDF-R retinal lipid signaling
+
+RILP
+                                                 RILP - late-endosomal transport
+
+       late-endosomal transport
+
+RTN4RL1                               RTN4RL1 - neuronal extracellular/cytoskeletal signaling
+
+       neuronal extracellular/cytoskeletal signaling
+
+       ↓
+                                                      Possible alteration of
+
+       possible alteration of: identity; receptor trafficking; neuronal cargo movement; dendritic
+                       membrane
+                                                organization; retinal trophic support
+
+       membrane identity
+
+       receptor trafficking                             In parallel with:
+
+       neuronal cargo movement
+                     RNA regulation                                                       Genome maintenance
+       dendritic organization
+
+       retinal trophic support
+                PRPF8 / MIR22HG-MIR22                                                               RPA1
+       inpre-mRNA
+          parallelsplicing
+                    with:/ post-transcriptional RNA                                ssDNA protection and ATR signaling
+                         regulation
+RNA regulation
+
+PRPF8
+                  Epigenetic regulation                                          Independent systemic mechanisms
+       pre-mRNA splicing
+
+MIR22HG/MIR22
+                          SMYD4                                                      SLC43A2 / SCARF1 / SERPINF2
+
+       post-transcriptional     RNA regulation
+               protein lysine methylation                                      amino-acid transport / efferocytosis / fibrinolysis
+                                                                                                                      76
+
+Genome maintenance
+                                  Phase 2 working model - independent parallel axes
+RPA1
+
+        ssDNA protection and ATR signaling
+              RNA regulation                      Genome maintenance                   Epigenetic regulation
+
+Epigenetic regulation
+       PRPF8: pre-mRNA splicing
+          MIR22HG/MIR22:
+                                              RPA1: ssDNA protection and ATR
+                                                        signaling
+                                                                                  SMYD4: protein lysine methylation
+
+      post-transcriptional RNA regulation
+SMYD4
+
+        protein lysine methylation
+                                             Independent systemic mechanisms
+        and independentSLC43A2:
+                        systemic   mechanisms
+                                amino-acid transport | involving:
+                                                        SCARF1: efferocytosis | SERPINF2:
+                                                        fibrinolysis
+
+SLC43A2
+
+        amino-acid transport
+
+SCARF1
+
+        efferocytosis
+
+SERPINF2
+
+        fibrinolysis.
+
+16. Implications for the Next Analytical Phase
+16. Implications for the Next Analytical Phase
+Phase 2 has reduced the research problem substantially.
+
+        The next question is no longer:
+
+        Which genes are deleted?
+
+        Nor is it simply:
+
+        Which deleted genes have neurological annotations?
+
+        The appropriate next question is:
+                                                                                                             77
+
+Are the molecularly strongest candidate genes actually expressed together in
+     Are the molecularly strongest candidate genes actually expressed together in the relevant human
+           retinal and neurological cell populations, and do their expression patterns overlap at
+the relevant human retinal and neurological          cell populations, and do their
+                                     developmentally relevant times?
+
+expression patterns overlap at developmentally relevant times?
+
+Phase 3 should
+   Phase 3 shouldtherefore    test:
+                  therefore test:
+
+1. tissue
+        1. expression    of all of
+              tissue expression affected    genes;
+                                   all affected genes;
+
+2. retinal cell-type expression;
+        2.     retinal cell-type expression;
+3. neuronal cell-type expression;
+        3.     neuronal cell-type expression;
+4. developmental timing;
+
+5. coexpression
+       4.        among the
+            developmental     membrane/endosomal candidates;
+                          timing;
+
+6. whether PRPF8, MIR22 and other regulatory loci intersect those same expression
+        5.     coexpression among the membrane/endosomal candidates;
+
+         programs;
+        6.     whether PRPF8, MIR22 and other regulatory loci intersect those same expression programs;
+7. whether candidate genes are expressed within visual-system pathways strongly enough
+
+        7.to make  the candidate
+              whether  Phase 2 genes
+                                 convergence    biologically
+                                      are expressed              relevant pathways
+                                                     within visual-system in vivo. strongly enough to make
+              the Phase 2 convergence biologically relevant in vivo.
+         The analysis should remain genome-first rather than phenotype-first.
+
+17. Conclusion
+
+Phase 2 demonstrates that the chr17:1,411,408–1,841,103 microdeletion is molecularly
+
+         complex.
+
+         The deletion does not merely remove a collection of unrelated genes. It simultaneously
+
+eliminates or severely disrupts multiple regulators of:
+
+   phosphoinositide metabolism;
+
+   phospholipid transport;
+
+   membrane lipid composition;
+
+   endosomal identity;
+                                                                                                78
+
+   intracellular trafficking;
+
+   retinal trophic signaling;
+
+   neuronal structural plasticity;
+
+   RNA splicing;
+
+   post-transcriptional RNA regulation;
+
+   protein methylation;
+
+   DNA replication and repair;
+
+   amino-acid transport;
+
+   immune clearance;
+
+   fibrinolysis.
+
+        The strongest mechanistic convergence involves INPP5K, PITPNA, TLCD2, WDR81,
+
+RILP and SERPINF1, with RTN4RL1 extending the system into neuronal surface signaling.
+
+        PRPF8 independently provides definitive evidence for a retinal disease relationship under
+
+established pathogenic variant mechanisms, while RPA1 provides the strongest direct evidence
+
+that heterozygous genomic loss within the interval can produce a measurable human molecular
+
+defect (Clinical Genome Resource, “PRPF8-Related Retinopathy”; O’Driscoll et al.).
+
+        The MIR22HG/MIR22 unit contributes an additional regulatory mechanism with
+
+experimentally established effects on neural response to epileptogenic stress (Silva et al.).
+
+        The central conclusion is therefore not that this deletion has been assigned a phenotype.
+
+        Rather:
+
+The deletion produces a credible multi-gene molecular architecture in which
+
+reduced functional reserve across membrane, endosomal, retinal, RNA-
+
+        regulatory and genome-maintenance systems is biologically plausible.
+                                                                                                79
+
+       The magnitude, tissue specificity, developmental timing and clinical consequences of
+
+those reductions remain unresolved.
+
+       Accordingly, Phase 2 establishes mechanistic plausibility and research priorities, not
+
+causality.
+
+       The results provide a sufficiently developed molecular foundation to proceed to
+
+spatiotemporal functional genomics, where the principal hypothesis can be tested without
+
+assuming the clinical conclusion in advance.
+
